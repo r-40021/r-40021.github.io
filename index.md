@@ -30,10 +30,11 @@ page_sections:
   media_alignment: Left
   slug: web app
   headline: "<strong>Webアプリ</strong>作ってます。"
-  content: HTML、JavaScript、CSSを駆使してWebアプリを開発しています。<br>技術力はそれほど高くはありませんが、「使いやすさ」を重点を置いています。
+  content: HTML、JavaScript、CSSを駆使してWebアプリを開発しています。<br>技術力はそれほど高くはありませんが、「使いやすさ」を重点を置いています。<br>画像は、<a
+    href="https://r-40021.github.io/countdown-timer" title="やまだのタイマー">https://r-40021.github.io/countdown-timer</a>
   media:
-    image: "/uploads/2018/06/21/blocks-split.png"
-    alt_text: uBuild Blocks Mock-Up
+    image: "/uploads/timer.png"
+    alt_text: Yamada's timer
 - template: content-feature
   block: feature-1
   media_alignment: Right
