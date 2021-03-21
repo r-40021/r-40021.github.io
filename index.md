@@ -23,7 +23,7 @@ page_sections:
 - template: hero-banner-w-image
   block: hero-2
   slug: features
-  headline: 自称・<br><strong>やまだけんいち(Kenichi Yamada)</strong>
+  headline: 自称・<br><strong>やまだけんいち<br>(Kenichi Yamada)</strong>
   content: Webアプリを開発しています。
   cta:
     enabled: true
