@@ -30,8 +30,8 @@ page_sections:
   media_alignment: Left
   slug: web app
   headline: "<strong>Webアプリ</strong>作ってます。"
-  content: HTML、JavaScript、CSSを駆使してWebアプリを開発しています。<br>技術力はそれほど高くはありませんが、「使いやすさ」を重点を置いています。<br>画像は、<a
-    href="https://r-40021.github.io/countdown-timer" title="やまだのタイマー">https://r-40021.github.io/countdown-timer</a>
+  content: HTML、JavaScript、CSSを駆使してWebアプリを開発しています。<br>技術力はそれほど高くはありませんが、「使いやすさ」を重点を置いています。<br>画像は、私が最初に作ったアプリ「<a
+    href="https://r-40021.github.io/countdown-timer" title="やまだのタイマー">やまだのタイマー</a>」
   media:
     image: "/uploads/timer.png"
     alt_text: Yamada's timer
