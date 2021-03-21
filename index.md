@@ -27,7 +27,7 @@ page_sections:
   content: Webアプリを開発しています。
   cta:
     enabled: true
-    url: https://github.com/forestryio/ubuild-jekyll
+    url: https://github.com/r-40021
     button_text: 'See on GitHub '
   image:
     image: "/uploads/MIppxngn_400x400.jpg"
