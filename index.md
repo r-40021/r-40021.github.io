@@ -1,14 +1,14 @@
 ---
 layout: blocks
 title: やまだけんいち(Kenichi Yamada)
-date: 2021-03-20 15:00:00 +0000
+date: 2021-03-20T15:00:00.000+00:00
 page_sections:
 - template: navigation-header-w-button
   block: header-2
-  logo: "/uploads/2018/06/21/forestry-full.svg"
+  logo: "/uploads/MIppxngn_400x400.jpg"
   navigation:
   - link: "/"
-    link_text: Ubuild
+    link_text: ubuild
   - link: "#swap"
     link_text: Swap
   - link: "#customize"
