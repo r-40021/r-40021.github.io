@@ -30,8 +30,7 @@ page_sections:
   media_alignment: Left
   slug: customize
   headline: やまだけんいちって、<strong>何者？</strong>
-  content: Each block comes with custom Front Matter that can be edited in Forestry
-    CMS.
+  content: 日本のどこかでプログラミングをしている学生。HTML・JavaScript・CSSをメインに使っていますが、Pythonも少しならできます。
   media:
     image: "/uploads/self-introduce.png"
     alt_text: プログラマー
