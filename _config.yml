@@ -3,7 +3,7 @@ title: やまだけんいち
 author: Kenichi Yamada
 email: ''
 description: Webアプリ開発が大好きな学生、やまだけんいちのホームページです。
-baseurl: https://r-40021.github.io/
+baseurl: ''
 url: https://r-40021.github.io/
 defaults:
 - scope:
