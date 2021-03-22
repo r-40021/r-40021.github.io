@@ -39,7 +39,7 @@ page_sections:
   block: feature-1
   media_alignment: Right
   slug: web app
-  headline: "<strong>Webアプリ</strong>作ってます。"
+  headline: "<strong>どんなWebアプリ</strong>を作っているの？"
   content: HTML、JavaScript、CSSを駆使してWebアプリを開発しています。<br>技術力はそれほど高くはありませんが、「使いやすさ」に重点を置いています。<br>画像は、私が最初に作ったアプリ「<a
     href="https://r-40021.github.io/countdown-timer" title="やまだのタイマー">やまだのタイマー</a>」<br>目覚まし時計とタイマーのいいとこ取りをしました。<br><br>友達からも何かと高評価。嬉しいですが、この高評価がプレッシャーになっています(笑)
   media:
