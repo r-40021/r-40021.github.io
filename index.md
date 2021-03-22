@@ -30,7 +30,8 @@ page_sections:
   media_alignment: Left
   slug: customize
   headline: やまだけんいちって、<strong>何者？</strong>
-  content: 日本のどこかでプログラミングをしている学生。HTML・JavaScript・CSSをメインに使っていますが、Pythonも少しならできます。<br>技術力は大したことないですが、使いやすいものを作っていきたいです。
+  content: 日本のどこかでプログラミングをしている学生。HTML・JavaScript・CSSをメインに使っていますが、Pythonも少しならできます。<br>真面目なものを作って公開したり、ネタ物を作ってお蔵入りにしたり、結構色々やっています。<br>「オープンソース」という仕組みが好きなので、僕が作るプログラムは<a
+    href="https://github.com/r-40021" title="GitHub">GitHub</a>で基本的に公開しています。<br>技術力は大したことないですが、使いやすいものを作っていきたいです。
   media:
     image: "/uploads/self-introduce.png"
     alt_text: プログラマー
@@ -40,7 +41,7 @@ page_sections:
   slug: web app
   headline: "<strong>Webアプリ</strong>作ってます。"
   content: HTML、JavaScript、CSSを駆使してWebアプリを開発しています。<br>技術力はそれほど高くはありませんが、「使いやすさ」に重点を置いています。<br>画像は、私が最初に作ったアプリ「<a
-    href="https://r-40021.github.io/countdown-timer" title="やまだのタイマー">やまだのタイマー</a>」<br>目覚まし時計とタイマーのいいとこ取りをしました。<br>終業式の日には、刻一刻と迫るお別れの時間をカウントダウンしてみました。<br>友達からも何かと高評価。嬉しいですが、この高評価がプレッシャーになっています(笑)
+    href="https://r-40021.github.io/countdown-timer" title="やまだのタイマー">やまだのタイマー</a>」<br>目覚まし時計とタイマーのいいとこ取りをしました。<br><br>友達からも何かと高評価。嬉しいですが、この高評価がプレッシャーになっています(笑)
   media:
     image: "/uploads/timer.png"
     alt_text: Yamada's timer
