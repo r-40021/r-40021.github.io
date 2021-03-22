@@ -30,7 +30,7 @@ page_sections:
   media_alignment: Left
   slug: customize
   headline: やまだけんいちって、<strong>何者？</strong>
-  content: 日本のどこかでプログラミングをしている学生。HTML・JavaScript・CSSをメインに使っていますが、Pythonも少しならできます。
+  content: 日本のどこかでプログラミングをしている学生。HTML・JavaScript・CSSをメインに使っていますが、Pythonも少しならできます。<br>技術力は大したことないですが、使いやすいものを作っていきたいです。
   media:
     image: "/uploads/self-introduce.png"
     alt_text: プログラマー
