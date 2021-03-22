@@ -40,7 +40,7 @@ page_sections:
   slug: web app
   headline: "<strong>Webアプリ</strong>作ってます。"
   content: HTML、JavaScript、CSSを駆使してWebアプリを開発しています。<br>技術力はそれほど高くはありませんが、「使いやすさ」を重点を置いています。<br>画像は、私が最初に作ったアプリ「<a
-    href="https://r-40021.github.io/countdown-timer" title="やまだのタイマー">やまだのタイマー</a>」
+    href="https://r-40021.github.io/countdown-timer" title="やまだのタイマー">やまだのタイマー</a>」目覚まし時計とタイマーのいいとこ取りをしました。<br>終業式の日には、刻一刻と迫るお別れの時間をカウントダウンしました。<br>友達からも何かと高評価。嬉しいですが、この高評価がプレッシャーになっています(笑)
   media:
     image: "/uploads/timer.png"
     alt_text: Yamada's timer
