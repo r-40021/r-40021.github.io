@@ -36,7 +36,7 @@ page_sections:
     alt_text: プログラマー
 - template: content-feature
   block: feature-1
-  media_alignment: Left
+  media_alignment: Right
   slug: web app
   headline: "<strong>Webアプリ</strong>作ってます。"
   content: HTML、JavaScript、CSSを駆使してWebアプリを開発しています。<br>技術力はそれほど高くはありませんが、「使いやすさ」を重点を置いています。<br>画像は、私が最初に作ったアプリ「<a
