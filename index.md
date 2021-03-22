@@ -28,6 +28,16 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Left
+  slug: customize
+  headline: やまだけんいちって、<strong>何者？</strong>
+  content: Each block comes with custom Front Matter that can be edited in Forestry
+    CMS.
+  media:
+    image: "/uploads/self-introduce.png"
+    alt_text: プログラマー
+- template: content-feature
+  block: feature-1
+  media_alignment: Left
   slug: web app
   headline: "<strong>Webアプリ</strong>作ってます。"
   content: HTML、JavaScript、CSSを駆使してWebアプリを開発しています。<br>技術力はそれほど高くはありませんが、「使いやすさ」を重点を置いています。<br>画像は、私が最初に作ったアプリ「<a
@@ -35,17 +45,6 @@ page_sections:
   media:
     image: "/uploads/timer.png"
     alt_text: Yamada's timer
-- template: content-feature
-  block: feature-1
-  media_alignment: Right
-  slug: customize
-  headline: <strong>Customize Blocks</strong><span class="light">&nbsp;to make quick
-    edits throughout your new site</span>
-  content: Each block comes with custom Front Matter that can be edited in Forestry
-    CMS.
-  media:
-    image: "/uploads/2018/06/21/edit.gif"
-    alt_text: Customize Blocks
 - template: 1-column-text
   block: one-column-1
   slug: responsive
