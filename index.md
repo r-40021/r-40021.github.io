@@ -31,7 +31,7 @@ page_sections:
   slug: who
   headline: やまだけんいちって、<strong>何者？</strong>
   content: 日本のどこかでプログラミングをしている学生。HTML・JavaScript・CSSをメインに使っていますが、Pythonも少しならできます。<br>真面目なものを作って公開したり、ネタ物を作ってお蔵入りにしたり、結構色々やっています。<br>「オープンソース」という仕組みが好きなので、僕が作るプログラムは<a
-    href="https://github.com/r-40021" title="GitHub">GitHub</a>で基本的に公開しています。<br>技術力は大したことないですが、使いやすいものを作っていきたいです。
+    href="https://github.com/r-40021" title="GitHub">GitHub</a>で基本的に公開しています。汚いコードですが...<br>技術力は大したことないですが、使いやすいものを作っていきたいです。
   media:
     image: "/uploads/self-introduce.png"
     alt_text: プログラマー
