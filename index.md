@@ -1,14 +1,14 @@
 ---
 layout: blocks
 title: やまだけんいち(Kenichi Yamada)
-date: 2021-03-20T15:00:00.000+00:00
+date: 
 page_sections:
 - template: navigation-header-w-button
   block: header-2
   logo: "/uploads/MIppxngn_400x400.jpg"
   navigation:
-  - link: "/"
-    link_text: ubuild
+  - link: "#who"
+    link_text: 何者か
   cta:
     url: https://github.com/r-40021
     button_text: GitHub
@@ -28,7 +28,7 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Left
-  slug: customize
+  slug: who
   headline: やまだけんいちって、<strong>何者？</strong>
   content: 日本のどこかでプログラミングをしている学生。HTML・JavaScript・CSSをメインに使っていますが、Pythonも少しならできます。<br>真面目なものを作って公開したり、ネタ物を作ってお蔵入りにしたり、結構色々やっています。<br>「オープンソース」という仕組みが好きなので、僕が作るプログラムは<a
     href="https://github.com/r-40021" title="GitHub">GitHub</a>で基本的に公開しています。<br>技術力は大したことないですが、使いやすいものを作っていきたいです。
@@ -38,7 +38,7 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Right
-  slug: web app
+  slug: app
   headline: "<strong>作ったもの</strong>"
   content: HTML、JavaScript、CSSを駆使してWebアプリを開発しています。<br>技術力はそれほど高くはありませんが、「使いやすさ」に重点を置いています。<br>画像は、私が最初に作ったアプリ「<a
     href="https://r-40021.github.io/countdown-timer" title="やまだのタイマー">やまだのタイマー</a>」<br>目覚まし時計とタイマーのいいとこ取りをしました。<br><br>友達からも何かと高評価。嬉しいですが、この高評価がプレッシャーになっています(笑)
