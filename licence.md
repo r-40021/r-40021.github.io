@@ -10,22 +10,5 @@ page_sections:
     url: https://github.com/r-40021
     button_text: GitHub
   navigation: []
-- template: 1-column-text
-  block: one-column-1
-  content: あああ
-  headline: ''
-  slug: ''
-- template: hero-banner-w-image
-  block: hero-2
-  background_image: ''
-  image:
-    image: ''
-    alt_text: ''
-  headline: ''
-  content: ''
-  cta:
-    enabled: false
-    url: ''
-    button_text: ''
 
 ---
