@@ -29,5 +29,9 @@ page_sections:
     slug: pictogram
     content: <a href="http://pictogram2.com/" title="">human pictogram 2.0 (無料人物 ピクトグラム素材
       2.0)</a>さんからお借りしました。<br><br><a href="http://pictogram2.com/?page_id=39" title="">ライセンスとQ&amp;A</a>
+- template: detail-content
+  block: text-1
+  headline: あああああああ
+  content: ''
 
 ---
