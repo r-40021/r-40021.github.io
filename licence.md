@@ -31,7 +31,7 @@ page_sections:
       2.0)</a>さんからお借りしました。<br><br><a href="http://pictogram2.com/?page_id=39" title="">ライセンスとQ&amp;A</a>
 - template: detail-content
   block: text-1
-  headline: あああああああ
-  content: ''
+  headline: ''
+  content: "<h1><strong>ライセンス</strong></h1><p>このHP上で使われている素材のライセンスを記載しています。</p>"
 
 ---
