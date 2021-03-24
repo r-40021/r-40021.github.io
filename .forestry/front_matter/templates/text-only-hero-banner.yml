@@ -3,7 +3,7 @@ label: text-only-hero-banner
 hide_body: false
 fields:
 - type: text
-  hidden: true
+  hidden: false
   label: block
   name: block
   default: hero-1
