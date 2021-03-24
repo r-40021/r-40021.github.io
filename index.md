@@ -62,6 +62,7 @@ page_sections:
 - template: simple-footer
   block: footer-1
   content: © 2021 Kenichi Yamada<br>このページのソースコードは<a href="https://github.com/r-40021/r-40021.github.io/blob/master/LICENSE"
-    title="">MIT Licence</a>の下で二次利用できます。<br>画像は、フリー素材ですが作者が公表しているライセンスを遵守する必要があります。
+    title="">MIT Licence</a>の下で二次利用できます。<br>画像は、フリー素材ですが作者が公表しているライセンスを遵守する必要があります。→<a
+    href="licence.html" title="">各素材ごとのライセンス</a>
 
 ---
