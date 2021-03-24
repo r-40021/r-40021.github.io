@@ -10,12 +10,12 @@ page_sections:
     url: https://github.com/r-40021
     button_text: GitHub
   navigation:
-  - link: privacy.html
-    link_text: プライバシーへの配慮
-  - link: works.html
-    link_text: 作品
   - link: index.html#who
     link_text: 自己紹介
+  - link: works.html
+    link_text: 作品
+  - link: privacy.html
+    link_text: プライバシーへの配慮
 - template: hero-banner-w-image
   block: hero-2
   headline: "<strong>やまだのアプリ</strong>"
