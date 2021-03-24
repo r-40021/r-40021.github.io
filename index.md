@@ -8,7 +8,7 @@ page_sections:
   logo: "/uploads/MIppxngn_400x400.jpg"
   navigation:
   - link: "#who"
-    link_text: 何者か
+    link_text: 自己紹介
   cta:
     url: https://github.com/r-40021
     button_text: GitHub
