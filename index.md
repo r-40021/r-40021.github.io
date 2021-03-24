@@ -45,6 +45,15 @@ page_sections:
   media:
     image: "/uploads/timer.png"
     alt_text: Yamada's timer
+- template: content-feature
+  block: feature-1
+  media_alignment: Right
+  headline: "<strong>プライバシー</strong>を重視しています。"
+  content: やまだのアプリは、プライバシーに十分配慮して作られています。<br>例えば、やまだのタイマーでは設定時刻やアラーム音の設定を、すべて端末の中で処理するようにプログラムされています。<br>このように、端末の中で処理できるものは、極力端末の中で処理するようにしています。<br>インターネットを介してサーバーに何かを送信すると、その分リスクが増えます。しかし、端末の中に情報を保存しておけば、ユーザーはデータをいつでも確認でき、好きなときに一瞬で削除できます。
+  slug: ''
+  media:
+    image: ''
+    alt_text: ''
 - template: 1-column-text
   block: one-column-1
   slug: responsive
@@ -66,8 +75,5 @@ page_sections:
     this demo in Forestry</a>.</p></li><li><p>Read <a href="https://forestry.io/blog/ubuild-a-new-theme-for-static-sites-using-blocks/">our
     article</a> and create your own Blocks.</p></li><li><p>Add and customize the available
     Blocks and preview them as you go along.</p></li></ol>
-- template: simple-footer
-  block: footer-1
-  content: Made with ❤︎ in Canada
 
 ---
