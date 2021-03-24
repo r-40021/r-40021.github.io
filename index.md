@@ -50,30 +50,18 @@ page_sections:
   media_alignment: Left
   headline: "<strong>プライバシー</strong>を重視しています。"
   content: やまだのアプリは、プライバシーに十分配慮して作られています。<br>例えば、やまだのタイマーでは設定時刻やアラーム音の設定を、すべて端末の中で処理するようにプログラムされています。<br>このように、端末の中で処理できるものは、極力端末の中で処理するようにしています。<br>インターネットを介してサーバーに何かを送信すると、その分リスクが増えます。しかし、端末の中に情報を保存しておけば、ユーザーはデータをいつでも確認でき、好きなときに一瞬で削除できます。
-  slug: ''
+  slug: privacy
   media:
     image: ''
     alt_text: ''
 - template: 1-column-text
   block: one-column-1
-  slug: responsive
-  headline: 16 Fully Responsive Design Blocks
-  content: |
-    The Design Blocks can be used without Forestry but to harness the power
-    of Blocks we recommend using <a href="https://forestry.io">Forestry</a>. Once the site is imported you can immediately
-    create new sites and make them fully customizable.
-- template: full-width-media-element
-  block: media-1
-  image: "/uploads/2018/06/21/theme.png"
-  caption: All Available Blocks
-  slug: blocks
-- template: detail-content
-  block: text-1
-  headline: Steps to Build a Site!
-  content: <p>uBuild is an open-source Jekyll based demo that doubles as a builder
-    tool inside the Forestry content manager.</p><ol><li><p><a href="https://app.forestry.io/quick-start?repo=forestryio/ubuild-jekyll&provider=github&engine=jekyll">Import
-    this demo in Forestry</a>.</p></li><li><p>Read <a href="https://forestry.io/blog/ubuild-a-new-theme-for-static-sites-using-blocks/">our
-    article</a> and create your own Blocks.</p></li><li><p>Add and customize the available
-    Blocks and preview them as you go along.</p></li></ol>
+  headline: アプリは、GitHubから開けます。
+  content: ソースコードも見られます。<br><a href="https://github.com/r-40021" title="">GitHub</a>
+  slug: ''
+- template: simple-footer
+  block: footer-1
+  content: © 2021 Kenichi Yamada<br>このページのソースコードは<a href="https://github.com/r-40021/r-40021.github.io/blob/master/LICENSE"
+    title="">MIT Licence</a>の下で二次利用できます。<br>画像は、フリー素材ですが作者が公表しているライセンスを遵守する必要があります。
 
 ---
