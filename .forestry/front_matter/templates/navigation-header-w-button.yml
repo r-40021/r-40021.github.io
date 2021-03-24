@@ -32,3 +32,5 @@ fields:
   - type: text
     name: button_text
     label: Button Text
+pages:
+- rights.md
