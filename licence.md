@@ -12,6 +12,10 @@ page_sections:
   navigation:
   - link: index.html#who
     link_text: 自己紹介
+- template: detail-content
+  block: text-1
+  headline: ''
+  content: "<h1><strong>ライセンス</strong></h1><p>このHP上で使われている素材のライセンスを記載しています。</p>"
 - template: 3-column-text
   block: three-column-1
   col_1:
@@ -29,9 +33,5 @@ page_sections:
     slug: pictogram
     content: <a href="http://pictogram2.com/" title="">human pictogram 2.0 (無料人物 ピクトグラム素材
       2.0)</a>さんからお借りしました。<br><br><a href="http://pictogram2.com/?page_id=39" title="">ライセンスとQ&amp;A</a>
-- template: detail-content
-  block: text-1
-  headline: ''
-  content: "<h1><strong>ライセンス</strong></h1><p>このHP上で使われている素材のライセンスを記載しています。</p>"
 
 ---
