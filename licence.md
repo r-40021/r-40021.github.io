@@ -12,6 +12,10 @@ page_sections:
   navigation:
   - link: index.html#who
     link_text: 自己紹介
+  - link: works.html
+    link_text: 作品
+  - link: privacy.html
+    link_text: プライバシーへの配慮
 - template: detail-content
   block: text-1
   headline: ライセンス
