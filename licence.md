@@ -14,8 +14,8 @@ page_sections:
     link_text: 自己紹介
 - template: detail-content
   block: text-1
-  headline: ''
-  content: "<h1><strong>ライセンス</strong></h1><p>このHP上で使われている素材のライセンスを記載しています。</p>"
+  headline: ライセンス
+  content: "<p>このHP上で使われている素材のライセンスを記載しています。</p>"
 - template: 3-column-text
   block: three-column-1
   col_1:
