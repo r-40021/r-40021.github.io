@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: licence
+title: ライセンス
 date: 
 page_sections:
 - template: navigation-header-w-button
