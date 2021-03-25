@@ -33,6 +33,6 @@ fields:
   - 4-column-footer
 pages:
 - index.md
-- licence.md
+- license.md
 - privacy.md
 - works.md
