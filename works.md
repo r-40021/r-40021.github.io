@@ -47,5 +47,17 @@ page_sections:
   block: text-1
   headline: ネタアプリ
   content: "<p>完全にネタとして作ったアプリ。恥ずかしくてスクショしか公開できません。</p>"
+- template: content-feature
+  block: feature-1
+  media_alignment: Left
+  headline: "<strong>ニセモノ体温計</strong>"
+  slug: fake-thermometer
+  content: |-
+    <p>それは、ある日のこと。友達が、「センサー不要の体温計のコード見る？」とPythonのたった３行の簡潔なコードを見せてきました。すると、なんということでしょう、35.5℃〜36.6℃の範囲の乱数を出力するプログラムではありませんか。笑いと同時に、「自分も作ってみよう」という気持ちが湧いてきました。</p><br>
+
+    <p>ということで、２時間位かけて、たった3行のPythonのコードを171行のHTML・JavaScript・CSSに書き換えたものです。(正確には、フレームワークを使っているのでもっと多いです。)</p>
+  media:
+    image: ''
+    alt_text: ''
 
 ---
