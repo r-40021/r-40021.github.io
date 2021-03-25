@@ -9,8 +9,8 @@ page_sections:
   content: やまだのアプリがユーザーの情報をどのように扱っているか、緩く説明していきます。
   background_image: "/uploads/lock.png"
   image:
-    image: "/uploads/lock.png"
-    alt_text: lock
+    image: "/uploads/key.PNG"
+    alt_text: Key
   cta:
     enabled: false
     url: ''
