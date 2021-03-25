@@ -31,16 +31,25 @@ page_sections:
   media_alignment: Right
   slug: app
   headline: "<strong>作ったもの</strong>"
-  content: HTML、JavaScript、CSSを駆使してWebアプリを開発しています。<br>技術力はそれほど高くはありませんが、「使いやすさ」に重点を置いています。<br>画像は、私が最初に作ったアプリ「<a
-    href="https://r-40021.github.io/countdown-timer" title="やまだのタイマー">やまだのタイマー</a>」<br>目覚まし時計とタイマーのいいとこ取りをしました。<br><br>友達からも何かと高評価。嬉しいですが、この高評価がプレッシャーになっています(笑)
+  content: |-
+    HTML、JavaScript、CSSを駆使してWebアプリを開発しています。<br>技術力はそれほど高くはありませんが、「使いやすさ」に重点を置いています。<br>画像は、私が最初に作ったアプリ「<a href="https://r-40021.github.io/countdown-timer" title="やまだのタイマー">やまだのタイマー</a>」<br>目覚まし時計とタイマーのいいとこ取りをしました。<br><br>友達からも何かと高評価。嬉しいですが、この高評価がプレッシャーになっています(笑)
+
+    <br><br><a class="button primary" href="works.html">他のアプリ</a>
   media:
     image: "/uploads/timer.png"
     alt_text: Yamada's timer
 - template: content-feature
   block: feature-1
   media_alignment: Left
-  headline: "<strong>プライバシー</strong>。<br>データはすべてあなたの手の中に。（うまく決まったー！）"
-  content: やまだのアプリは、プライバシーに十分配慮して作られています。<br>例えば、やまだのタイマーでは設定時刻やアラーム音の設定を、すべて端末の中で処理するようにプログラムされています。<br>このように、端末の中で処理できるものは、極力端末の中で処理するようにしています。<br>インターネットを介してサーバーに何かを送信すると、その分リスクが増えます。しかし、端末の中に情報を保存しておけば、ユーザーはデータをいつでも確認でき、好きなときに一瞬で削除できます。
+  headline: "<strong>プライバシー</strong>。<br>データはすべてあなたの手の中に。"
+  content: |-
+    タイトルうまく決まったー　そんな話はおいておき、本題に入ります。<br>
+
+    やまだのアプリは、プライバシーに十分配慮して作られています。具体的には、やまだのアプリは端末の中に情報を保存しているため、ユーザーはデータをいつでも確認でき、好きなときに一瞬で削除できます。そう、自分のデータを完全に支配できるのです！！<br>
+
+    （データの削除によって、今までのアプリデータが消失する恐れがあります）
+
+    <br><br><a class="button primary" href="privacy.html">詳しく</a>
   slug: privacy
   media:
     image: ''
