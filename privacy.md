@@ -28,7 +28,7 @@ page_sections:
   content: |-
     <p>明言します。「<strong>やまだのアプリはユーザーの情報を基本的に収集しません</strong>」</p>
 
-    <p>具体的に、どういうことなのか</p>
+    <p>具体的に、どういうことなのか。</p>
 
     <ul>
 
@@ -55,7 +55,18 @@ page_sections:
     <p>まとめると、「<strong>やまだのアプリ内</strong>に、<strong>私</strong>が、アクセス解析などの<strong>ユーザーの情報を収集する機能をつけることはない</strong>」ということになります。</p>
 - template: detail-content
   block: text-1
-  headline: ''
-  content: ''
+  headline: ユーザーのデータの保存場所
+  content: |-
+    <p>端末内と言っても、やまだのアプリは、設定内容などのユーザーデータをどこに保存しているのでしょうか。</p>
+
+    <p>私が使用しているのは、以下のいずれか、もしくは複数です。</p>
+
+    <ul>
+
+    <li><strong>Web Storage</strong><br>あまり馴染みのない言葉ですが、最近追加された機能で、Webページの情報をブラウザ上に保存できるものです。この情報は、ブラウザの設定から閲覧・削除できます。</li>
+
+    <li><strong>name</strong><br></li>
+
+    </ul>
 
 ---
