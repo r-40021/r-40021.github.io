@@ -65,7 +65,7 @@ page_sections:
 
     <li><strong>Web Storage</strong><br>あまり馴染みのない言葉ですが、最近追加された機能で、Webページの情報をブラウザ上に保存できるものです。この情報は、ブラウザの設定から閲覧・削除できます。</li>
 
-    <li><strong>name</strong><br></li>
+    <li><strong>パラメータ</strong><br>端末内というより、URLに保存しているといったほうが適切でしょうか。例えば、やまだのタイマーを2021年4月1日12:00にセットした場合、URLは次のようになります。<br>https://r-40021.github.io/countdown-timer/index.html<font color="red">?date=2021/4/1&time=12:00</font><br>この、赤字の部分がパラメータです。やまだのアプリでは、このようにURL自体に設定情報を格納している場合もあります。</li>
 
     </ul>
 
