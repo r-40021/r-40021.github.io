@@ -52,10 +52,5 @@ page_sections:
   media:
     image: ''
     alt_text: ''
-- template: 1-column-text
-  block: one-column-1
-  headline: アプリは、GitHubから開けます。
-  content: ソースコードも見られます。<br><a href="https://github.com/r-40021" title="">GitHub</a>
-  slug: ''
 
 ---
