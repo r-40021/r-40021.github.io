@@ -18,7 +18,8 @@ page_sections:
 - template: 1-column-text
   block: one-column-1
   headline: ご注意
-  content: スパム防止のため、お問い合わせフォームを介さないお問い合わせに対応することはできません。
+  content: スパム防止のため、お問い合わせフォームを介さないお問い合わせに対応することはできません。<br>また、アプリに関する不具合は、<a href="works.html"
+    title="">作品</a>ページの「問題を報告」からも行えます。
   slug: ''
 - template: content-feature
   block: feature-1
