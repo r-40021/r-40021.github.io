@@ -1,12 +1,12 @@
 ---
 layout: blocks
 title: プライバシーポリシー
-date: 
+date: 2021-03-27 00:00:00 +0900
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
   headline: "<strong>プライバシーポリシー</strong>"
-  content: やまだのアプリがユーザーの情報をどのように扱っているか、緩く説明していきます。
+  content: やまだのアプリがユーザーの情報をどのように扱っているか、緩く説明していきます。<br><br>公開：2021/3/27
   background_image: "/uploads/lock.png"
   image:
     image: "/uploads/key.PNG"
@@ -79,5 +79,9 @@ page_sections:
     <p>では、Google検索を通さずに、URLを直接入力した場合、どうアクセス数を把握しているのか。実は、<strong>把握できていません。</strong></p>
 
     <p>ですから、皆さんにお願いがあります。やまだのアプリを使って「このアプリ良いな」と思ったら、アプリ内のツイートボタンから#やまだけんいち #やまだのタイマー などのようにハッシュタグをつけて、感想とともにツイートしてください。私も、頻繁に検索をかけています。これにより、アクセス数を把握できるだけでなく、まだまだ無名なアプリですが宣伝になります。よろしくお願いします。</p>
+- template: detail-content
+  block: text-1
+  headline: ご質問・ご意見
+  content: 分からないところ・分かりにくい所・ご要望等があれば、お問い合わせフォーム、もしくはGitHub Issuesにお気軽にお書きください。
 
 ---
