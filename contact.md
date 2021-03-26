@@ -25,7 +25,7 @@ page_sections:
   media_alignment: Right
   headline: ''
   content: <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfiTlaCkGe9HzxBytKEMFupoowYf9Yn6jomz-GFCR7UIrF7nQ/viewform?embedded=true"
-    width="640" height="805" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+    width=100% height="805" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
   slug: ''
   media:
     image: ''
