@@ -6,7 +6,7 @@ page_sections:
 - template: hero-banner-w-image
   block: hero-2
   headline: "<strong>やまだのアプリ</strong>"
-  content: 技術力＜＜＜＜＜使いやすさを念頭に、頑張ってアプリを作っています。
+  content: 技術力＜＜＜＜＜使いやすさを念頭に、頑張ってアプリを作っています。<br>まあ、技術力も高めなきゃいけないんですけど。
   background_image: ''
   image:
     image: ''
@@ -44,11 +44,11 @@ page_sections:
 
     </ul>
 
-    <br><br><a class="button primary" href="https://r-40021.github.io/countdown-timer/" target="_blank">アプリを開く</a>
+    <a class="button primary body" href="https://r-40021.github.io/countdown-timer/" target="_blank">アプリを開く</a>
 
-    <a class="button primary" href="https://github.com/r-40021/countdown-timer" target="_blank">ソースコードを見る</a>
+    <a class="button primary body" href="https://github.com/r-40021/countdown-timer" target="_blank">ソースコードを見る</a>
 
-    <a class="button primary" href="https://github.com/r-40021/countdown-timer/issues" target="_blank">問題を報告</a>
+    <a class="button primary body" href="https://github.com/r-40021/countdown-timer/issues" target="_blank">問題を報告</a>
 - template: detail-content
   block: text-1
   headline: ネタアプリ
