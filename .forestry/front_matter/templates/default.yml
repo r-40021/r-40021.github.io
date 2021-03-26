@@ -7,5 +7,3 @@ fields:
   type: text
   hidden: false
   default: default
-pages:
-- contact.md
