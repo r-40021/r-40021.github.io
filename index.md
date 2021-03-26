@@ -45,9 +45,9 @@ page_sections:
   content: |-
     やまだのアプリは、プライバシーに十分配慮して作られています。具体的には、やまだのアプリは極力端末の中に情報を保存しているため、ユーザーはデータをいつでも確認でき、好きなときに一瞬で削除できます。そう、自分のデータを完全に支配できるのです！！<br>
 
-    （データの削除によって、今までのアプリデータが消失する恐れがあります）
+    （データの削除によって、今までのアプリデータが消失する恐れがあります。）
 
-    <br><br><a class="button primary body" href="privacy.html">詳しく</a>
+    <a class="button primary body" href="privacy.html">詳しく</a>
   slug: privacy
   media:
     image: ''
