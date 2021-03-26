@@ -7,14 +7,19 @@ page_sections:
   block: hero-2
   content: "<strong>お問い合わせ</strong>はこちらからお願いします"
   headline: "<strong>お問い合わせフォーム</strong>"
-  background_image: ''
+  background_image: "/uploads/mail.png"
   image:
-    image: ''
-    alt_text: ''
+    image: "/uploads/mail.png"
+    alt_text: mail
   cta:
     enabled: false
     url: ''
     button_text: ''
+- template: 1-column-text
+  block: one-column-1
+  headline: ご注意
+  content: スパム防止のため、お問い合わせフォームを介さないお問い合わせに対応することはできません。
+  slug: ''
 - template: content-feature
   block: feature-1
   media_alignment: Right
