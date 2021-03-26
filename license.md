@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: ライセンス
-date: 
+date: 2021-03-27 00:00:00 +0900
 page_sections:
 - template: detail-content
   block: text-1
