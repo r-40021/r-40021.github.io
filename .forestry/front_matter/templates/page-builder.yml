@@ -32,8 +32,8 @@ fields:
   - simple-footer
   - 4-column-footer
 pages:
+- contact.md
 - index.md
 - license.md
 - privacy.md
 - works.md
-- お問い合わせ.md
