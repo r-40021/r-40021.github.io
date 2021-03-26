@@ -32,7 +32,7 @@ page_sections:
   slug: app
   headline: "<strong>作ったもの</strong>"
   content: |-
-    HTML、JavaScript、CSSを駆使してWebアプリを開発しています。<br>技術力はそれほど高くはありませんが、「使いやすさ」に重点を置いています。<br>画像は、私が最初に作ったアプリ「<a href="https://r-40021.github.io/countdown-timer" title="やまだのタイマー">やまだのタイマー</a>」<br>目覚まし時計とタイマーのいいとこ取りをしました。<br><br>友達からも何かと高評価。嬉しいですが、この高評価がプレッシャーになっています(笑)
+    HTML、JavaScript、CSSを駆使してWebアプリを開発しています。<br>技術力はそれほど高くはありませんが、「使いやすさ」に重点を置いています。<br>画像は、私が最初に作ったアプリ「<a href="https://r-40021.github.io/countdown-timer" title="やまだのタイマー" target="_blank">やまだのタイマー</a>」<br>目覚まし時計とタイマーのいいとこ取りをしました。<br><br>友達からも何かと高評価。嬉しいですが、この高評価がプレッシャーになっています(笑)
 
     <br><a class="button primary body" href="works.html">他のアプリ</a>
   media:
