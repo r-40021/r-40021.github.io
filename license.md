@@ -24,5 +24,20 @@ page_sections:
     slug: pictogram
     content: <a href="http://pictogram2.com/" title="">human pictogram 2.0 (無料人物 ピクトグラム素材
       2.0)</a>さんからお借りしました。<br><br><a href="http://pictogram2.com/?page_id=39" title="">ライセンスとQ&amp;A</a>
+- template: 3-column-text
+  block: three-column-1
+  col_1:
+    headline: 時短素材
+    content: <a href="https://jitanda.com/" title="">イラストストック「時短だ」</a>さんからお借りしました。<br><br><a
+      href="https://jitanda.com/terms/" title="">ライセンス</a>
+    slug: ''
+  col_2:
+    headline: ''
+    slug: ''
+    content: ''
+  col_3:
+    headline: ''
+    slug: ''
+    content: ''
 
 ---
