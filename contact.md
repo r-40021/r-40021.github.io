@@ -9,8 +9,8 @@ page_sections:
   headline: "<strong>お問い合わせフォーム</strong>"
   background_image: "/uploads/mail.png"
   image:
-    image: "/uploads/mail.png"
-    alt_text: mail
+    image: ''
+    alt_text: ''
   cta:
     enabled: false
     url: ''
