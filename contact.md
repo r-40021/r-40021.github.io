@@ -3,10 +3,18 @@ layout: blocks
 title: お問い合わせ
 date: 
 page_sections:
-- template: detail-content
-  block: text-1
-  headline: お問い合わせフォーム
-  content: "<p><strong>お問い合わせ</strong>はこちらからお願いします</p>"
+- template: hero-banner-w-image
+  block: hero-2
+  content: "<strong>お問い合わせ</strong>はこちらからお願いします"
+  headline: "<strong>お問い合わせフォーム</strong>"
+  background_image: ''
+  image:
+    image: ''
+    alt_text: ''
+  cta:
+    enabled: false
+    url: ''
+    button_text: ''
 - template: content-feature
   block: feature-1
   media_alignment: Right
