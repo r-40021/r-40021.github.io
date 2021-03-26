@@ -43,6 +43,12 @@ page_sections:
     <li>Googleが提唱するマテリアルデザインを採用。Androidユーザーにとってはとても馴染みやすいデザインです。<br>（iPhoneユーザーでも使いやすいよ！）</li>
 
     </ul>
+
+    <br><br><a class="button primary" href="https://r-40021.github.io/countdown-timer/" target="_blank">アプリを開く</a>
+
+    <a class="button primary" href="https://github.com/r-40021/countdown-timer" target="_blank">ソースコードを見る</a>
+
+    <a class="button primary" href="https://github.com/r-40021/countdown-timer/issues" target="_blank">問題を報告</a>
 - template: detail-content
   block: text-1
   headline: ネタアプリ
