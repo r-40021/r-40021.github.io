@@ -82,6 +82,11 @@ page_sections:
 - template: detail-content
   block: text-1
   headline: ご質問・ご意見
-  content: 分からないところ・分かりにくい所・ご要望等があれば、お問い合わせフォーム、もしくはGitHub Issuesにお気軽にお書きください。
+  content: |-
+    <p>分からない箇所・分かりにくい箇所・ご要望等があれば、お問い合わせフォーム、もしくはGitHub Issuesにお気軽にお書きください。</p>
+
+    <a class="button primary body" href="https://github.com/r-40021/r-40021.github.io/issues" target="_blank">GitHub Issues</a>
+
+    <a class="button primary body" href="contact.html">お問い合わせフォーム</a>
 
 ---
