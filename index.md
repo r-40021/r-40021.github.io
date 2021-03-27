@@ -15,7 +15,7 @@ page_sections:
   image:
     image: "/uploads/MIppxngn_400x400.jpg"
     alt_text: My Logo
-  background_image: "/uploads/MIppxngn_400x400.jpg"
+  background_image: ''
 - template: content-feature
   block: feature-1
   media_alignment: Left
