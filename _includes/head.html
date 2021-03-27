@@ -1,13 +1,60 @@
 <!DOCTYPE html>
-<html lang="">
-  <head>
-    <meta charset="utf-8">
+<html lang="ja">
+
+<head prefix=”og: http://ogp.me/ns#”> <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <base href="{{ site.baseurl }}">
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
     <meta name="author" content="{{ site.author }}">
     <meta name="description" content="{{ site.description }}">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/forestryio/ubuild-blocks@1.0.0/dist/css/ubuild.css"/>
-  </head>
-  <body>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <!--favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!--OGP-->
+    <meta property=”og:title” content=”{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}” />
+    <meta property=”og:url” content=”{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}” />
+    {% if page.url == "/" %}
+    <meta property=”og:type” content=”website” />
+    {% else %}
+    <meta property=”og:type” content=”article” />
+    {% endif %}    
+    <meta property=”og:image” content=”https://r-40021.github.io/uploads/ogp.png” />
+    <meta property="og:description" content="{{ site.description }}" />
+    <meta property="og:site_name" content="やまだけんいち(Kenichi Yamada)" />
+    <meta name="twitter:card" content="summary_large_image"></meta>
+</head>
+
+<body>
+    <header class="block block-header-2">
+
+        <div class="block-header-2--logo">
+            <a href="/">
+                <img src="/uploads/MIppxngn_400x400.jpg" alt="やまだけんいち" class="circle">
+            </a>
+        </div>
+
+        <nav class="block-header-2--nav">
+            <ul>
+
+                <li class="nav-item "><a href="/index.html#who">自己紹介</a></li>
+
+                <li class="nav-item "><a href="/works.html">作品</a></li>
+
+                <li class="nav-item "><a href="/privacy.html">プライバシーへの配慮</a></li>
+
+                <li class="nav-item "><a href="/contact.html">お問い合わせ</a></li>
+
+            </ul>
+            <a class="button primary small block-header-2--cta" href="https://github.com/r-40021" target="_blank">GitHub</a>
+        </nav>
+
+    </header>

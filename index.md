@@ -1,84 +1,56 @@
 ---
 layout: blocks
 title: やまだけんいち(Kenichi Yamada)
-date: 2021-03-20 15:00:00 +0000
+date: 2021-03-27 00:00:00 +0900
 page_sections:
-- template: navigation-header-w-button
-  block: header-2
-  logo: "/uploads/2018/06/21/forestry-full.svg"
-  navigation:
-  - link: "/"
-    link_text: Ubuild
-  - link: "#swap"
-    link_text: Swap
-  - link: "#customize"
-    link_text: Customize
-  - link: "#responsive"
-    link_text: Responsive
-  - link: "#blocks"
-    link_text: Blocks
-  cta:
-    url: https://app.forestry.io/quick-start?repo=forestryio/ubuild-jekyll&provider=github&engine=jekyll
-    button_text: Import
 - template: hero-banner-w-image
   block: hero-2
   slug: features
-  headline: uBuild <br><strong>design blocks</strong>
-  content: The tool that allows you to build beautiful sites<br>all inside Forestry's
-    content manager.
+  headline: 自称・<br><strong>やまだけんいち<br>(Kenichi Yamada)</strong>
+  content: Webアプリを開発しています。
   cta:
     enabled: true
-    url: https://github.com/forestryio/ubuild-jekyll
+    url: https://github.com/r-40021
     button_text: 'See on GitHub '
   image:
-    image: "/uploads/2018/06/21/product-shot-1.png"
-    alt_text: Product Shot
+    image: "/uploads/MIppxngn_400x400.jpg"
+    alt_text: My Logo
   background_image: "/uploads/2018/06/21/hero-2-bg.png"
 - template: content-feature
   block: feature-1
   media_alignment: Left
-  slug: swap
-  headline: <strong>Swap &amp; Switch<span class="light">&nbsp;</span></strong><span
-    class="light">the Blocks to create sites quickly</span>
-  content: Quickly assemble and create custom sites with 16 design blocks for seven
-    different sections.
+  slug: who
+  headline: やまだけんいちって、<strong>何者？</strong>
+  content: 日本のどこかでプログラミングをしている学生。HTML・JavaScript・CSSをメインに使っていますが、Pythonも少しならできます。<br>真面目なものを作って公開したり、ネタ物を作ってお蔵入りにしたり、結構色々やっています。<br>「オープンソース」という仕組みが好きなので、僕が作るプログラムは<a
+    href="https://github.com/r-40021" title="GitHub">GitHub</a>で基本的に公開しています。汚いコードですが...<br>技術力は大したことないですが、使いやすいものを作っていきたいです。
   media:
-    image: "/uploads/2018/06/21/blocks-split.png"
-    alt_text: uBuild Blocks Mock-Up
+    image: "/uploads/self-introduce.png"
+    alt_text: プログラマー
 - template: content-feature
   block: feature-1
   media_alignment: Right
-  slug: customize
-  headline: <strong>Customize Blocks</strong><span class="light">&nbsp;to make quick
-    edits throughout your new site</span>
-  content: Each block comes with custom Front Matter that can be edited in Forestry
-    CMS.
+  slug: app
+  headline: "<strong>作ったもの</strong>"
+  content: |-
+    HTML、JavaScript、CSSを駆使してWebアプリを開発しています。<br>技術力はそれほど高くはありませんが、「使いやすさ」に重点を置いています。<br>画像は、私が最初に作ったアプリ「<a href="https://r-40021.github.io/countdown-timer" title="やまだのタイマー" target="_blank">やまだのタイマー</a>」<br>目覚まし時計とタイマーのいいとこ取りをしました。<br><br>友達からも何かと高評価。嬉しいですが、この高評価がプレッシャーになっています(笑)
+
+    <br><a class="button primary body" href="works.html">他のアプリ</a>
   media:
-    image: "/uploads/2018/06/21/edit.gif"
-    alt_text: Customize Blocks
-- template: 1-column-text
-  block: one-column-1
-  slug: responsive
-  headline: 16 Fully Responsive Design Blocks
-  content: |
-    The Design Blocks can be used without Forestry but to harness the power
-    of Blocks we recommend using <a href="https://forestry.io">Forestry</a>. Once the site is imported you can immediately
-    create new sites and make them fully customizable.
-- template: full-width-media-element
-  block: media-1
-  image: "/uploads/2018/06/21/theme.png"
-  caption: All Available Blocks
-  slug: blocks
-- template: detail-content
-  block: text-1
-  headline: Steps to Build a Site!
-  content: <p>uBuild is an open-source Jekyll based demo that doubles as a builder
-    tool inside the Forestry content manager.</p><ol><li><p><a href="https://app.forestry.io/quick-start?repo=forestryio/ubuild-jekyll&provider=github&engine=jekyll">Import
-    this demo in Forestry</a>.</p></li><li><p>Read <a href="https://forestry.io/blog/ubuild-a-new-theme-for-static-sites-using-blocks/">our
-    article</a> and create your own Blocks.</p></li><li><p>Add and customize the available
-    Blocks and preview them as you go along.</p></li></ol>
-- template: simple-footer
-  block: footer-1
-  content: Made with ❤︎ in Canada
+    image: "/uploads/timer.png"
+    alt_text: Yamada's timer
+- template: content-feature
+  block: feature-1
+  media_alignment: Left
+  headline: "<strong>プライバシー</strong>を尊重しています"
+  content: |-
+    やまだのアプリは、プライバシーに十分配慮して作られています。具体的には、やまだのアプリは極力端末の中に情報を保存しているため、ユーザーはデータをいつでも確認でき、好きなときに一瞬で削除できます。そう、自分のデータを完全に支配できるのです！！<br>
+
+    （データの削除によって、今までのアプリデータが消失する恐れがあります。）
+
+    <a class="button primary body" href="privacy.html">詳しく</a>
+  slug: privacy
+  media:
+    image: ''
+    alt_text: ''
 
 ---
