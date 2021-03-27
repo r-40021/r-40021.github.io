@@ -50,7 +50,7 @@ page_sections:
     <a class="button primary body" href="privacy.html">詳しく</a>
   slug: privacy
   media:
-    image: ''
-    alt_text: ''
+    image: "/uploads/3.png"
+    alt_text: alien
 
 ---
