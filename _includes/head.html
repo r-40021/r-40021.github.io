@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-<head prefix=”og: http://ogp.me/ns#”> <meta charset="utf-8">
+<head>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <base href="{{ site.baseurl }}">
@@ -22,12 +23,9 @@
     <!--OGP-->
     <meta property=”og:title” content=”{% if page.title %}{{page.title}} - {% endif %}{{site.title}}” />
     <meta property=”og:url” content=”{{page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url}}” />
-    {% if page.url == "/" %}
-    <meta property=”og:type” content=”website” />
-    {% else %}
-    <meta property=”og:type” content=”article” />
+    {% if page.url == "/" %}<meta property=”og:type” content=”website” />{% else %}<meta property=”og:type” content=”article” />
     {% endif %}    
-    <meta property=”og:image” content=”https://r-40021.github.io/uploads/ogp.jpg” />
+    <meta property=”og:image” content=”https://r-40021.github.io/uploads/ogp.png” />
     <meta property="og:description" content="{{site.description}}" />
     <meta property="og:site_name" content="やまだけんいち(Kenichi Yamada)" />
     <meta name="twitter:card" content="summary_large_image" />
