@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: やまだけんいち(Kenichi Yamada)
-date: 2021-03-27 00:00:00 +0900
+date: 2021-03-27T00:00:00.000+09:00
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
@@ -15,7 +15,7 @@ page_sections:
   image:
     image: "/uploads/MIppxngn_400x400.jpg"
     alt_text: My Logo
-  background_image: "/uploads/2018/06/21/hero-2-bg.png"
+  background_image: ''
 - template: content-feature
   block: feature-1
   media_alignment: Left
@@ -36,7 +36,7 @@ page_sections:
 
     <br><a class="button primary body" href="works.html">他のアプリ</a>
   media:
-    image: "/uploads/timer.png"
+    image: "/uploads/timer.jpg"
     alt_text: Yamada's timer
 - template: content-feature
   block: feature-1

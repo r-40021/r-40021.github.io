@@ -1,13 +1,13 @@
 ---
 layout: blocks
 title: プライバシーポリシー
-date: 2021-03-27 00:00:00 +0900
+date: 2021-03-27T00:00:00.000+09:00
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
   headline: "<strong>プライバシーポリシー</strong>"
   content: やまだのアプリがユーザーの情報をどのように扱っているか、緩く説明していきます。<br><br>公開：2021/3/27
-  background_image: "/uploads/lock.png"
+  background_image: ''
   image:
     image: "/uploads/key.PNG"
     alt_text: Key

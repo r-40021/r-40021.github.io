@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: 作品
-date: 2021-03-27 00:00:00 +0900
+date: 2021-03-27T00:00:00.000+09:00
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
@@ -23,7 +23,7 @@ page_sections:
   block: feature-1
   media_alignment: Left
   media:
-    image: "/uploads/timer.png"
+    image: "/uploads/timer.jpg"
     alt_text: やまだのタイマー
   headline: "<strong>やまだのタイマー</strong>"
   slug: timer
@@ -63,7 +63,7 @@ page_sections:
 
     <p>ということで、２時間位かけて、たった3行のPythonのコードを171行のHTML・JavaScript・CSSに書き換えたものです。(フレームワークを含めたらもっと多いです。)</p>
   media:
-    image: ''
+    image: "/uploads/fake.jpg"
     alt_text: ''
 
 ---
