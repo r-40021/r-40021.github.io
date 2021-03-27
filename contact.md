@@ -1,16 +1,16 @@
 ---
 layout: blocks
 title: お問い合わせ
-date: 2021-03-27 00:00:00 +0900
+date: 2021-03-27T00:00:00.000+09:00
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
   content: "<strong>お問い合わせ</strong>はこちらからお願いします"
   headline: "<strong>お問い合わせフォーム</strong>"
-  background_image: "/uploads/mail.png"
+  background_image: ''
   image:
-    image: ''
-    alt_text: ''
+    image: "/uploads/mail.png"
+    alt_text: mail
   cta:
     enabled: false
     url: ''
