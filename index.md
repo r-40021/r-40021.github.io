@@ -36,7 +36,7 @@ page_sections:
 
     <br><a class="button primary body" href="works.html">他のアプリ</a>
   media:
-    image: "/uploads/timer.jpg"
+    image: "/uploads/timer.png"
     alt_text: Yamada's timer
 - template: content-feature
   block: feature-1
