@@ -1,12 +1,12 @@
 ---
 layout: blocks
 title: プライバシーポリシー
-date: 2021-03-27T00:00:00.000+09:00
+date: 2021-04-10 00:00:00 +0900
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
   headline: "<strong>プライバシーポリシー</strong>"
-  content: やまだのアプリがユーザーの情報をどのように扱っているか、緩く説明していきます。<br><br>公開：2021/3/27
+  content: やまだのアプリがユーザーの情報をどのように扱っているか、緩く説明していきます。<br><br>最終更新：2021/4/10<br>公開：2021/3/27
   background_image: ''
   image:
     image: "/uploads/key.PNG"
@@ -48,11 +48,11 @@ page_sections:
 
     <li>Twitterのシェアボタンなど、私以外の者が提供しているサービスがやまだのアプリ内に含まれている場合は、そのサービスの提供者がユーザーの情報を収集しているおそれがあります。</li>
 
-    <li>サーバーへのアクセスログは、GitHub, Inc.が保存しており、情報開示請求等が行われ、裁判所が承認した場合は、関係各所にアクセスログが提供されます。</li>
+    <li>サーバーへのアクセスログは、GitHub, Inc.が保存しており、情報開示請求等が行われ、承認された場合は、関係各所にアクセスログが提供されます。</li>
 
     </ul>
 
-    <p>まとめると、「<strong>やまだのアプリ内</strong>に、<strong>私</strong>が、アクセス解析などの<strong>ユーザーの情報を収集する機能をつけることはない</strong>」ということになります。</p>
+    <p>まとめると、「<strong>私が開発したシステム</strong>が、アクセス解析などで<strong>ユーザーの情報を収集することはない。</strong>ただし、サードパーティ製のシステムが組み込まれている場合はありうる。」ということになります。</p>
 - template: detail-content
   block: text-1
   headline: ユーザーのデータの保存場所
@@ -81,9 +81,28 @@ page_sections:
     <p>ですから、皆さんにお願いがあります。やまだのアプリを使って「このアプリ良いな」と思ったら、アプリ内のツイートボタンから#やまだけんいち #やまだのタイマー などのようにハッシュタグをつけて、感想とともにツイートしてください。私も、頻繁に検索をかけています。これにより、アクセス数を把握できるだけでなく、まだまだ無名なアプリですが宣伝になります。よろしくお願いします。</p>
 - template: detail-content
   block: text-1
+  headline: Cookieの使用について
+  content: |-
+    <p>やまだのアプリには、サードパーティ製のプログラムが組み込まれていることが多いです。フォントを美しくしたり、おしゃれなアイコンを入れたり...</p>
+
+    <p>これらのプログラムは、やまだのアプリをより高品質なものにしてくれますが、最近、プライバシー保護の観点から避けられているCookieを使用していることが多いのが現実です。ほとんどのCookieは一時的なデータの保存に使われていますが、中にはユーザーを追跡しようとするものもあります。</p>
+
+    <p>もし気になるようでしたら、Cookieを無効にすることをおすすめします。なお、Cookieを無効にしても、やまだのアプリは正常に動作します。</p>
+
+    <ul>
+
+    <li>Google Chrome&emsp;<a href="https://support.google.com/chrome/answer/95647?hl=ja" target="_blank">Cookie を有効または無効にする</a></li>
+
+    <li>Firefox&emsp;<a href="https://support.mozilla.org/ja/kb/block-websites-storing-cookies-site-data-firefox" target="_blank">Firefox で Cookie やサイトデータの保存をブロックする</a></li>
+
+    <li>Safari&emsp;<a href="https://support.apple.com/ja-jp/HT201265" target="_blank">iPhone、iPad、iPod touch で Safari から閲覧履歴と Cookie を消去する</a></li>
+
+    </ul>
+- template: detail-content
+  block: text-1
   headline: ご質問・ご意見
   content: |-
-    <p>分からない箇所・分かりにくい箇所・ご要望等があれば、お問い合わせフォーム、もしくはGitHub Issuesにお気軽にお書きください。</p>
+    <p>分からない箇所・分かりにくい箇所・ご要望等があれば、お問い合わせフォーム、もしくはGitHub Issuesにお気軽にお書きください。また、このプライバシーポリシーは予告なく変更される場合があります。</p>
 
     <a class="button primary body" href="https://github.com/r-40021/r-40021.github.io/issues" target="_blank">GitHub Issues</a>
 
