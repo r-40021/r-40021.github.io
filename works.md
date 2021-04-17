@@ -49,6 +49,26 @@ page_sections:
     <a class="button primary body" href="https://github.com/r-40021/countdown-timer" target="_blank">ソースコードを見る</a>
 
     <a class="button primary body" href="https://github.com/r-40021/countdown-timer/issues" target="_blank">問題を報告</a>
+- template: content-feature
+  block: feature-1
+  media_alignment: Right
+  headline: "<strong>やまだBINGO</strong>"
+  content: |-
+    <p>オンラインで使えるビンゴマシーン。シンプルで使いやすい上に、履歴の自動保存機能まで搭載しています。</p><p>以下のような特長があります。</p>
+
+    <p>また、PWA(ブラウザアプリをあたかも普通のアプリのように扱える技術)やService Worker(一度ページを読み込むと二度目からはオフラインでも使える技術)を採用しているため、オフライン環境でも、ギガが残りわずかでも、通信制限がかかっていても使えます。（一度ページを読み込むことが条件となります）</p>
+
+    <p>ブラウザアプリなので、インストール不要で、PCでもスマホでもタブレットでも使えます。</p>
+
+    <a class="button primary body" href="https://r-40021.github.io/countdown-timer/" target="_blank">アプリを開く</a>
+
+    <a class="button primary body" href="https://github.com/r-40021/countdown-timer" target="_blank">ソースコードを見る</a>
+
+    <a class="button primary body" href="https://github.com/r-40021/countdown-timer/issues" target="_blank">問題を報告</a>
+  slug: bingo
+  media:
+    image: ''
+    alt_text: ''
 - template: detail-content
   block: text-1
   headline: ネタアプリ
