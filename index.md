@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: やまだけんいち(Kenichi Yamada)
+title: やまだけんいち
 date: 2021-03-27T00:00:00.000+09:00
 page_sections:
 - template: hero-banner-w-image
