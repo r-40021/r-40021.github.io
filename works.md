@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: 作品
-date: 2021-05-03 00:00:00 +0900
+date: 2021-05-03 12:00:00 +0900
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
