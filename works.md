@@ -64,6 +64,8 @@ page_sections:
 
     <p>さらに、Webアプリなので、インストール不要で、デバイスを問わず使えます。</p>
 
+    <p>【追記】最近、ダークモードにも対応しました。</p>
+
     <a class="button primary body" href="https://r-40021.github.io/bingo/" target="_blank">アプリを開く</a>
 
     <a class="button primary body" href="https://github.com/r-40021/bingo" target="_blank">ソースコードを見る</a>
