@@ -47,6 +47,8 @@ page_sections:
 
     （データの削除によって、今までのアプリデータが消失する恐れがあります。）
 
+    <br>
+
     <a class="button primary body" href="privacy.html">詳しく</a>
   slug: privacy
   media:
