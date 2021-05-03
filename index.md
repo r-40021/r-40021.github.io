@@ -1,7 +1,7 @@
 ---
 layout: blocks
-title: やまだけんいち
-date: 2021-03-27T00:00:00.000+09:00
+title: TOP
+date: 2021-05-03 12:00:00 +0900
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
