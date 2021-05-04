@@ -3,7 +3,7 @@
     <div class="columns">
       <div class="column">
         <figure>
-          <img data-src="{{ section.image_1.image | relative_url }}" alt="{{ section.image_1.caption }}" loading="lazy">
+          <img data-src="{{ section.image_1.image | relative_url }}" alt="{{ section.image_1.caption }}" class=”lazyload”>
           {% if section.image_1.caption %}
           <figcaption>{{ section.image_1.caption }}</figcaption>
           {% endif %}
@@ -11,7 +11,7 @@
       </div>
       <div class="column">
         <figure>
-            <img src="{{ section.image_2.image | relative_url }}" alt="{{ section.image_2.caption }}" loading="lazy">
+            <img data-src="{{ section.image_2.image | relative_url }}" alt="{{ section.image_2.caption }}" class=”lazyload”>
             {% if section.image_2.caption %}
             <figcaption>{{ section.image_2.caption }}</figcaption>
             {% endif %}
