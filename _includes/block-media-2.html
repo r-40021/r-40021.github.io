@@ -3,7 +3,7 @@
     <div class="columns">
       <div class="column">
         <figure>
-          <img data-src="{{ section.image_1.image | relative_url }}" alt="{{ section.image_1.caption }}" loading="lazy">
+          <img src="{{ section.image_1.image | relative_url }}" alt="{{ section.image_1.caption }}" loading="lazy">
           {% if section.image_1.caption %}
           <figcaption>{{ section.image_1.caption }}</figcaption>
           {% endif %}
