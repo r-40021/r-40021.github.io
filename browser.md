@@ -1,12 +1,12 @@
 ---
 layout: blocks
-title: 対応ブラウザ
+title: ブラウザ対応状況
 date: 2021-05-08 12:00:00 +0900
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
-  headline: "<strong>対応ブラウザ</strong>"
-  content: やまだのアプリに対応しているブラウザの一覧です。<br>これら以外のブラウザでは、正常に動作しない恐れがあります。
+  headline: "<strong>ブラウザ対応状況</strong>"
+  content: やまだのアプリが対応しているブラウザについて
   background_image: ''
   image:
     image: ''
@@ -43,10 +43,6 @@ page_sections:
     </ul>
 
     <p>上記のブラウザでは、高い確率で正常に動作しません。</p>
-- template: detail-content
-  block: text-1
-  headline: 各アプリごとの動作確認状況
-  content: ''
 published: false
 
 ---
