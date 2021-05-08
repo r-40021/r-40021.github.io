@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: 作品
-date: 2021-05-03 12:00:00 +0900
+date: 2021-05-03T12:00:00.000+09:00
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
@@ -73,8 +73,8 @@ page_sections:
     <a class="button primary body" href="https://github.com/r-40021/bingo/issues" target="_blank">問題を報告</a>
   slug: bingo
   media:
-    image: "/uploads/2021/04/25/bingo.png"
-    alt_text: ''
+    image: "/uploads/2021/05/08/bingo_ja.jpg"
+    alt_text: ビンゴマシーンのスクリーンショット
 - template: detail-content
   block: text-1
   headline: ネタアプリ
