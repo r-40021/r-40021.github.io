@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: 作品
-date: 2021-05-08 12:00:00 +0900
+date: 2021-05-08T12:00:00.000+09:00
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
@@ -12,9 +12,9 @@ page_sections:
     image: ''
     alt_text: ''
   cta:
-    enabled: false
-    url: ''
-    button_text: ''
+    enabled: true
+    url: "/browser"
+    button_text: 対応ブラウザ
 - template: detail-content
   block: text-1
   headline: 真面目な作品
@@ -91,10 +91,5 @@ page_sections:
   media:
     image: "/uploads/fake.jpg"
     alt_text: ''
-- template: 1-column-text
-  block: one-column-1
-  content: <a href="/browser" title="">ブラウザ対応状況はこちらから</a>
-  headline: ''
-  slug: ''
 
 ---
