@@ -9,7 +9,7 @@
     <title>{% if page.title and page.url != "/" %}{{ page.title }} - {% endif %}{{ site.title }}</title>
     <meta name="author" content="{{ site.author }}">
     <meta name="description" content="{{ site.description }}">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" media="print" onload="this.media='all'">
     <!--favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
@@ -19,7 +19,6 @@
     <link rel="shortcut icon" href="/favicon/favicon.ico">
     <meta name="msapplication-TileColor" content="#ffc40d">
     <meta name="msapplication-config" content="/favicon/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
     <!--OGP-->
     <meta name="twitter:card" content="summary_large_image" />
     <meta property="og:url" content="{{page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url}}" />
