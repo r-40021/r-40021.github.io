@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "やまだけんいちのポートフォリオ",
+    "short_name": "やまだけんいち",
     "icons": [
         {
             "src": "/favicon/android-chrome-192x192.png",
@@ -10,10 +10,12 @@
         {
             "src": "/favicon/android-chrome-384x384.png",
             "sizes": "384x384",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any maskable"
         }
     ],
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
-    "display": "standalone"
+    "display": "browser",
+    "start_url": "/index.html",
 }
