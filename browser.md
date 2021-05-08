@@ -43,6 +43,5 @@ page_sections:
     </ul>
 
     <p>上記のブラウザでは、高い確率で正常に動作しません。</p>
-published: false
 
 ---
