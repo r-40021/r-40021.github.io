@@ -32,9 +32,9 @@ fields:
   - simple-footer
   - 4-column-footer
 pages:
+- browser.md
 - contact.md
 - index.md
 - license.md
 - privacy.md
 - works.md
-- 対応ブラウザ.md
