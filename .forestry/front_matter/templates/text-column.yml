@@ -15,3 +15,4 @@ fields:
     wysiwyg: true
     schema:
       format: html
+  default: text ...
