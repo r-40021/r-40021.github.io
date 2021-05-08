@@ -1,12 +1,12 @@
 ---
 layout: blocks
 title: HOME
-date: 2021-05-03 12:00:00 +0900
+date: 2021-05-03T12:00:00.000+09:00
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
   slug: features
-  headline: <span>自称・</span><span><strong>やまだけんいち</strong></span>
+  headline: "<span>自称・</span><span><strong>やまだけんいち</strong></span>"
   content: Webアプリを開発しています。
   cta:
     enabled: true
@@ -37,6 +37,8 @@ page_sections:
     HTML、JavaScript、CSSを駆使してWebアプリを開発しています。<br>技術力はそれほど高くはありませんが、「使いやすさ」に重点を置いています。<br>画像は、私が最初に作ったアプリ「<a href="https://r-40021.github.io/countdown-timer" title="やまだのタイマー" target="_blank">やまだのタイマー</a>」<br>目覚まし時計とタイマーのいいとこ取りをしました。<br><br>友達からも何かと高評価。嬉しいですが、この高評価がプレッシャーになっています(笑)
 
     <br><a class="button primary body" href="works.html">他のアプリ</a>
+
+    <a class="button primary body" href="/browser">ブラウザ対応状況</a>
   media:
     image: "/uploads/timer.png"
     alt_text: Yamada's timer
