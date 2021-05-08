@@ -6,7 +6,7 @@ page_sections:
 - template: hero-banner-w-image
   block: hero-2
   headline: "<strong>やまだのアプリ</strong>"
-  content: 技術力＜＜＜＜＜使いやすさを念頭に、頑張ってアプリを作っています。<br>まあ、技術力も高めなきゃいけないんですけど。
+  content: 技術力＜＜＜＜＜使いやすさを念頭に、頑張ってアプリを作っています。<br>まあ、技術力も高めなきゃいけないんですけど。<br>
   background_image: ''
   image:
     image: ''
@@ -91,5 +91,10 @@ page_sections:
   media:
     image: "/uploads/fake.jpg"
     alt_text: ''
+- template: 1-column-text
+  block: one-column-1
+  content: <a href="/browser" title="">ブラウザ対応状況はこちらから</a>
+  headline: ''
+  slug: ''
 
 ---
