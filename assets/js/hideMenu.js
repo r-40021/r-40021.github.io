@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
 const query = new URL(window.location.href).searchParams.get("fromApp");
 if (query === "true") {
-    document.getElementsByTagName("header")[0].style.display = "none";
     const alinks = document.getElementsByTagName("a");
     for (let i = 0; i < alinks.length; i++) {
         var element = alinks[i];
