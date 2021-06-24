@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: HOME
-date: 2021-05-08 12:00:00 +0900
+date: 2021-06-24 12:00:00 +0900
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
@@ -34,9 +34,7 @@ page_sections:
   slug: app
   headline: "<strong>作ったもの</strong>"
   content: |-
-    HTML、JavaScript、CSSを駆使してWebアプリを開発しています。<br>技術力はそれほど高くはありませんが、「使いやすさ」に重点を置いています。<br>画像は、私が最初に作ったアプリ「<a href="https://r-40021.github.io/countdown-timer" title="やまだのタイマー" target="_blank">やまだのタイマー</a>」<br>目覚まし時計とタイマーのいいとこ取りをしました。<br><br>友達からも何かと高評価。嬉しいですが、この高評価がプレッシャーになっています(笑)
-
-    <br><a class="button primary body" href="works.html">他のアプリ</a>
+    HTML、JavaScript、CSSを駆使してWebアプリを開発しています。<br>技術力はそれほど高くはありませんが、「使いやすさ」に重点を置いています。<br>画像は、私が最初に作ったアプリ「<a href="https://r-40021.github.io/countdown-timer" title="やまだのタイマー" target="_blank">やまだのタイマー</a>」<br>目覚まし時計とタイマーのいいとこ取りをしました。<br><br>他に作ったものは下のボタンから。<br><a class="button primary body" href="works.html">他のアプリ</a>
 
     <a class="button primary body" href="/browser">ブラウザ対応状況</a>
   media:
@@ -47,9 +45,11 @@ page_sections:
   media_alignment: Left
   headline: "<strong>プライバシー</strong>を尊重しています"
   content: |-
-    やまだのアプリは、プライバシーに十分配慮して作られています。具体的には、やまだのアプリは極力端末の中に情報を保存しているため、ユーザーはデータをいつでも確認でき、好きなときに一瞬で削除できます。そう、まるでこの画像のエイリアンのように、自分のデータを完全に支配できるのです！！<br>
+    やまだのアプリは、プライバシーに十分配慮して作られています。<br>
 
-    （データの削除によって、今までのアプリデータが消失する恐れがあります。）
+    自分がユーザーだったら、たとえ匿名でもむやみに情報が収集されるのが嫌なので。自分の情報がブラックボックスに葬られるのが嫌なので。<br>
+
+    そもそも、ユーザーの情報をサーバーに送信するプログラムを書くのが面倒なので。(本音)
 
     <br>
 
