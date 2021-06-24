@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: ブラウザ対応状況
-date: 2021-05-09 12:00:00 +0900
+date: 2021-06-24 12:00:00 +0900
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
@@ -39,6 +39,8 @@ page_sections:
     <ul>
 
     <li>Internet Explorer (11を含む）</li>
+
+    <li>旧 Microsoft Edge</li>
 
     <li>ゲーム機のブラウザ</li>
 
