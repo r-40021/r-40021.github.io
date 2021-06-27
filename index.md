@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: HOME
-date: 2021-06-24 12:00:00 +0900
+date: 2021-06-27 12:00:00 +0900
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
@@ -45,13 +45,9 @@ page_sections:
   media_alignment: Left
   headline: "<strong>プライバシー</strong>を尊重しています"
   content: |-
-    やまだのアプリは、プライバシーに十分配慮して作られています。<br>
+    やまだのアプリは、プライバシーに十分配慮して作られています。<br><br>
 
-    自分がユーザーだったら、たとえ匿名でもむやみに情報が収集されるのが嫌なので。自分の情報がブラックボックスに葬られるのが嫌なので。<br>
-
-    そもそも、ユーザーの情報をサーバーに送信するプログラムを書くのが面倒なので。(本音)
-
-    <br>
+    ユーザーの情報が少なすぎて開発者が情報難民になるのでは、と危惧されるほど、ユーザーのプライバシーを尊重しています。
 
     <a class="button primary body" href="privacy.html">詳しく</a>
   slug: privacy
