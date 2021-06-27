@@ -11,7 +11,7 @@ page_sections:
   cta:
     enabled: true
     url: https://github.com/r-40021
-    button_text: 'See on GitHub '
+    button_text: 'GitHub '
   image:
     image: "/uploads/MIppxngn_400x400.jpg"
     alt_text: My Logo
