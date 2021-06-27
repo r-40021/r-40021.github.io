@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: プライバシーポリシー
-date: 2021-06-27 12:00:00 +0900
+date: 2021-06-27T12:00:00.000+09:00
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
@@ -23,9 +23,7 @@ page_sections:
   block: text-1
   headline: 開発者は、ユーザーの情報を得ようとしていません
   content: |-
-    <p><strong>開発者は、ユーザーの情報を得ようとしていません</strong></p>
-
-    <p>開発者は、アクセス解析をつけるなどの、ユーザーの情報を得る努力をしていません。</p>
+    <p><strong>開発者は、アクセス解析をつけるなどの、ユーザーの情報を得る努力をしていません。</strong></p>
 
     <p>やまだのタイマーで設定した時間やアラーム音、ビンゴマシーンであたった数字などを、開発者が知ることは不可能な仕組みになっています。</p>
 
@@ -38,18 +36,18 @@ page_sections:
   content: |-
     <p>しかし、WEBサイトを運営していると、ユーザーの情報が自然と得られることがあります。</p>
 
-    <p>例えば、Google検索。Google検索や、Googleのシステムを利用しているYahoo検索を利用している場合、検索結果の一覧に何回WEBサイトが表示されたか、何回そのWEBサイトが開かれたか、などの情報が「Google Search Console」というサービスを通じて、サイト所有者に提供されます。</p>
+    <p>例えば、Google検索。Google 検索や、Google のシステムを利用しているYahoo検索を利用している場合、検索結果の一覧に何回WEBサイトが表示されたか、何回そのWEBサイトが開かれたか、などの情報が「Google Search Console」というサービスを通じて、サイト所有者に提供されます。</p>
 
-    <p>Google Search Console自体は、GoogleやYahooに自分のサイトを登録する上で必要なのですが、上記のような情報を得ることもできるようになっています。</p>
+    <p>Google Search Console 自体は、Google や Yahoo に自分のサイトを登録する上で必要なのですが、上記のような情報を得ることもできるようになっています。</p>
 
-    <p><small>GoogleやYahooを通さずにアクセスした場合は、開発者に「ページを何回開いたか」などの情報は提供されません。</small></p>
+    <p><small>Google や Yahoo を通さずにアクセスした場合は、開発者に「ページを何回開いたか」などの情報は提供されません。</small></p>
 - template: detail-content
   block: text-1
   headline: 共有ボタンについて
   content: |-
     <p>まだまだ無名のアプリですが、SNSや口コミで広めていただけると助かります。</p>
 
-    <p>その際には、アプリ内に設置してある共有ボタン(SNSのアイコン)をクリックすると、簡単に発信ができるようになっています。</p>
+    <p>その際には、アプリ内に設置してある共有ボタン(SNSのアイコン)をクリックすると、簡単に発信ができるようになっていますので、ぜひご利用ください。</p>
 - template: detail-content
   block: text-1
   headline: ご質問・ご意見
