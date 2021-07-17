@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: 作品
-date: 2021-05-08T12:00:00.000+09:00
+date: 2021-07-17 12:00:00 +0900
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
@@ -40,8 +40,6 @@ page_sections:
 
     <li>オフラインでも使えます。</li>
 
-    <li>Android風のデザインなので、Androidユーザーがとても馴染みやすくなっています。<br>（iPhoneユーザーでも使いやすいよ！）</li>
-
     </ul>
 
     <a class="button primary body" href="https://r-40021.github.io/countdown-timer/" target="_blank">アプリを開く</a>
@@ -75,6 +73,26 @@ page_sections:
   media:
     image: "/uploads/2021/05/08/bingo_ja.jpg"
     alt_text: ビンゴマシーンのスクリーンショット
+- template: content-feature
+  block: feature-1
+  media_alignment: Right
+  headline: "<strong>ストップウォッチ</strong>"
+  slug: stopwatch
+  content: |-
+    <p>シンプルすぎるストップウォッチ。</p>
+
+    <p>作業に集中できるよう、広告を始めとした余計なものを取り除きました。</p>
+
+    <p>もちろん無料で、寄付をお願いすることもありません。</p>
+
+    <a class="button primary body" href="https://r-40021.github.io/stopwatch/" target="_blank">アプリを開く</a>
+
+    <a class="button primary body" href="https://github.com/r-40021/stopwatch/" target="_blank">ソースコードを見る</a>
+
+    <a class="button primary body" href="https://github.com/r-40021/stopwatch/issues/" target="_blank">問題を報告</a>
+  media:
+    image: ''
+    alt_text: ''
 - template: detail-content
   block: text-1
   headline: ネタアプリ
