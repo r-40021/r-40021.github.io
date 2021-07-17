@@ -75,7 +75,7 @@ page_sections:
     alt_text: ビンゴマシーンのスクリーンショット
 - template: content-feature
   block: feature-1
-  media_alignment: Right
+  media_alignment: Left
   headline: "<strong>ストップウォッチ</strong>"
   slug: stopwatch
   content: |-
@@ -83,7 +83,7 @@ page_sections:
 
     <p>作業に集中できるよう、広告を始めとした余計なものを取り除きました。</p>
 
-    <p>もちろん無料で、寄付をお願いすることもありません。</p>
+    <p>もちろん完全無料で使えます。</p>
 
     <a class="button primary body" href="https://r-40021.github.io/stopwatch/" target="_blank">アプリを開く</a>
 
@@ -91,8 +91,8 @@ page_sections:
 
     <a class="button primary body" href="https://github.com/r-40021/stopwatch/issues/" target="_blank">問題を報告</a>
   media:
-    image: ''
-    alt_text: ''
+    image: "/uploads/2021/07/17/stopwatch.png"
+    alt_text: stopwatch
 - template: detail-content
   block: text-1
   headline: ネタアプリ
