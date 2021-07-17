@@ -64,6 +64,8 @@ page_sections:
 
     <p>【追記】最近、ダークモードにも対応しました。</p>
 
+    <br>
+
     <a class="button primary body" href="https://r-40021.github.io/bingo/" target="_blank">アプリを開く</a>
 
     <a class="button primary body" href="https://github.com/r-40021/bingo" target="_blank">ソースコードを見る</a>
@@ -84,6 +86,8 @@ page_sections:
     <p>作業に集中できるよう、広告を始めとした余計なものを取り除きました。</p>
 
     <p>もちろん完全無料で使えます。</p>
+
+    <br>
 
     <a class="button primary body" href="https://r-40021.github.io/stopwatch/" target="_blank">アプリを開く</a>
 
