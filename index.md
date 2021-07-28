@@ -56,7 +56,7 @@ page_sections:
     alt_text: Yamada's timer
 - template: content-feature
   block: feature-1
-  media_alignment: Left
+  media_alignment: Right
   headline: "<strong>プライバシー</strong>を尊重しています"
   content: |-
     やまだのアプリは、プライバシーに十分配慮して作られています。<br><br>
