@@ -31,6 +31,20 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Right
+  headline: "<strong>ブログ</strong>始めました"
+  slug: blog
+  content: |-
+    <p>更新すらできない可能性大ですが、無理してブログもはじめました。</p>
+
+    <p>よかったら覗いてみてください。</p>
+
+    <br><a class="button primary body" href="/blog">ブログを見てみる</a>
+  media:
+    image: "/uploads/2021/07/28/website_blog.png"
+    alt_text: ブログのイメージ
+- template: content-feature
+  block: feature-1
+  media_alignment: Left
   slug: app
   headline: "<strong>作ったもの</strong>"
   content: |-
