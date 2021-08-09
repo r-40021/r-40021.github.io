@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: 作品
-date: 2021-07-17 12:00:00 +0900
+date: 2021-07-17T12:00:00.000+09:00
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
@@ -112,6 +112,19 @@ page_sections:
     <p>ということで、２時間位かけて、たった3行のPythonのコードを171行のHTML・JavaScript・CSSに書き換えたものです。(フレームワークを含めたらもっと多いです。)</p>
   media:
     image: "/uploads/fake.jpg"
+    alt_text: ''
+- template: detail-content
+  block: text-1
+  headline: Chrome 拡張機能
+  content: "<p>最近は Chrome の拡張機能も作っています。</p>"
+- template: content-feature
+  block: feature-1
+  media_alignment: Right
+  headline: Coming soon...
+  content: "<p>Coming soon...</p>"
+  slug: ''
+  media:
+    image: ''
     alt_text: ''
 
 ---
