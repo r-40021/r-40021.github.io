@@ -73,7 +73,7 @@ page_sections:
     <a class="button primary body" href="https://github.com/r-40021/bingo/issues" target="_blank">問題を報告</a>
   slug: bingo
   media:
-    image: "/uploads/2021/05/08/bingo_ja.jpg"
+    image: "/uploads/2021/08/14/bingo.jpg"
     alt_text: ビンゴマシーンのスクリーンショット
 - template: content-feature
   block: feature-1
