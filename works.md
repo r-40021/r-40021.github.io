@@ -95,7 +95,7 @@ page_sections:
 
     <a class="button primary body" href="https://github.com/r-40021/stopwatch/issues/" target="_blank">問題を報告</a>
   media:
-    image: "/uploads/2021/07/17/stopwatch.png"
+    image: "/uploads/2021/08/14/stopwatch.jpg"
     alt_text: stopwatch
 - template: detail-content
   block: text-1
