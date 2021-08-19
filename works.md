@@ -115,7 +115,7 @@ page_sections:
     <a class="button primary body" href="https://github.com/r-40021/ishiki_takaku" target="_blank">ソースコードを見る</a>
 
     <a class="button primary body" href="https://github.com/r-40021/ishiki_takaku/issues/" target="_blank">問題を報告</a>
-  slug: ''
+  slug: ishiki
   media:
     image: "/uploads/2021/08/19/ishiki.png"
     alt_text: 設定画面
@@ -140,7 +140,7 @@ page_sections:
   media:
     image: "/uploads/2021/08/19/share.png"
     alt_text: ページ簡単共有
-  slug: ''
+  slug: easy-share
 - template: detail-content
   block: text-1
   headline: ネタアプリ
