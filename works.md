@@ -133,7 +133,7 @@ page_sections:
     <a class="button primary body" href="https://github.com/r-40021/ishiki_takaku/issues/" target="_blank">問題を報告</a>
   slug: ''
   media:
-    image: "/uploads/2021/08/19/screenshot-2021-08-19-17-08-44-1.png"
+    image: "/uploads/2021/08/19/ishiki.png"
     alt_text: 設定画面
 - template: content-feature
   block: feature-1
@@ -154,7 +154,7 @@ page_sections:
 
     <a class="button primary body" href="https://github.com/r-40021/copy_title-URL/issues/" target="_blank">問題を報告</a>
   media:
-    image: "/uploads/2021/08/19/screenshot-2021-08-19-17-13-28-1.png"
+    image: "/uploads/2021/08/19/share.png"
     alt_text: ページ簡単共有
   slug: ''
 
