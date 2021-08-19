@@ -119,12 +119,43 @@ page_sections:
   content: "<p>最近は Chrome の拡張機能も作っています。</p>"
 - template: content-feature
   block: feature-1
-  media_alignment: Right
-  headline: Coming soon...
-  content: "<p>Coming soon...</p>"
+  media_alignment: Left
+  headline: "<strong>意識が高くなる</strong>(カモ)"
+  content: |-
+    <p>ブラウザのタブに表示されるアイコンは非表示になり、Webサイト名はいい感じになります。</p>
+
+    <p>きっと、タブを切り替えるたびに、「ああ、自分はなんて意識が高い人間なのだろう」と思うことでしょう。（そのような保証はありませんが）</p>
+
+    <br>
+
+    <a class="button primary body" href="https://github.com/r-40021/ishiki_takaku" target="_blank">ソースコードを見る</a>
+
+    <a class="button primary body" href="https://github.com/r-40021/ishiki_takaku/issues/" target="_blank">問題を報告</a>
   slug: ''
   media:
-    image: ''
-    alt_text: ''
+    image: "/uploads/2021/08/19/screenshot-2021-08-19-17-08-44-1.png"
+    alt_text: 設定画面
+- template: content-feature
+  block: feature-1
+  media_alignment: Left
+  headline: "<strong>ページ簡単共有</strong>"
+  content: |-
+    <p>閲覧しているページのタイトルや URL をコピーしたり、各種 SNS でシェアしたりできる拡張機能です。</p>
+
+    <p>簡単な操作で、すぐにシェアできます。</p>
+
+    <p>インストールする際に権限を一切要求しないのもポイント。</p>
+
+    <br>
+
+    <a class="button primary body" href="https://chrome.google.com/webstore/detail/%E3%83%9A%E3%83%BC%E3%82%B8%E7%B0%A1%E5%8D%98%E5%85%B1%E6%9C%89/eoccdpbaigkllhflcgidhpcedgmlckkp" target="_blank">インストール</a>
+
+    <a class="button primary body" href="https://github.com/r-40021/copy_title-URL" target="_blank">ソースコードを見る</a>
+
+    <a class="button primary body" href="https://github.com/r-40021/copy_title-URL/issues/" target="_blank">問題を報告</a>
+  media:
+    image: "/uploads/2021/08/19/screenshot-2021-08-19-17-13-28-1.png"
+    alt_text: ページ簡単共有
+  slug: ''
 
 ---
