@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: 作品
-date: 2021-08-19 12:00:00 +0900
+date: 2021-08-19T12:00:00.000+09:00
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
@@ -141,21 +141,5 @@ page_sections:
     image: "/uploads/2021/08/19/share.png"
     alt_text: ページ簡単共有
   slug: easy-share
-- template: detail-content
-  block: text-1
-  headline: ネタアプリ
-  content: "<p>完全にネタとして作ったアプリ。恥ずかしくてスクショしか公開できません。</p>"
-- template: content-feature
-  block: feature-1
-  media_alignment: Left
-  headline: "<strong>ニセモノ体温計</strong>"
-  slug: fake-thermometer
-  content: |-
-    <p>それは、ある日のこと。友達が、「センサー不要の体温計のコード見る？」とPythonのたった３行の簡潔なコードを見せてくれました。なんということでしょう、35.5℃〜36.6℃の範囲の乱数を出力するプログラムではありませんか。笑いと同時に、「自分も作ってみよう」という気持ちが湧いてきました。</p><br>
-
-    <p>ということで、２時間位かけて、たった3行のPythonのコードを171行のHTML・JavaScript・CSSに書き換えたものです。(フレームワークを含めたらもっと多いです。)</p>
-  media:
-    image: "/uploads/fake.jpg"
-    alt_text: ''
 
 ---
