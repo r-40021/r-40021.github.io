@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: 作品
-date: 2021-08-19T12:00:00.000+09:00
+date: 2021-08-27 12:00:00 +0900
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
@@ -17,7 +17,7 @@ page_sections:
     button_text: 対応ブラウザ
 - template: detail-content
   block: text-1
-  headline: 真面目な作品
+  headline: Web アプリ
   content: "<p>真面目に作った、色んな人に使ってほしいアプリです。ソースコードはGitHubに、アプリもインターネット上に公開しています。</p>"
 - template: content-feature
   block: feature-1
