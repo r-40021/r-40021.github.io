@@ -117,7 +117,7 @@ page_sections:
     <a class="button primary body" href="https://github.com/r-40021/ishiki_takaku/issues/" target="_blank">問題を報告</a>
   slug: ishiki
   media:
-    image: "/uploads/2021/08/29/ishiki-1.jpg"
+    image: "/uploads/2021/08/29/ishiki.png"
     alt_text: 設定画面
 - template: content-feature
   block: feature-1
