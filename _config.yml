@@ -11,7 +11,7 @@ defaults:
     path: ''
   values:
     layout: default
-  - scope:
+- scope:
       path:    "/google1e027241d812a8ed.html"
     values:
       sitemap: false
