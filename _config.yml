@@ -5,10 +5,6 @@ email: ''
 description: Webアプリ開発が大好きな学生、やまだけんいちのホームページです。
 baseurl: ''
 url: https://r-40021.github.io/
-plugins:
-- jekyll-feed
-- jekyll-menus
-- jekyll-sitemap
 
 defaults:
 - scope:
@@ -19,3 +15,8 @@ defaults:
       path:    "/google1e027241d812a8ed.html"
     values:
       sitemap: false
+      
+plugins:
+- jekyll-feed
+- jekyll-menus
+- jekyll-sitemap
