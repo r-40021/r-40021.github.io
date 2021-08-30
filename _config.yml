@@ -13,3 +13,4 @@ defaults:
 plugins:
 - jekyll-feed
 - jekyll-menus
+- jekyll-sitemap
