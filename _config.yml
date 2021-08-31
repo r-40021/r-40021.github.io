@@ -8,13 +8,13 @@ url: https://r-40021.github.io/
 
 defaults:
 - scope:
-    path: ''
-  values:
-    layout: default
-- scope:
     path: '/google1e027241d812a8ed.html'
   values:
     sitemap: false
+- scope:
+    path: ''
+  values:
+    layout: default
       
 plugins:
 - jekyll-feed
