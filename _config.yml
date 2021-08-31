@@ -8,7 +8,7 @@ url: https://r-40021.github.io/
 
 defaults:
 - scope:
-    path: '/google1e027241d812a8ed.html'
+    path: "/google1e027241d812a8ed.html"
   values:
     sitemap: false
 - scope:
