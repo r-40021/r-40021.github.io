@@ -26,21 +26,21 @@ page_sections:
   block: text-1
   headline: 開発者が得ている情報
   content: |-
-    <p>開発者は、「Google Search Console」と「GoatCounter」の2つのサービスを利用して、個人を特定できない形でユーザーのアクセス状況を収集しています。収集した情報は、より使いやすいサービスを開発する際に利用します。</p>
+    <p>開発者は、「Google Search Console」と「GoatCounter」の2つのサービスを利用して、個人を特定できない形でユーザーのアクセス状況を収集しています。収集した情報は、より使いやすいサービスを開発する目的で利用します。</p>
 
     <p>Google Search Console では、Google 検索及び Google のシステムを利用している検索エンジン <small>(Yahoo! など)</small> での表示回数やクリック回数などを収集しています。</p>
 
-    <p>Google Search Console 自体は、Google や Yahoo! 等に自分のサイトを登録する上で必要なのですが、このような情報を得ることもできるようになっています。つまり、これは自然なことで、世の中の多くのサイト所有者もこのような情報を全く同じ手段で得ています。</p>
+    <p>Google Search Console 自体は、Google や Yahoo! 等に自分のサイトを登録する上で必要なのですが、このような情報を得ることもできるようになっています。つまり、世の中の多くのサイト所有者もこのような情報を全く同じ手段で得ているのです。</p>
 
-    <p>Google Search Console では、Google のシステムを利用している検索エンジンを経由せずにアクセスした場合はノーカウントとなります。以前は Google Search Console のみを利用していましたが、ユーザーの情報がほぼない状態で開発を進めると独りよがりになってしまうことが分かってきました。</p>
+    <p>Google Search Console では、Google のシステムを利用している検索エンジンを経由せずにアクセスした場合はノーカウントとなります。以前は Google Search Console のみを利用していましたが、ユーザーの情報がほぼない状態で開発を進めると独りよがりになってしまうことが分かりました。</p>
 
-    <p>そこで、ユーザーのプライバシーを保護しつつ必要な情報を収集できるサービスを探したところ、「GoatCounter」というものを見つけました。このサービスでは、アクセス数や使用しているプラットフォーム <small>(Windows、iPhone など)</small> 、ブラウザ、画面の大きさ、アクセス元の国などの情報を得ることができます。</p>
+    <p>そこで、ユーザーのプライバシーを保護しつつ必要な情報を収集できるサービスを探したところ、「GoatCounter」というものを見つけました。このサービスでは、アクセス数や使用しているプラットフォーム <small>(Windows、iPhone など)</small> 、ブラウザ、画面の大きさ、アクセス元の国・Web サイトなどの情報を得ることができます。また、Google のシステムを利用している検索エンジンを経由せずにアクセスした場合もカウントの対象となります。</p>
 
-    <p>しかし、これは「どのドアから、何人の人が店に入ってきたのかを数えるようなもの」\[1\]で、ユーザーを「追跡」しているわけではありません。</p>
+    <p>しかし、これは「どのドアから、何人の人が店に入ってきたのかを数えるようなもの」(*1)で、ユーザーを「追跡」しているわけではありません。</p>
 
     <p>(引用)
 
-    \[1\]: <a href="https://www.arp242.net/dnt.html" target="_blank" rel="noopener noreferrer">Why GoatCounter ignores Do Not Track</a> 最終閲覧日:2021/09/12　(訳は引用者によるもの)</p>
+    (*1): <a href="https://www.arp242.net/dnt.html" target="_blank" rel="noopener noreferrer">Why GoatCounter ignores Do Not Track</a> (最終閲覧日:2021/09/12、訳は引用者によるもの)</p>
 - template: detail-content
   block: text-1
   headline: 開発者が得ていない情報
