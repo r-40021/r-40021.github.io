@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: HOME
-date: 2021-06-27T12:00:00.000+09:00
+date: 2021-09-12 12:00:00 +0900
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
@@ -63,7 +63,7 @@ page_sections:
   content: |-
     やまだのアプリは、プライバシーに十分配慮して作られています。<br><br>
 
-    ユーザーの情報が少なすぎて開発者が情報難民になるのでは、と危惧されるほど、ユーザーのプライバシーを尊重しています。<br>
+    しかし、それはユーザーの情報を一切収集しないということではなく、「必要最低限」かつ「明示的に」ユーザーの情報を収集するということです。<br>
 
     <a class="button primary body" href="privacy.html">詳しく</a>
   slug: privacy
