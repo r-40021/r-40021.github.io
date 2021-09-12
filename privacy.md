@@ -26,7 +26,7 @@ page_sections:
   block: text-1
   headline: 開発者が得ている情報
   content: |-
-    <p>開発者は、「Google Search Console」と「GoatCounter」の2つのサービスを利用して、個人を特定できない形でユーザーのアクセス状況を収集しています。収集した情報は、より使いやすいサービスを開発する目的で利用します。</p>
+    <p>開発者は、「<a href="https://search.google.com/search-console/" target="_blank" rel="noopener noreferrer">Google Search Console</a>」と「<a href="https://www.goatcounter.com/" target="_blank" rel="noopener noreferrer">GoatCounter</a>」の2つのサービスを利用して、個人を特定できない形でユーザーのアクセス状況を収集しています。収集した情報は、より使いやすいサービスを開発する目的で利用します。</p>
 
     <p>Google Search Console では、Google 検索及び Google のシステムを利用している検索エンジン <small>(Yahoo! など)</small> での表示回数やクリック回数などを収集しています。</p>
 
