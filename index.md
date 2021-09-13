@@ -1,12 +1,12 @@
 ---
 layout: blocks
 title: HOME
-date: 2021-09-12 12:00:00 +0900
+date: 2021-09-12T12:00:00.000+09:00
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
   slug: features
-  headline: "<span>自称・</span><span><strong>やまだけんいち</strong></span>"
+  headline: "<strong>やまだアプリ工房</strong>"
   content: Webアプリを開発しています。
   cta:
     enabled: true
