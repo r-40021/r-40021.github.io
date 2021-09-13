@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: HOME
-date: 2021-09-12T12:00:00.000+09:00
+date: 2021-09-14 12:00:00 +0900
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
