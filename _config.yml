@@ -1,11 +1,10 @@
 ---
-title: やまだけんいち
+title: やまだアプリ工房
 author: Kenichi Yamada
 email: ''
-description: Webアプリ開発が大好きな学生、やまだけんいちのホームページです。
+description: Webアプリを開発している、やまだアプリ工房です。
 baseurl: ''
 url: https://r-40021.github.io/
-
 defaults:
 - scope:
     path: "/google1e027241d812a8ed.html"
@@ -15,7 +14,6 @@ defaults:
     path: ''
   values:
     layout: default
-      
 plugins:
 - jekyll-feed
 - jekyll-menus
