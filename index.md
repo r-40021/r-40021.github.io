@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: HOME
-date: 2021-09-14 12:00:00 +0900
+date: 2021-09-14T12:00:00.000+09:00
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
@@ -19,12 +19,10 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Left
-  slug: who
-  headline: やまだけんいちって、<strong>何者？</strong>
-  content: |-
-    日本のどこかでプログラミングをしている学生。HTML・JavaScript・CSSをメインに使っています。<br>真面目なWebアプリや不真面目なWebアプリを開発しています。<br>「オープンソース」という仕組みが好きなので、僕が作るプログラムは<a href="https://github.com/r-40021" title="GitHub">GitHub</a>で基本的に公開しています。<br>技術力は大したことないですが、使いやすいものを作っていきたいです。<br><br>
-
-    もちろん、<b>「やまだけんいち」は偽名です</b>。実在される方とは何の関係もございませんので、ご注意ください。個人的にこの名前が気に入ったので、使っています。
+  slug: about
+  headline: "<strong>やまだアプリ工房とは</strong>"
+  content: 日本のどこかでプログラミングをしている学生が1人で運営している工房。<br>真面目なWebアプリや不真面目なWebアプリを開発しています。<br>「オープンソース」という仕組みが好きなので、作プログラムは<a
+    href="https://github.com/r-40021" title="GitHub">GitHub</a>で基本的に公開しています。<br>技術力は大したことないですが、使いやすいものを作っていきたいです。
   media:
     image: "/uploads/self-introduce.png"
     alt_text: プログラマー
