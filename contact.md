@@ -31,5 +31,8 @@ page_sections:
   media:
     image: ''
     alt_text: ''
+- template: full
+  text: お問い合わせ内容に不備がないかご確認の上、送信してください。
+  block: ''
 
 ---
