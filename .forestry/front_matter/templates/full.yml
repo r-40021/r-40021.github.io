@@ -6,7 +6,7 @@ fields:
   hidden: true
   label: block
   name: block
-  default: full-width-html
+  default: full-
 - type: textarea
   name: content
   label: Content
