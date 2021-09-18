@@ -1,19 +1,16 @@
 ---
-label: full
+label: full-width-html
 hide_body: false
 fields:
-- name: block
-  type: text
-  config:
-    required: false
-  label: block
+- type: text
   hidden: true
-- name: text
-  type: textarea
-  default: ''
+  label: block
+  name: block
+  default: text-1
+- type: textarea
+  name: content
+  label: Content
   config:
-    required: false
     wysiwyg: true
     schema:
       format: markdown
-  label: text
