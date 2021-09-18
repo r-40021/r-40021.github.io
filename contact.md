@@ -34,5 +34,8 @@ page_sections:
 - template: full
   text: お問い合わせ内容に不備がないかご確認の上、送信してください。
   block: ''
+- template: full-width-html
+  block: text-1
+  content: 不備がないかご確認の上、送信してください
 
 ---
