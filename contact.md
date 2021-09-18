@@ -31,8 +31,5 @@ page_sections:
   media:
     image: ''
     alt_text: ''
-- template: full-width-html
-  block: text-1
-  content: 不備がないかご確認の上、送信してください。
 
 ---
