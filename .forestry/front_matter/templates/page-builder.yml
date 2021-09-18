@@ -31,7 +31,7 @@ fields:
   - signup-bar
   - simple-footer
   - 4-column-footer
-  - full
+  - full-width-html
 pages:
 - browser.md
 - contact.md
