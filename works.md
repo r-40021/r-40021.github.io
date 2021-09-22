@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: 作品
-date: 2021-08-27 12:00:00 +0900
+date: 2021-09-23 03:00:00 +0000
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
@@ -97,6 +97,28 @@ page_sections:
   media:
     image: "/uploads/2021/08/14/stopwatch.jpg"
     alt_text: stopwatch
+- template: content-feature
+  block: feature-1
+  media_alignment: Right
+  headline: "<strong>文字起こしツール</strong>"
+  slug: transcription
+  content: |-
+    <p>ブラウザだけで文字起こしが手軽にできるアプリです。</p>
+
+    <p>日本語・アメリカ英語・イギリス英語に対応しており、英語の発音練習にも最適です。</p>
+
+    <p>初めて React で作ったアプリです。もちろん完全無料。</p>
+
+    <br>
+
+    <a class="button primary body" href="https://web-transcription.netlify.app/" target="_blank">アプリを開く</a>
+
+    <a class="button primary body" href="https://github.com/r-40021/web-speech-api" target="_blank">ソースコードを見る</a>
+
+    <a class="button primary body" href="https://github.com/r-40021/web-speech-api/issues/" target="_blank">問題を報告</a>
+  media:
+    image: ''
+    alt_text: ''
 - template: detail-content
   block: text-1
   headline: Chrome 拡張機能
