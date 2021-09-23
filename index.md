@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: HOME
-date: 2021-09-14T12:00:00.000+09:00
+date: 2021-09-23 03:00:00 +0000
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
@@ -21,7 +21,7 @@ page_sections:
   media_alignment: Left
   slug: about
   headline: "<strong>やまだアプリ工房とは</strong>"
-  content: 日本のどこかでプログラミングをしている学生が、1人で運営している工房。<br>真面目なWebアプリや不真面目なWebアプリを開発しています。<br>「オープンソース」という仕組みが好きなので、作ったプログラムは<a
+  content: 日本のどこかでプログラミングをしている学生が、1人で運営している架空の工房。<br>真面目なWebアプリや不真面目なWebアプリを開発しています。<br>「オープンソース」という仕組みが好きなので、作ったプログラムは<a
     href="https://github.com/r-40021" title="GitHub">GitHub</a>で基本的に公開しています。<br>技術力は大したことないですが、使いやすいものを作っていきたいです。
   media:
     image: "/uploads/self-introduce.png"
