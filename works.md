@@ -99,7 +99,7 @@ page_sections:
     alt_text: stopwatch
 - template: content-feature
   block: feature-1
-  media_alignment: Right
+  media_alignment: Left
   headline: "<strong>文字起こしツール</strong>"
   slug: transcription
   content: |-
