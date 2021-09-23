@@ -6,7 +6,7 @@ page_sections:
 - template: hero-banner-w-image
   block: hero-2
   content: "<strong>お問い合わせ</strong>はこちらからお願いします"
-  headline: "<strong>お問い合わせフォーム</strong>"
+  headline: "<strong>お問い合わせ</strong>"
   background_image: ''
   image:
     image: "/uploads/mail.png"
