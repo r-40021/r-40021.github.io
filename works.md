@@ -5,7 +5,7 @@ date: 2021-09-23 03:00:00 +0000
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
-  headline: "<strong>やまだのアプリ</strong>"
+  headline: "<strong>作品</strong>"
   content: 技術力＜＜＜＜＜使いやすさを念頭に、頑張ってアプリを作っています。<br>まあ、技術力も高めなきゃいけないんですけど。<br>
   background_image: ''
   image:
