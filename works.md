@@ -105,9 +105,13 @@ page_sections:
   content: |-
     <p>ブラウザだけで文字起こしが手軽にできるアプリです。</p>
 
-    <p>日本語・アメリカ英語・イギリス英語に対応しており、英語の発音練習にも最適です。</p>
+    <p>日本語のみならず、アメリカ英語・イギリス英語に対応しているため英語の発音練習にも最適です。</p>
 
-    <p>初めて React で作ったアプリです。もちろん完全無料。</p>
+    <p>また、書き起こした文章はテキストファイルに書き出すことができます。</p>
+
+    <p>まだ試験段階の技術を使用しているため、一部のブラウザでは正常に機能しません。おすすめは Chrome です。<br>
+
+    <small>Chromium"系"のブラウザでは動かないことがあります。</small></p>
 
     <br>
 
@@ -117,7 +121,7 @@ page_sections:
 
     <a class="button primary body" href="https://github.com/r-40021/web-speech-api/issues/" target="_blank">問題を報告</a>
   media:
-    image: ''
+    image: "/uploads/2021/09/23/transcription.png"
     alt_text: ''
 - template: detail-content
   block: text-1
