@@ -29,18 +29,6 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Right
-  slug: app
-  headline: "<strong>作ったもの</strong>"
-  content: |-
-    HTML、JavaScript、CSSを駆使してWebアプリを開発しています。<br>技術力はそれほど高くはありませんが、「使いやすさ」に重点を置いています。<br>画像は、私が最初に作ったアプリ「<a href="https://r-40021.github.io/countdown-timer" title="やまだのタイマー" target="_blank">やまだのタイマー</a>」<br>目覚まし時計とタイマーのいいとこ取りをしました。<br><br>他に作ったものは下のボタンから。<br><a class="button primary body" href="works.html">他のアプリ</a>
-
-    <a class="button primary body" href="/browser">ブラウザ対応状況</a>
-  media:
-    image: "/uploads/timer.png"
-    alt_text: Yamada's timer
-- template: content-feature
-  block: feature-1
-  media_alignment: Left
   headline: "<strong>ブログ</strong>始めました"
   slug: blog
   content: |-
@@ -54,6 +42,18 @@ page_sections:
   media:
     image: "/uploads/2021/07/28/website_blog.png"
     alt_text: ブログのイメージ
+- template: content-feature
+  block: feature-1
+  media_alignment: Left
+  slug: app
+  headline: "<strong>作ったもの</strong>"
+  content: |-
+    HTML、JavaScript、CSSを駆使してWebアプリを開発しています。<br>技術力はそれほど高くはありませんが、「使いやすさ」に重点を置いています。<br>画像は、私が最初に作ったアプリ「<a href="https://r-40021.github.io/countdown-timer" title="やまだのタイマー" target="_blank">やまだのタイマー</a>」<br>目覚まし時計とタイマーのいいとこ取りをしました。<br><br>他に作ったものは下のボタンから。<br><a class="button primary body" href="works.html">他のアプリ</a>
+
+    <a class="button primary body" href="/browser">ブラウザ対応状況</a>
+  media:
+    image: "/uploads/timer.png"
+    alt_text: Yamada's timer
 - template: content-feature
   block: feature-1
   media_alignment: Right
