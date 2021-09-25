@@ -121,8 +121,8 @@ page_sections:
 
     <a class="button primary body" href="https://github.com/r-40021/web-speech-api/issues/" target="_blank">問題を報告</a>
   media:
-    image: "/uploads/2021/09/23/transcription.png"
-    alt_text: ''
+    image: "/uploads/2021/09/25/transcription.png"
+    alt_text: 音声認識の様子
 - template: detail-content
   block: text-1
   headline: Chrome 拡張機能
