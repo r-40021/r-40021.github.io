@@ -21,8 +21,14 @@ page_sections:
   media_alignment: Left
   slug: about
   headline: "<strong>やまだアプリ工房とは</strong>"
-  content: 日本のどこかでプログラミングをしている学生が、1人で運営している架空の工房。<br>真面目なWebアプリや不真面目なWebアプリを開発しています。<br>「オープンソース」という仕組みが好きなので、作ったプログラムは基本的に<a
-    href="https://github.com/r-40021" title="GitHub">GitHub</a>で公開しています。<br>技術力は大したことないですが、使いやすいものを作っていきたいです。
+  content: |-
+    <p>日本のどこかでプログラミングをしている学生が、1人で運営している架空の工房。</p>
+
+    <p>真面目なWebアプリや不真面目なWebアプリを開発しています。</p>
+
+    <p>「オープンソース」という仕組みが好きなので、作ったプログラムは基本的に<a href="https://github.com/r-40021" title="GitHub">GitHub</a>で公開しています。</p>
+
+    <p>技術力は大したことないですが、使いやすいものを作っていきたいです。</p>
   media:
     image: "/uploads/self-introduce.png"
     alt_text: プログラマー
@@ -32,9 +38,9 @@ page_sections:
   headline: "<strong>ブログ</strong>始めました"
   slug: blog
   content: |-
-    <p>無性に文章を書きたくなったので、ブログをはじめました。</p>
+    <p>無性に文章を書きたくなったので、ブログを始めました。</p>
 
-    <p>分野を限定せず色々書いていきます。</p>
+    <p>分野を限定せずに色々書いていきます。</p>
 
     <p>よかったら覗いてみてください。</p>
 
