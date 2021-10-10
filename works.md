@@ -54,17 +54,15 @@ page_sections:
   media_alignment: Left
   headline: "<strong>やまだBINGO</strong>"
   content: |-
-    <p>インストール不要で、デバイスを問わず使えるビンゴマシーン。シンプルで使いやすい上に、履歴の自動保存機能まで搭載しています。</p>
-
-    <p>*一部の古いブラウザでは保存機能に対応していません。</p>
+    <p>インストール不要で、デバイスを問わず使えるビンゴマシーン。シンプルで使いやすい上に、履歴の自動保存機能まで搭載しています。
 
     <br>
+
+    \*一部の古いブラウザでは保存機能に対応していません。
+
+    </p>
 
     <p>また、誤ってボタンを押してしまった際に操作を取り消すことができる機能を搭載。ビンゴ大会のあるあるなハプニングにも、戸惑うことなく対応できます。</p>
-
-    <br>
-
-    <br>
 
     <a class="button primary body" href="https://r-40021.github.io/bingo/" target="_blank">アプリを開く</a>
 
@@ -87,8 +85,6 @@ page_sections:
 
     <p>もちろん完全無料で使えます。</p>
 
-    <br>
-
     <a class="button primary body" href="https://r-40021.github.io/stopwatch/" target="_blank">アプリを開く</a>
 
     <a class="button primary body" href="https://github.com/r-40021/stopwatch/" target="_blank">ソースコードを見る</a>
@@ -109,11 +105,9 @@ page_sections:
 
     <p>また、書き起こした文章はテキストファイルに書き出すことができます。</p>
 
-    <p>まだ試験段階の技術を使用しているため、一部のブラウザでは正常に機能しません。おすすめは Chrome です。<br>
+    <p>まだ試験段階の技術を使用しているため、一部のブラウザでは正常に機能しません。おすすめは Chrome です。
 
     <small>Chromium"系"のブラウザでは動かないことがあります。</small></p>
-
-    <br>
 
     <a class="button primary body" href="https://web-transcription.netlify.app/" target="_blank">アプリを開く</a>
 
@@ -136,8 +130,6 @@ page_sections:
 
     <p>きっと、タブを切り替えるたびに、「ああ、自分はなんて意識が高い人間なのだろう」と思うことでしょう。（そのような保証はありませんが）</p>
 
-    <br>
-
     <a class="button primary body" href="https://github.com/r-40021/ishiki_takaku" target="_blank">ソースコードを見る</a>
 
     <a class="button primary body" href="https://github.com/r-40021/ishiki_takaku/issues/" target="_blank">問題を報告</a>
@@ -155,8 +147,6 @@ page_sections:
     <p>簡単な操作で、すぐにシェアできます。</p>
 
     <p>インストールする際に権限を一切要求しないのもポイント。</p>
-
-    <br>
 
     <a class="button primary body" href="https://chrome.google.com/webstore/detail/%E3%83%9A%E3%83%BC%E3%82%B8%E7%B0%A1%E5%8D%98%E5%85%B1%E6%9C%89/eoccdpbaigkllhflcgidhpcedgmlckkp" target="_blank">インストール</a>
 
