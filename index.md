@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: HOME
-date: 2021-09-25 03:00:00 +0000
+date: 2021-09-25T03:00:00.000+00:00
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
@@ -21,8 +21,8 @@ page_sections:
   media_alignment: Left
   slug: about
   headline: "<strong>やまだアプリ工房とは</strong>"
-  content: 日本のどこかでプログラミングをしている学生が、1人で運営している架空の工房。<br>真面目なWebアプリや不真面目なWebアプリを開発しています。<br>「オープンソース」という仕組みが好きなので、作ったプログラムは<a
-    href="https://github.com/r-40021" title="GitHub">GitHub</a>で基本的に公開しています。<br>技術力は大したことないですが、使いやすいものを作っていきたいです。
+  content: 日本のどこかでプログラミングをしている学生が、1人で運営している架空の工房。<br>真面目なWebアプリや不真面目なWebアプリを開発しています。<br>「オープンソース」という仕組みが好きなので、作ったプログラムは基本的に<a
+    href="https://github.com/r-40021" title="GitHub">GitHub</a>で公開しています。<br>技術力は大したことないですが、使いやすいものを作っていきたいです。
   media:
     image: "/uploads/self-introduce.png"
     alt_text: プログラマー
@@ -32,7 +32,7 @@ page_sections:
   headline: "<strong>ブログ</strong>始めました"
   slug: blog
   content: |-
-    <p>更新すらできない可能性もありますが、無理してブログもはじめました。</p>
+    <p>無性に文章を書きたくなったので、ブログをはじめました。</p>
 
     <p>分野を限定せず色々書いていきます。</p>
 
@@ -48,7 +48,17 @@ page_sections:
   slug: app
   headline: "<strong>作ったもの</strong>"
   content: |-
-    HTML、JavaScript、CSSを駆使してWebアプリを開発しています。<br>技術力はそれほど高くはありませんが、「使いやすさ」に重点を置いています。<br>画像は、私が最初に作ったアプリ「<a href="https://r-40021.github.io/countdown-timer" title="やまだのタイマー" target="_blank">やまだのタイマー</a>」<br>目覚まし時計とタイマーのいいとこ取りをしました。<br><br>他に作ったものは下のボタンから。<br><a class="button primary body" href="works.html">他のアプリ</a>
+    <p>HTML、JavaScript、CSSで、「使いやすさ」に重点を置いて開発しています。</p>
+
+    <p>画像は、私が最初に作ったアプリ「<a href="https://r-40021.github.io/countdown-timer" title="やまだのタイマー" target="_blank">やまだのタイマー</a>」</p>
+
+    <p>最初は100行程度のプログラムでしたが、気づけばコードが1000行になっていました...</p>
+
+    <br>
+
+    <p>他に作ったものは下のボタンから見られます。</p>
+
+    <a class="button primary body" href="works.html">他のアプリ</a>
 
     <a class="button primary body" href="/browser">ブラウザ対応状況</a>
   media:
