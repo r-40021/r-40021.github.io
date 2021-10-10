@@ -54,7 +54,7 @@ page_sections:
   slug: app
   headline: "<strong>作ったもの</strong>"
   content: |-
-    <p>HTML、JavaScript、CSSで、「使いやすさ」に重点を置いて開発しています。</p>
+    <p>HTML、JavaScript、CSSを使い、「使いやすさ」に重点を置いて開発しています。</p>
 
     <p>画像は、私が最初に作ったアプリ「<a href="https://r-40021.github.io/countdown-timer" title="やまだのタイマー" target="_blank">やまだのタイマー</a>」</p>
 
