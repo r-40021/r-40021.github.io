@@ -4,6 +4,21 @@
 	padding: 0
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: -apple-system, blinkMacSystemFont,
+	/*Macの欧文はSan Francisco (OS X 10.11以降)*/
+				 "Helvetica Neue",
+				 /*Macの欧文 (OS X 10.10以前)*/
+				 "Segoe UI",
+				 "Roboto",
+				 /*Android*/
+				 "Arial",
+				 /*Windowsの欧文*/
+				 'Noto Sans JP', 
+				 Meiryo, 
+				 sans-serif;
+}
+
 h1 {
 	font-size: 48px;
 	font-size: 3rem;
@@ -824,10 +839,46 @@ ul {
 }
 
 body {
-	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+font-family: -apple-system, blinkMacSystemFont,
+   /*Macの欧文はSan Francisco (OS X 10.11以降)*/
+				"Helvetica Neue",
+				/*Macの欧文 (OS X 10.10以前)*/
+				"Segoe UI",
+				"Roboto",
+				/*Android*/
+				"Arial",
+				/*Windowsの欧文*/
+				"Hiragino Kaku Gothic ProN",
+				/*Macのヒラギノ*/
+				YuGothicM,
+				/*Windows8.1以上は游ゴシック*/
+				YuGothic,
+				/*Macの游ゴシック*/
+				Meiryo,
+				/*游ゴシックが入っていないWindows*/
+				sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
 	font-size: 16px;
 	color: #606060;
 }
+
+@font-face {
+	font-family: YuGothicM;
+	font-weight: normal;
+	src: local("YuGothic-Medium"),
+	   /*Mediumを明示的に指定*/
+	  local("Yu Gothic Medium"),
+	   /*Chrome用*/
+	  local("YuGothic-Regular"); /* Windows8.1ではMediumがないのでRegularを指定 */
+  }
+  @font-face {
+	font-family: YuGothicM;
+	font-weight: bold;
+	src: local("YoGothic-Bold"),
+	   /*Boldはそのまま*/
+	  local("Yu Gothic"); /* Chrome用*/
+  }
 
 ::-moz-selection {
 	background: #ffedbc;
