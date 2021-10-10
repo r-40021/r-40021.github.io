@@ -107,6 +107,8 @@ page_sections:
 
     <p>まだ試験段階の技術を使用しているため、一部のブラウザでは正常に機能しません。おすすめは Chrome です。
 
+    <br>
+
     <small>Chromium"系"のブラウザでは動かないことがあります。</small></p>
 
     <a class="button primary body" href="https://web-transcription.netlify.app/" target="_blank">アプリを開く</a>
