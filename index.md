@@ -44,7 +44,7 @@ page_sections:
 
     <p>よかったら覗いてみてください。</p>
 
-    <br><a class="button primary body" href="/blog">ブログを見てみる</a>
+    <a class="button primary body" href="/blog">ブログを見てみる</a>
   media:
     image: "/uploads/2021/07/28/website_blog.png"
     alt_text: ブログのイメージ
@@ -60,11 +60,7 @@ page_sections:
 
     <p>最初は100行程度のプログラムでしたが、気づけばコードが1000行になっていました...</p>
 
-    <br>
-
     <p>他に作ったものは下のボタンから見られます。</p>
-
-    <br>
 
     <a class="button primary body" href="works.html">他のアプリ</a>
 
@@ -77,9 +73,9 @@ page_sections:
   media_alignment: Right
   headline: "<strong>プライバシー</strong>を尊重しています"
   content: |-
-    <p>やまだのアプリは、プライバシーに十分配慮して作られています。</p><br>
+    <p>やまだのアプリは、プライバシーに十分配慮して作られています。</p>
 
-    <p>しかし、それはユーザーの情報を一切収集しないということではなく、「必要最低限」かつ「明示的に」ユーザーの情報を収集するということです。</p><br>
+    <p>しかし、それはユーザーの情報を一切収集しないということではなく、「必要最低限」かつ「明示的に」ユーザーの情報を収集するということです。</p>
 
     <a class="button primary body" href="privacy.html">詳しく</a>
   slug: privacy
