@@ -109,7 +109,7 @@ page_sections:
 
     <br>
 
-    <small>Chromium"系"のブラウザでは動かないことがあります。</small></p>
+    <small>* Chromium"系"のブラウザでは動かないことがあります。</small></p>
 
     <a class="button primary body" href="https://web-transcription.netlify.app/" target="_blank">アプリを開く</a>
 
