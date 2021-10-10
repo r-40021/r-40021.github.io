@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: 作品
-date: 2021-10-10 03:00:00 +0000
+date: 2021-10-10T03:00:00.000+00:00
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
@@ -58,7 +58,7 @@ page_sections:
 
     <br>
 
-    \*一部の古いブラウザでは保存機能に対応していません。
+    <small>*一部の古いブラウザでは保存機能に対応していません。</small>
 
     </p>
 
