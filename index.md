@@ -58,6 +58,8 @@ page_sections:
 
     <p>他に作ったものは下のボタンから見られます。</p>
 
+    <br>
+
     <a class="button primary body" href="works.html">他のアプリ</a>
 
     <a class="button primary body" href="/browser">ブラウザ対応状況</a>
@@ -69,9 +71,9 @@ page_sections:
   media_alignment: Right
   headline: "<strong>プライバシー</strong>を尊重しています"
   content: |-
-    やまだのアプリは、プライバシーに十分配慮して作られています。<br><br>
+    <p>やまだのアプリは、プライバシーに十分配慮して作られています。</p><br>
 
-    しかし、それはユーザーの情報を一切収集しないということではなく、「必要最低限」かつ「明示的に」ユーザーの情報を収集するということです。<br>
+    <p>しかし、それはユーザーの情報を一切収集しないということではなく、「必要最低限」かつ「明示的に」ユーザーの情報を収集するということです。</p><br>
 
     <a class="button primary body" href="privacy.html">詳しく</a>
   slug: privacy
