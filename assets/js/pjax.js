@@ -22,14 +22,19 @@ const preventSettings = ({ el, href }) => {
     }
 }
 
-let timeout;
+
 barba.init({
     prevent: preventSettings,
     timeout: 4000,
     sync: true,
     requestError: (trigger, action, url, response) => {
         // go to a custom 404 page if the user click on a link that return a 404 response status
-        console.log(response)
+        console.log(response);
+        console.log(url)
+        console.log(url.href)
+        if(/Timeout error/.test(response)){
+            location.href = url;
+        }
         if (action === 'click' && response.status && response.status === 404) {
           barba.go('/404');
         }
@@ -45,12 +50,6 @@ barba.init({
             if(!data.next.url.hash){
                 document.documentElement.style.scrollBehavior = "auto";
             }
-            timeout = setTimeout(()=>{
-                location.href = data.next.url.href;
-            }, 3800)
-        },
-        beforeEnter(){
-            clearTimeout(timeout);
         },
         //goatCounterにデータ送信
         enter() {
