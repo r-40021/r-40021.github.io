@@ -44,7 +44,7 @@ barba.init({
     }]
 });
 
-function scroll(){
+barba.hooks.enter(() => {
     // ヘッダー追従かどうか
       const headerFixed = false;
       // URLに「#」が存在するか
@@ -71,7 +71,6 @@ function scroll(){
           window.scrollTo(0,0);
       }
   }
-  Barba.Dispatcher.on('transitionCompleted',scroll);
   
 // 同じURLのときは遷移しない
 const eventDelete = e => {
