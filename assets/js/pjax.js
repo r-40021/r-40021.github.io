@@ -20,13 +20,6 @@ const preventSettings = ({ el, href }) => {
         el.setAttribute('target', '_blank');
         return true;
     }
-    // 該当クラスに属していればBarbaを無効に
-    let ignoreClasses = ['noPjax'];
-    ignoreClasses.forEach((cls) => {
-        if (el.classList.contains(cls)) {
-            return true;
-        }
-    })
 }
 
 barba.init({
