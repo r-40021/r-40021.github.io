@@ -27,6 +27,17 @@ barba.init({
     prevent: preventSettings,
     timeout: 4000,
     sync: true,
+    requestError: (trigger, action, url, response) => {
+        // go to a custom 404 page if the user click on a link that return a 404 response status
+        console.log(response)
+        if (action === 'click' && response.status && response.status === 404) {
+          barba.go('/404');
+        }
+    
+        // prevent Barba from redirecting the user to the requested URL
+        // this is equivalent to e.preventDefault()
+        return false;
+      },
     transitions: [{
         name: 'page',
         leave(data) {
