@@ -50,8 +50,10 @@ barba.init({
             newElem.setAttribute("src", elem.getAttribute("src"));
             document.body.appendChild(newElem);
             elem.remove();
-            topScroll();
         },
+        after() {
+            topScroll();
+        }
     }]
 });
 
