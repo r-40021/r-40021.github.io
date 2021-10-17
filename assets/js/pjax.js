@@ -28,13 +28,6 @@ barba.init({
     timeout: 4000,
     sync: true,
     debug: true,
-    // requestError: (trigger, action, url, response) => {
-    //     if(/Timeout error/.test(response)){
-    //         barba.force(url); // タイムアウト時にリダイレクト
-    //     }
-    //     event.preventDefault();
-    //     return false;
-    //   },
     transitions: [{
         name: 'page',
         leave(data) {
