@@ -70,7 +70,7 @@ barba.hooks.enter(() => {
         // URLに「#」が存在しなければページトップに
           window.scrollTo(0,0);
       }
-  }
+  })
   
 // 同じURLのときは遷移しない
 const eventDelete = e => {
