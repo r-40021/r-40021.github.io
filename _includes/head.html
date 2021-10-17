@@ -35,14 +35,14 @@
     <meta property="og:image" content="https://r-40021.github.io/uploads/ogp.png" />
     <meta name="theme-color" content="#ffcb3c" />
     <script data-goatcounter="https://2vyj09dj8fxuy8uygrir.goatcounter.com/count" async
-        src="//gc.zgo.at/count.js"></script>
+        src="//gc.zgo.at/count.js" id="goatCounter"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body data-barba="wrapper">
     <header class="block block-header-2">
 
         <div class="block-header-2--logo">
@@ -79,3 +79,4 @@
             headerElement.style.pointerEvents = "auto";
         }
     </script>
+    <div data-barba="container" data-barba-namespace="{{ page.title }}">
