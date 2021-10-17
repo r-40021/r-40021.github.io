@@ -83,14 +83,12 @@ barba.hooks.after(() => {
   
 // 同じURLのときは遷移しない
 const eventDelete = e => {
-    if (e.currentTarget.href === window.location.href) {
+    if (e.currentTarget.href === window.location.href.replace(window.location.hash, "")) {
         e.preventDefault();
         e.stopPropagation();
-    }   
-    if (e.currentTarget.href === window.location.href.replace(window.location.hash, "")){
         scroll();
+        return;
     }
-    return;
 }
 
 const links = [...document.querySelectorAll('a[href]')]
