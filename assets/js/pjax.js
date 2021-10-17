@@ -22,6 +22,7 @@ const preventSettings = ({ el, href }) => {
     }
 }
 
+let timeout;
 barba.init({
     prevent: preventSettings,
     transitions: [{
@@ -31,6 +32,12 @@ barba.init({
             if(!data.next.url.hash){
                 document.documentElement.style.scrollBehavior = "auto";
             }
+            timeout = setTimeout(()=>{
+                location.href = data.next.url.href;
+            }, 4800)
+        },
+        beforeEnter(){
+            clearTimeout(timeout);
         },
         //goatCounterにデータ送信
         enter() {
