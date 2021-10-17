@@ -27,7 +27,7 @@ barba.init({
     prevent: preventSettings,
     timeout: 4000,
     sync: true,
-    requestError: (trigger, action, url, response, e) => {
+    requestError: (trigger, action, url, response) => {
         if(/Timeout error/.test(response)){
             barba.force(url); // タイムアウト時にリダイレクト
         }
