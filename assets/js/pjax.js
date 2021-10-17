@@ -1,5 +1,3 @@
-window.goatcounter = {no_onload: true}
-
 const preventSettings = ({ el, href }) => {
     // 外部リンクはtarget="_blank"に
     let site_url = location.protocol + '//' + location.host;
