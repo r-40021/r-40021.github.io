@@ -30,8 +30,12 @@ const preventSettings = ({ el, href }) => {
 barba.init({
     prevent: preventSettings,
     transitions: [{
-        name: 'opacity-transition',
-
+        name: 'page',
+        leave(data) {
+            if(!data.next.url.hash){
+                document.documentElement.style.scrollBehavior = "auto";
+            }
+        },
         //goatCounterを再読み込み
         enter() {
             const elem = document.getElementById("goatCounter");
@@ -70,6 +74,7 @@ barba.hooks.after(() => {
         // URLに「#」が存在しなければページトップに
           window.scrollTo(0,0);
       }
+      document.documentElement.style.scrollBehavior = "";
   })
   
 // 同じURLのときは遷移しない
