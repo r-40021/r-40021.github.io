@@ -1,3 +1,5 @@
+window.goatcounter = {no_onload: true}
+
 const preventSettings = ({ el, href }) => {
     // 外部リンクはtarget="_blank"に
     let site_url = location.protocol + '//' + location.host;
@@ -36,14 +38,11 @@ barba.init({
                 document.documentElement.style.scrollBehavior = "auto";
             }
         },
-        //goatCounterを再読み込み
+        //goatCounterにデータ送信
         enter() {
-            const elem = document.getElementById("goatCounter");
-            const newElem = document.createElement("script");
-            newElem.setAttribute("id", elem.getAttribute("id"));
-            newElem.setAttribute("src", elem.getAttribute("src"));
-            document.body.appendChild(newElem);
-            elem.remove();
+            window.goatcounter.count({
+                path: location.pathname + location.search + location.hash,
+            })
         },
     }]
 });
