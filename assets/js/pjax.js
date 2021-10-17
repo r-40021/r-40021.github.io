@@ -46,7 +46,7 @@ barba.init({
                     path: location.pathname + location.search + location.hash,
                 })
             } catch (e) {
-                console.error("Goatcounter had been blocked: " + e)
+                console.warn("Goatcounter had been blocked: " + e)
             }
         },
     }]
