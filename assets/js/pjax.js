@@ -45,10 +45,30 @@ barba.init({
 });
 
 barba.hooks.enter(() => {
-    if (!location.hash) {
-        console.log("scroll")
-        window.scrollTo(0, 0);
-    }
+        // ヘッダー追従かどうか
+          var headerFixed = false;
+          // URLに「#」が存在するか
+          if(location.hash){
+              var anchor = document.querySelector( location.hash );
+              if(anchor){
+                  var rect = anchor.getBoundingClientRect();
+                  var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                  if(headerFixed){
+                      var header = document.getElementById('header');
+                      if(header){
+                          top = top - header.clientHeight;
+                      }
+                  }
+                  var top = rect.top + scrollTop;
+                  window.scrollTo(0,top);
+              }else{
+                // アンカー先が存在しなければページトップに
+                  window.scrollTo(0,0);
+              }
+          }else{
+            // URLに「#」が存在しなければページトップに
+              window.scrollTo(0,0);
+          }      
 });
 
 // 同じURLのときは遷移しない
