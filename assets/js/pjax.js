@@ -31,8 +31,6 @@ barba.init({
         if(/Timeout error/.test(response)){
             barba.force(url); // タイムアウト時にリダイレクト
         }
-        action.preventDefault();
-        e.preventDefault();
         event.preventDefault();
         return false;
       },
