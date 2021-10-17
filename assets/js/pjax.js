@@ -48,47 +48,54 @@ barba.init({
     }]
 });
 
-barba.hooks.after(() => {
+function scroll (){
     // ヘッダー追従かどうか
-      const headerFixed = false;
-      // URLに「#」が存在するか
-      if(location.hash){
-          const anchor = document.querySelector( location.hash );
-          if(anchor){
-              const rect = anchor.getBoundingClientRect();
-              const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-              let elemTop = 0;
-              if(headerFixed){
-                  const header = document.getElementById('header');
-                  if(header){
-                      elemTop = elemTop - header.clientHeight;
-                  }
-              }
-              elemTop = rect.top + scrollTop;
-              window.scrollTo(0,elemTop);
-          }else{
-            // アンカー先が存在しなければページトップに
-              window.scrollTo(0,0);
-          }
-      }else{
-        // URLに「#」が存在しなければページトップに
-          window.scrollTo(0,0);
-      }
+    const headerFixed = false;
+    // URLに「#」が存在するか
+    if(location.hash){
+        const anchor = document.querySelector( location.hash );
+        if(anchor){
+            const rect = anchor.getBoundingClientRect();
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            let elemTop = 0;
+            if(headerFixed){
+                const header = document.getElementById('header');
+                if(header){
+                    elemTop = elemTop - header.clientHeight;
+                }
+            }
+            elemTop = rect.top + scrollTop;
+            window.scrollTo(0,elemTop);
+        }else{
+          // アンカー先が存在しなければページトップに
+            window.scrollTo(0,0);
+        }
+    }else{
+      // URLに「#」が存在しなければページトップに
+        window.scrollTo(0,0);
+    }
+}
+
+barba.hooks.after(() => {
+        scroll();
       document.documentElement.style.scrollBehavior = "";
   })
   
 // 同じURLのときは遷移しない
 const eventDelete = e => {
     if (e.currentTarget.href === window.location.href) {
-        e.preventDefault()
-        e.stopPropagation()
-        return
+        e.preventDefault();
+        e.stopPropagation();
+    }   
+    if (e.currentTarget.href === window.location.href.replace(window.location.hash, "")){
+        scroll();
     }
+    return;
 }
 
 const links = [...document.querySelectorAll('a[href]')]
 links.forEach(link => {
     link.addEventListener('click', e => {
-        eventDelete(e)
+        eventDelete(e);
     }, false)
 })
