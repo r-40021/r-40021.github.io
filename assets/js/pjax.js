@@ -86,6 +86,7 @@ const eventDelete = e => {
     if (e.currentTarget.href === window.location.href.replace(window.location.hash, "")) {
         e.preventDefault();
         e.stopPropagation();
+        if (window.location.hash) history.pushState(e.currentTarget.href);
         scroll();
         return;
     }
