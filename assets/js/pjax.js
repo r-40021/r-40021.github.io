@@ -46,21 +46,22 @@ barba.init({
 
 function scroll(){
     // ヘッダー追従かどうか
-      var headerFixed = false;
+      const headerFixed = false;
       // URLに「#」が存在するか
       if(location.hash){
-          var anchor = document.querySelector( location.hash );
+          const anchor = document.querySelector( location.hash );
           if(anchor){
-              var rect = anchor.getBoundingClientRect();
-              var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+              const rect = anchor.getBoundingClientRect();
+              const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+              let elemTop = 0;
               if(headerFixed){
-                  var header = document.getElementById('header');
+                  const header = document.getElementById('header');
                   if(header){
-                      top = top - header.clientHeight;
+                      elemTop = elemTop - header.clientHeight;
                   }
               }
-              var top = rect.top + scrollTop;
-              window.scrollTo(0,top);
+              elemTop = rect.top + scrollTop;
+              window.scrollTo(0,elemTop);
           }else{
             // アンカー先が存在しなければページトップに
               window.scrollTo(0,0);
