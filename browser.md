@@ -5,7 +5,7 @@ date: 2021-06-24 12:00:00 +0900
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
-  headline: "<strong>ブラウザ対応状況</strong>"
+  headline: "<strong><span class="word">ブラウザ</span><span class="word">対応</span><span class="word">状況</span></strong>"
   content: やまだのアプリが対応しているブラウザについて
   background_image: ''
   image:

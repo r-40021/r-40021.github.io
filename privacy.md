@@ -5,7 +5,7 @@ date: 2021-09-12T00:00:00.000+09:00
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
-  headline: "<strong>プライバシーポリシー</strong>"
+  headline: "<strong><span class="word">プライバシー</span><span class="word">ポリシー</span></strong>"
   content: やまだのアプリがユーザーの情報をどのように扱っているか、緩く説明していきます。<br><br>最終更新：2021/9/12<br>公開：2021/3/27
   background_image: ''
   image:
