@@ -48,3 +48,18 @@ barba.hooks.enter(() => {
     window.scrollTo(0, 0);
   });
 
+// 同じURLのときは遷移しない
+const eventDelete = e => {
+    if (e.currentTarget.href === window.location.href) {
+      e.preventDefault()
+      e.stopPropagation()
+      return
+    }
+  }
+  
+  const links = [...document.querySelectorAll('a[href]')]
+  links.forEach(link => {
+    link.addEventListener('click', e => {
+      eventDelete(e)
+    }, false)
+  })
