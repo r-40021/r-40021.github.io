@@ -44,7 +44,7 @@ page_sections:
 
     <p>よかったら覗いてみてください。</p>
 
-    <a class="button primary body" href="/blog">ブログを見てみる</a>
+    <a class="button primary body" href="/blog" class="noPjax">ブログを見てみる</a>
   media:
     image: "/uploads/2021/07/28/website_blog.png"
     alt_text: ブログのイメージ

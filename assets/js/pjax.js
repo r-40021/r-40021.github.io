@@ -19,13 +19,23 @@ const preventSettings = ({ el, href }) => {
         return true;
     }
     // 該当クラスに属していればBarbaを無効に
-    let ignoreClasses = ['ab-item'];
+    let ignoreClasses = ['noPjax'];
     ignoreClasses.forEach((cls) => {
         if (el.classList.contains(cls)) {
             return true;
         }
     })
 }
+
+function topScroll(){
+    if(document.scrollingElement.scrollTop < 10){
+      document.scrollingElement.scrollTop = 0;
+    }
+    else{
+      document.scrollingElement.scrollTop = document.scrollingElement.scrollTop / 1.5;
+      setTimeout(topScroll , 10);
+    }
+  }
 
 barba.init({
     prevent: preventSettings,
@@ -40,7 +50,7 @@ barba.init({
             newElem.setAttribute("src", elem.getAttribute("src"));
             document.body.appendChild(newElem);
             elem.remove();
-            
+            topScroll();
         },
     }]
 });
