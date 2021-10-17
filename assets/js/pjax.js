@@ -44,7 +44,6 @@ barba.init({
             window.goatcounter.count({
                 path: location.pathname + location.search + location.hash,
             })
-            document.getElementById("progress").classList.remove("active"); //プログレスバー閉じる
         },
     }]
 });
@@ -80,6 +79,7 @@ function scroll (){
 barba.hooks.after(() => {
         scroll();
       document.documentElement.style.scrollBehavior = "";
+      document.getElementById("progress").classList.remove("active"); //プログレスバー閉じる
   })
   
 // 同じURLのときは遷移しない
