@@ -25,6 +25,8 @@ const preventSettings = ({ el, href }) => {
 let timeout;
 barba.init({
     prevent: preventSettings,
+    timeout: 4000,
+    sync: true,
     transitions: [{
         name: 'page',
         leave(data) {
@@ -34,7 +36,7 @@ barba.init({
             }
             timeout = setTimeout(()=>{
                 location.href = data.next.url.href;
-            }, 4800)
+            }, 3800)
         },
         beforeEnter(){
             clearTimeout(timeout);
