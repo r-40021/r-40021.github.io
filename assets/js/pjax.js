@@ -27,16 +27,6 @@ const preventSettings = ({ el, href }) => {
     })
 }
 
-function topScroll(){
-    if(document.scrollingElement.scrollTop < 10){
-      document.scrollingElement.scrollTop = 0;
-    }
-    else{
-      document.scrollingElement.scrollTop = document.scrollingElement.scrollTop / 1.5;
-      setTimeout(topScroll , 10);
-    }
-  }
-
 barba.init({
     prevent: preventSettings,
     transitions: [{
@@ -51,9 +41,10 @@ barba.init({
             document.body.appendChild(newElem);
             elem.remove();
         },
-        after() {
-            topScroll();
-        }
     }]
 });
+
+barba.hooks.enter(() => {
+    window.scrollTo(0, 0);
+  });
 
