@@ -28,19 +28,12 @@ barba.init({
     timeout: 4000,
     sync: true,
     requestError: (trigger, action, url, response) => {
-        // go to a custom 404 page if the user click on a link that return a 404 response status
-        console.log(response);
-        console.log(url)
-        console.log(url.href)
         if(/Timeout error/.test(response)){
-            location.href = url;
+            barba.force(url); // タイムアウト時にリダイレクト
         }
-        if (action === 'click' && response.status && response.status === 404) {
-          barba.go('/404');
-        }
-    
+      
         // prevent Barba from redirecting the user to the requested URL
-        // this is equivalent to e.preventDefault()
+        e.preventDefault();
         return false;
       },
     transitions: [{
