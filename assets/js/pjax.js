@@ -41,9 +41,13 @@ barba.init({
         },
         //goatCounterにデータ送信
         enter() {
-            window.goatcounter.count({
-                path: location.pathname + location.search + location.hash,
-            })
+            try {
+                window.goatcounter.count({
+                    path: location.pathname + location.search + location.hash,
+                })
+            } catch (e) {
+                console.error("Goatcounter had been blocked: " + e)
+            }
         },
     }]
 });
