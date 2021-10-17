@@ -44,33 +44,34 @@ barba.init({
     }]
 });
 
-barba.hooks.enter(() => {
-        // ヘッダー追従かどうか
-          var headerFixed = false;
-          // URLに「#」が存在するか
-          if(location.hash){
-              var anchor = document.querySelector( location.hash );
-              if(anchor){
-                  var rect = anchor.getBoundingClientRect();
-                  var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-                  if(headerFixed){
-                      var header = document.getElementById('header');
-                      if(header){
-                          top = top - header.clientHeight;
-                      }
+function scroll(){
+    // ヘッダー追従かどうか
+      var headerFixed = false;
+      // URLに「#」が存在するか
+      if(location.hash){
+          var anchor = document.querySelector( location.hash );
+          if(anchor){
+              var rect = anchor.getBoundingClientRect();
+              var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+              if(headerFixed){
+                  var header = document.getElementById('header');
+                  if(header){
+                      top = top - header.clientHeight;
                   }
-                  var top = rect.top + scrollTop;
-                  window.scrollTo(0,top);
-              }else{
-                // アンカー先が存在しなければページトップに
-                  window.scrollTo(0,0);
               }
+              var top = rect.top + scrollTop;
+              window.scrollTo(0,top);
           }else{
-            // URLに「#」が存在しなければページトップに
+            // アンカー先が存在しなければページトップに
               window.scrollTo(0,0);
-          }      
-});
-
+          }
+      }else{
+        // URLに「#」が存在しなければページトップに
+          window.scrollTo(0,0);
+      }
+  }
+  Barba.Dispatcher.on('transitionCompleted',scroll);
+  
 // 同じURLのときは遷移しない
 const eventDelete = e => {
     if (e.currentTarget.href === window.location.href) {
