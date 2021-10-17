@@ -34,6 +34,7 @@ barba.init({
     transitions: [{
         name: 'page',
         leave(data) {
+            document.getElementById("progress").classList.add("active");
             if(!data.next.url.hash){
                 document.documentElement.style.scrollBehavior = "auto";
             }
@@ -43,6 +44,7 @@ barba.init({
             window.goatcounter.count({
                 path: location.pathname + location.search + location.hash,
             })
+            document.getElementById("progress").classList.remove("active"); //プログレスバー閉じる
         },
     }]
 });
