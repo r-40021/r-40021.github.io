@@ -44,7 +44,7 @@ barba.init({
     }]
 });
 
-barba.hooks.enter(() => {
+barba.hooks.after(() => {
     // ヘッダー追従かどうか
       const headerFixed = false;
       // URLに「#」が存在するか
