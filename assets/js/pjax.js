@@ -25,7 +25,7 @@ const preventSettings = ({ el, href }) => {
 
 barba.init({
     prevent: preventSettings,
-    timeout: 4000,
+    timeout: 5000,
     sync: true,
     debug: true,
     transitions: [{
