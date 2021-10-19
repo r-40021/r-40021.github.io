@@ -46,9 +46,9 @@ page_sections:
 
     <a class="button primary body" href="https://r-40021.github.io/countdown-timer/" target="_blank">アプリを開く</a>
 
-    <a class="button primary body" href="https://github.com/r-40021/countdown-timer" target="_blank">ソースコードを見る</a>
+    <a class="button primary body" href="https://github.com/r-40021/countdown-timer" target="_blank" rel="noopener noreferrer">ソースコードを見る</a>
 
-    <a class="button primary body" href="https://github.com/r-40021/countdown-timer/issues" target="_blank">問題を報告</a>
+    <a class="button primary body" href="https://github.com/r-40021/countdown-timer/issues" target="_blank" rel="noopener noreferrer">問題を報告</a>
 - template: content-feature
   block: feature-1
   media_alignment: Left
@@ -66,9 +66,9 @@ page_sections:
 
     <a class="button primary body" href="https://r-40021.github.io/bingo/" target="_blank">アプリを開く</a>
 
-    <a class="button primary body" href="https://github.com/r-40021/bingo" target="_blank">ソースコードを見る</a>
+    <a class="button primary body" href="https://github.com/r-40021/bingo" target="_blank" rel="noopener noreferrer">ソースコードを見る</a>
 
-    <a class="button primary body" href="https://github.com/r-40021/bingo/issues" target="_blank">問題を報告</a>
+    <a class="button primary body" href="https://github.com/r-40021/bingo/issues" target="_blank" rel="noopener noreferrer">問題を報告</a>
   slug: bingo
   media:
     image: "/uploads/2021/10/03/bingo-1.jpg"
@@ -87,9 +87,9 @@ page_sections:
 
     <a class="button primary body" href="https://r-40021.github.io/stopwatch/" target="_blank">アプリを開く</a>
 
-    <a class="button primary body" href="https://github.com/r-40021/stopwatch/" target="_blank">ソースコードを見る</a>
+    <a class="button primary body" href="https://github.com/r-40021/stopwatch/" target="_blank" rel="noopener noreferrer">ソースコードを見る</a>
 
-    <a class="button primary body" href="https://github.com/r-40021/stopwatch/issues/" target="_blank">問題を報告</a>
+    <a class="button primary body" href="https://github.com/r-40021/stopwatch/issues/" target="_blank" rel="noopener noreferrer">問題を報告</a>
   media:
     image: "/uploads/2021/08/14/stopwatch.jpg"
     alt_text: stopwatch
@@ -113,9 +113,9 @@ page_sections:
 
     <a class="button primary body" href="https://web-transcription.netlify.app/" target="_blank">アプリを開く</a>
 
-    <a class="button primary body" href="https://github.com/r-40021/web-speech-api" target="_blank">ソースコードを見る</a>
+    <a class="button primary body" href="https://github.com/r-40021/web-speech-api" target="_blank" rel="noopener noreferrer">ソースコードを見る</a>
 
-    <a class="button primary body" href="https://github.com/r-40021/web-speech-api/issues/" target="_blank">問題を報告</a>
+    <a class="button primary body" href="https://github.com/r-40021/web-speech-api/issues/" target="_blank" rel="noopener noreferrer">問題を報告</a>
   media:
     image: "/uploads/2021/09/25/transcription.png"
     alt_text: 音声認識の様子
@@ -132,9 +132,9 @@ page_sections:
 
     <p>きっと、タブを切り替えるたびに、「ああ、自分はなんて意識が高い人間なのだろう」と思うことでしょう。（そのような保証はありませんが）</p>
 
-    <a class="button primary body" href="https://github.com/r-40021/ishiki_takaku" target="_blank">ソースコードを見る</a>
+    <a class="button primary body" href="https://github.com/r-40021/ishiki_takaku" target="_blank" rel="noopener noreferrer">ソースコードを見る</a>
 
-    <a class="button primary body" href="https://github.com/r-40021/ishiki_takaku/issues/" target="_blank">問題を報告</a>
+    <a class="button primary body" href="https://github.com/r-40021/ishiki_takaku/issues/" target="_blank" rel="noopener noreferrer">問題を報告</a>
   slug: ishiki
   media:
     image: "/uploads/2021/08/29/ishiki.png"
@@ -150,11 +150,11 @@ page_sections:
 
     <p>インストールする際に権限を一切要求しないのもポイント。</p>
 
-    <a class="button primary body" href="https://chrome.google.com/webstore/detail/%E3%83%9A%E3%83%BC%E3%82%B8%E7%B0%A1%E5%8D%98%E5%85%B1%E6%9C%89/eoccdpbaigkllhflcgidhpcedgmlckkp" target="_blank">インストール</a>
+    <a class="button primary body" href="https://chrome.google.com/webstore/detail/%E3%83%9A%E3%83%BC%E3%82%B8%E7%B0%A1%E5%8D%98%E5%85%B1%E6%9C%89/eoccdpbaigkllhflcgidhpcedgmlckkp" target="_blank" rel="noopener noreferrer">インストール</a>
 
-    <a class="button primary body" href="https://github.com/r-40021/copy_title-URL" target="_blank">ソースコードを見る</a>
+    <a class="button primary body" href="https://github.com/r-40021/copy_title-URL" target="_blank" rel="noopener noreferrer">ソースコードを見る</a>
 
-    <a class="button primary body" href="https://github.com/r-40021/copy_title-URL/issues/" target="_blank">問題を報告</a>
+    <a class="button primary body" href="https://github.com/r-40021/copy_title-URL/issues/" target="_blank" rel="noopener noreferrer">問題を報告</a>
   media:
     image: "/uploads/2021/08/19/share.png"
     alt_text: ページ簡単共有

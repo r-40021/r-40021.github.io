@@ -26,7 +26,7 @@ page_sections:
   block: text-1
   headline: 開発者が得ている情報
   content: |-
-    <p>開発者は、「<a href="https://search.google.com/search-console/" target="_blank" rel="noopener noreferrer">Google Search Console</a>」と「<a href="https://www.goatcounter.com/" target="_blank" rel="noopener noreferrer">GoatCounter</a>」の2つのサービスを利用して、個人を特定できない形でユーザーのアクセス状況を収集しています。収集した情報は、より使いやすいサービスを開発する目的で利用します。</p>
+    <p>開発者は、「<a href="https://search.google.com/search-console/" target="_blank" rel="noopener noreferrer" rel="noopener noreferrer">Google Search Console</a>」と「<a href="https://www.goatcounter.com/" target="_blank" rel="noopener noreferrer" rel="noopener noreferrer">GoatCounter</a>」の2つのサービスを利用して、個人を特定できない形でユーザーのアクセス状況を収集しています。収集した情報は、より使いやすいサービスを開発する目的で利用します。</p>
 
     <p>Google Search Console では、Google 検索及び Google のシステムを利用している検索エンジン <small>(Yahoo! など)</small> での表示回数やクリック回数などを収集しています。</p>
 
@@ -40,7 +40,7 @@ page_sections:
 
     <p>(引用)
 
-    (*1): <a href="https://www.arp242.net/dnt.html" target="_blank" rel="noopener noreferrer">Why GoatCounter ignores Do Not Track</a> (最終閲覧日:2021/09/12、訳は引用者によるもの)</p>
+    (*1): <a href="https://www.arp242.net/dnt.html" target="_blank" rel="noopener noreferrer" rel="noopener noreferrer">Why GoatCounter ignores Do Not Track</a> (最終閲覧日:2021/09/12、訳は引用者によるもの)</p>
 - template: detail-content
   block: text-1
   headline: 開発者が得ていない情報
@@ -65,7 +65,7 @@ page_sections:
   content: |-
     <p>分からない箇所・分かりにくい箇所・ご要望等があれば、お問い合わせフォーム、もしくは GitHub Issue にお気軽にお書きください。また、このプライバシーポリシーは予告なく変更される場合があります。</p>
 
-    <a class="button primary body" href="https://github.com/r-40021/r-40021.github.io/issues" target="_blank">GitHub Issues</a>
+    <a class="button primary body" href="https://github.com/r-40021/r-40021.github.io/issues" target="_blank" rel="noopener noreferrer">GitHub Issues</a>
 
     <a class="button primary body" href="contact.html">お問い合わせフォーム</a>
 
