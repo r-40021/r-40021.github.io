@@ -1,4 +1,5 @@
 document.getElementById("contact").addEventListener("submit", (e) => {
+    document.documentElement.style.scrollBehavior = "auto";
     const form = document.getElementById("contact");
     const formData = new FormData(form);
     document.getElementById("success-message").style.display = "";
@@ -33,5 +34,6 @@ document.getElementById("contact").addEventListener("submit", (e) => {
       document.getElementById("empty-message").style.display = "block";
     }
     e.preventDefault();
+    document.documentElement.style.scrollBehavior = "";
   });
   
