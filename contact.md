@@ -18,7 +18,7 @@ page_sections:
 - template: 1-column-text
   block: one-column-1
   headline: ご注意
-  content: スパム防止のため、お問い合わせフォームを通さないお問い合わせに対応することはできません。<br>また、お問い合わせフォームを通していても、スパム・いたずらと思われるものには一切応じません。
+  content: スパム防止のため、このお問い合わせフォームを通さないお問い合わせに対応することはできません。<br>また、このフォームを通していても、スパム・いたずらと思われるものには一切応じません。
   slug: ''
 - template: full-width
   block: full-1
