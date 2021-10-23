@@ -27,7 +27,7 @@ document.getElementById("contact").addEventListener("submit", (e) => {
         }
       });
   
-      xhr.open("POST", form.getAttribute("action"));
+      xhr.open("POST", "https://docs.google.com/forms/u/1/d/e/1FAIpQLSfiTlaCkGe9HzxBytKEMFupoowYf9Yn6jomz-GFCR7UIrF7nQ/formResponse");
       xhr.responseType = "jsonp";
       xhr.timeout = 5000;
       xhr.send(formData);
