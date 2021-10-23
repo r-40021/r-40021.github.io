@@ -36,11 +36,6 @@ barba.init({
         },
         //goatCounterにデータ送信
         enter() {
-            if(location.pathname === '/contact.html') {
-                const newScript = document.createElement("script");
-                newScript.src = "../assets/js/form.js";
-                document.body.appendChild(newScript);
-            }
             try {
                 window.goatcounter.count({
                     path: location.pathname + location.search + location.hash,
@@ -82,8 +77,14 @@ function scroll (){
 
 barba.hooks.after(() => {
         scroll();
-      document.documentElement.style.scrollBehavior = "";
-      document.getElementById("progress").classList.remove("active"); //プログレスバー閉じる
+        document.documentElement.style.scrollBehavior = "";
+        document.getElementById("progress").classList.remove("active"); //プログレスバー閉じる
+    //フォーム用のスクリプトを追加
+     if(location.pathname === '/contact.html') {
+        const newScript = document.createElement("script");
+        newScript.src = "../assets/js/form.js";
+        document.body.appendChild(newScript);
+    }
   })
   
 // 同じURLのときは遷移しない
