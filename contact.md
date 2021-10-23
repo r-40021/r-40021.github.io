@@ -40,8 +40,6 @@ page_sections:
     class=\"result\">\n\n<p class=\"title\">エラーが発生しました。</p>\n\n<p>以下の方法でエラーが解決する場合があります。</p>\n\n<ul>\n\n
     \   <li>Wi-Fi のアクセスポイントを変更する</li>\n    \n    <li>ブラウザのシークレットモードやゲストモードでアクセスする</li>\n
     \   \n    <li>別のブラウザや端末でアクセスする</li>\n\n</ul>\n\n</div>\n\n<div id=\"empty-message\"
-    class=\"result\">\n\n<p class=\"title\">記入内容に不備があります。</p>\n\n</div>\n\n</div>\n\n<script>\n\nconst
-    newScript = document.createElement(\"script\");\n\nnewScript.src = \"../assets/js/form.js\";\n\nnewScript.className
-    = \"main-script\";\n\ndocument.body.appendChild(newScript);\n\n</script>"
+    class=\"result\">\n\n<p class=\"title\">記入内容に不備があります。</p>\n\n</div>\n\n</div>"
 
 ---
