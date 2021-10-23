@@ -25,7 +25,7 @@ page_sections:
   content: |-
     <div class="container">
 
-    <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSfiTlaCkGe9HzxBytKEMFupoowYf9Yn6jomz-GFCR7UIrF7nQ/formResponse" target="_self" method="POST" id="contact" class="form">
+    <form target="_self" method="POST" id="contact" class="form">
 
       <div class="email text-input form-part">
 
