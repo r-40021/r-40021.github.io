@@ -25,7 +25,7 @@ page_sections:
   content: |-
     <div class="container">
 
-    <form target="_self" method="POST" id="contact" class="form">
+    <form>
 
       <div class="email text-input form-part">
 
