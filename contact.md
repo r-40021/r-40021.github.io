@@ -107,6 +107,6 @@ page_sections:
 
     </div>
 
-    <script src="../assets/js/form.js" defer></script>
+    <script src="../assets/js/form.js"></script>
 
 ---
