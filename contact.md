@@ -35,11 +35,11 @@ page_sections:
     id=\"want-reply\"><label for=\"want-reply\">返信を希望する</label>\n\n</div>\n\n<div
     class=\"submit form-part\">\n\n    <input type=\"submit\" class=\"form-submit\"
     id=\"form-submit\" value=\"送信\">\n\n</div>\n\n</form>\n\n<div id=\"success-message\"
-    class=\"result\">\n\n<p class=\"title\">送信が完了しました。</p>\n\n<p>返信を希望された方には、なるべく1週間以内にメールでご返事いたします。<br>\n\n
+    class=\"result\">\n\n<p class=\"title\">送信完了</p>\n\n<p>返信を希望された方には、なるべく1週間以内にメールでご返事いたします。<br>\n\n
     \   @gmail.com からのメールを受信できるよう、設定の確認をお願いいたします。</p>\n\n</div>\n\n<div id=\"error-message\"
-    class=\"result\">\n\n<p class=\"title\">エラーが発生しました。</p>\n\n<p>以下の方法でエラーが解決する場合があります。</p>\n\n<ul>\n\n
+    class=\"result\">\n\n<p class=\"title\">エラーが発生しました</p>\n\n<p>以下の方法でエラーが解決する場合があります。</p>\n\n<ul>\n\n
     \   <li>Wi-Fi のアクセスポイントを変更する</li>\n    \n    <li>ブラウザのシークレットモードやゲストモードでアクセスする</li>\n
     \   \n    <li>別のブラウザや端末でアクセスする</li>\n\n</ul>\n\n</div>\n\n<div id=\"empty-message\"
-    class=\"result\">\n\n<p class=\"title\">記入内容に不備があります。</p>\n\n</div>\n\n</div><script src=\"../assets/js/form.js\" defer></script>"
+    class=\"result\">\n\n<p class=\"title\">入力内容に不備があります</p>\n\n</div>\n\n</div><script src=\"../assets/js/form.js\" defer></script>"
 
 ---
