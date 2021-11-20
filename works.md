@@ -132,7 +132,7 @@ page_sections:
 
     <p>きっと、タブを切り替えるたびに、「ああ、自分はなんて意識が高い人間なのだろう」と思うことでしょう。（そのような保証はありませんが）</p>
 
-    <a class="button primary body" href="https://github.com/r-40021/ishiki_takaku" target="_blank" rel="noopener noreferrer">ソースコードを見る</a>
+    <a class="button primary body" href="https://github.com/r-40021/rename_tab" target="_blank" rel="noopener noreferrer">ソースコードを見る</a>
 
     <a class="button primary body" href="https://github.com/r-40021/ishiki_takaku/issues/" target="_blank" rel="noopener noreferrer">問題を報告</a>
   slug: ishiki
