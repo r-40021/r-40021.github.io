@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: 作品
-date: 2021-10-10T03:00:00.000+00:00
+date: 2021-11-21 03:00:00 +0000
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
@@ -126,18 +126,20 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Left
-  headline: "<strong>意識が高くなる</strong>(カモ)"
+  headline: "<strong>Rename Tab</strong>"
   content: |-
-    <p>ブラウザのタブに表示されるアイコンは非表示になり、Webサイト名はいい感じになります。</p>
+    <p>この拡張機能を用いると、ブラウザのタブに表示されるアイコンは非表示になり、Web サイト名は別のものに置き換えられます。</p>
 
-    <p>きっと、タブを切り替えるたびに、「ああ、自分はなんて意識が高い人間なのだろう」と思うことでしょう。（そのような保証はありませんが）</p>
+    <p>プレゼン中に、ほかのタブで開いている Web ページを知られたくない時などに使えます。</p>
+
+    <a class="button primary body" href="https://chrome.google.com/webstore/detail/rename-tab/nbpkdabdmbefnemcjehinaeklgmngdoo" target="_blank" rel="noopener noreferrer">インストール</a>
 
     <a class="button primary body" href="https://github.com/r-40021/rename_tab" target="_blank" rel="noopener noreferrer">ソースコードを見る</a>
 
     <a class="button primary body" href="https://github.com/r-40021/ishiki_takaku/issues/" target="_blank" rel="noopener noreferrer">問題を報告</a>
-  slug: ishiki
+  slug: rename-tab
   media:
-    image: "/uploads/2021/08/29/ishiki.png"
+    image: "/uploads/2021/11/21/rename_tab.png"
     alt_text: 設定画面
 - template: content-feature
   block: feature-1
@@ -150,7 +152,7 @@ page_sections:
 
     <p>インストールする際に権限を一切要求しないのもポイント。</p>
 
-    <a class="button primary body" href="https://chrome.google.com/webstore/detail/%E3%83%9A%E3%83%BC%E3%82%B8%E7%B0%A1%E5%8D%98%E5%85%B1%E6%9C%89/eoccdpbaigkllhflcgidhpcedgmlckkp" target="_blank" rel="noopener noreferrer">インストール</a>
+    <a class="button primary body" href="https://chrome.google.com/webstore/detail/easy-page-sharing/eoccdpbaigkllhflcgidhpcedgmlckkp" target="_blank" rel="noopener noreferrer">インストール</a>
 
     <a class="button primary body" href="https://github.com/r-40021/copy_title-URL" target="_blank" rel="noopener noreferrer">ソースコードを見る</a>
 
