@@ -130,7 +130,7 @@ page_sections:
   content: |-
     <p>この拡張機能を用いると、ブラウザのタブに表示されるアイコンは非表示になり、Web サイト名は別のものに置き換えられます。</p>
 
-    <p>プレゼン中に、ほかのタブで開いている Web ページを知られたくない時などに使えます。</p>
+    <p>ブラウザの画面を他人に見せる時に、ほかのタブで開いている Web ページを知られたくない場合などに使えます。</p>
 
     <a class="button primary body" href="https://chrome.google.com/webstore/detail/rename-tab/nbpkdabdmbefnemcjehinaeklgmngdoo" target="_blank" rel="noopener noreferrer">インストール</a>
 
