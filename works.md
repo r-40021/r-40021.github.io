@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: 作品
-date: 2021-11-21 03:00:00 +0000
+date: 2021-11-21T03:00:00.000+00:00
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
@@ -161,5 +161,25 @@ page_sections:
     image: "/uploads/2021/08/19/share.png"
     alt_text: ページ簡単共有
   slug: easy-share
+- template: content-feature
+  block: feature-1
+  media_alignment: Left
+  headline: "<strong>文字数カウント</strong>"
+  slug: countChar
+  content: |-
+    <p>Web サイト上のフォームに文字を入力した際に、リアルタイムで文字数を表示する拡張機能です。</p>
+
+    <p>改善点はまだまだ多いですが、ぜひ使ってみてください。</p>
+
+    <a class="button primary body" href="https://chrome.google.com/webstore/detail/%E6%96%87%E5%AD%97%E6%95%B0%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88/bhfihcmmnnagikobmgakbjliddjmfgmd" target="_blank" rel="noopener noreferrer">インストール (Chrome)</a>
+
+    <a class="button primary body" href="https://addons.mozilla.org/ja/firefox/addon/count-character/" target="_blank" rel="noopener noreferrer">インストール (Firefox)</a>
+
+    <a class="button primary body" href="https://github.com/r-40021/count-character" target="_blank" rel="noopener noreferrer">ソースコードを見る</a>
+
+    <a class="button primary body" href="https://github.com/r-40021/count-character/issues/" target="_blank" rel="noopener noreferrer">問題を報告</a>
+  media:
+    image: "/uploads/2022/02/08/152375724-b18ebc1c-fd69-4925-af0c-eb797b149fcb.png"
+    alt_text: ''
 
 ---
