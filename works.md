@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: 作品
-date: 2022-03-13 03:00:00 +0000
+date: 2022-03-15 03:00:00 +0000
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
@@ -111,13 +111,13 @@ page_sections:
 
     <small>* Chromium"系"のブラウザでは動かないことがあります。</small></p>
 
-    <a class="button primary body" href="https://web-transcription.netlify.app/" target="_blank">アプリを開く</a>
+    <a class="button primary body" href="https://web-transcription.pages.dev/" target="_blank">アプリを開く</a>
 
     <a class="button primary body" href="https://github.com/r-40021/web-speech-api" target="_blank" rel="noopener noreferrer">ソースコードを見る</a>
 
     <a class="button primary body" href="https://github.com/r-40021/web-speech-api/issues/" target="_blank" rel="noopener noreferrer">問題を報告</a>
   media:
-    image: "/uploads/2022/03/13/web_transcription.jpg"
+    image: "/uploads/2022/03/14/transcription.jpg"
     alt_text: 音声認識の様子
 - template: detail-content
   block: text-1
