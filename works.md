@@ -122,7 +122,7 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Left
-  headline: 簡易テキスト読み上げくん
+  headline: "<strong>簡易テキスト読み上げくん</strong>"
   slug: read-text
   content: |-
     <p>手軽に音声読み上げができるサイトです。</p>
