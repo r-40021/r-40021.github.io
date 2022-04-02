@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: 作品
-date: 2022-03-15 03:00:00 +0000
+date: 2022-03-15T03:00:00.000+00:00
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
@@ -119,6 +119,30 @@ page_sections:
   media:
     image: "/uploads/2022/03/14/transcription.jpg"
     alt_text: 音声認識の様子
+- template: content-feature
+  block: feature-1
+  media_alignment: Left
+  headline: 簡易テキスト読み上げくん
+  slug: read-text
+  content: |-
+    <p>手軽に音声読み上げができるサイトです。</p>
+
+    <p>読み上げたい文字を入力して Enter キーを押すだけで文字が読み上げられます。</p>
+
+    <p>必要最低限の機能しか搭載していない分、非常にシンプルなものになっています。</p>
+
+    <p>
+
+    <small>某検索エンジンの画面と似ている？気のせい、気のせい…</small></p>
+
+    <a class="button primary body" href="https://r-40021.github.io/read-text/" target="_blank">アプリを開く</a>
+
+    <a class="button primary body" href="https://github.com/r-40021/read-text" target="_blank" rel="noopener noreferrer">ソースコードを見る</a>
+
+    <a class="button primary body" href="https://github.com/r-40021/read-text/issues/" target="_blank" rel="noopener noreferrer">問題を報告</a>
+  media:
+    image: "/uploads/2022/04/02/read-text.jpg"
+    alt_text: 簡易テキスト読み上げくんのスクリーンショット
 - template: detail-content
   block: text-1
   headline: Chrome 拡張機能
