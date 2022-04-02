@@ -207,8 +207,8 @@ page_sections:
     alt_text: ''
 - template: content-feature
   block: feature-1
-  media_alignment: Right
-  headline: やっぱり Noto Sans
+  media_alignment: Left
+  headline: "<strong>やっぱり Noto Sans</strong>"
   slug: noto
   content: |-
     <p>Web サイト上の読みづらい・美しくない(と作者が勝手に思っている)フォントを、読みやすく美しい Noto Sans に置き換える拡張機能です。</p>
@@ -223,7 +223,7 @@ page_sections:
 
     <a class="button primary body" href="https://github.com/r-40021/replace-font/issues/" target="_blank" rel="noopener noreferrer">問題を報告</a>
   media:
-    image: ''
-    alt_text: ''
+    image: "/uploads/2022/04/02/replace-font.jpg"
+    alt_text: replace-font
 
 ---
