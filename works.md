@@ -205,5 +205,25 @@ page_sections:
   media:
     image: "/uploads/2022/02/08/152375724-b18ebc1c-fd69-4925-af0c-eb797b149fcb.png"
     alt_text: ''
+- template: content-feature
+  block: feature-1
+  media_alignment: Right
+  headline: やっぱり Noto Sans
+  slug: noto
+  content: |-
+    <p>Web サイト上の読みづらい・美しくない(と作者が勝手に思っている)フォントを、読みやすく美しい Noto Sans に置き換える拡張機能です。</p>
+
+    <p>やっと実用的な拡張機能が作れた気がする。</p>
+
+    <a class="button primary body" href="https://chrome.google.com/webstore/detail/oecglhldbofcklanmhckefiflhfhabdd" target="_blank" rel="noopener noreferrer">インストール (Chrome)</a>
+
+    <a class="button primary body" href="https://addons.mozilla.org/ja/firefox/addon/replace-with-noto/" target="_blank" rel="noopener noreferrer">インストール (Firefox)</a>
+
+    <a class="button primary body" href="https://github.com/r-40021/replace-font" target="_blank" rel="noopener noreferrer">ソースコードを見る</a>
+
+    <a class="button primary body" href="https://github.com/r-40021/replace-font/issues/" target="_blank" rel="noopener noreferrer">問題を報告</a>
+  media:
+    image: ''
+    alt_text: ''
 
 ---
