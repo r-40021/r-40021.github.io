@@ -85,11 +85,18 @@ barba.hooks.after(() => {
         newScript.src = "../assets/js/form.js";
         document.body.appendChild(newScript);
     }
+    const links = [...document.querySelectorAll('a[href]')]
+    links.forEach(link => {
+        link.addEventListener('click', e => {
+            eventDelete(e);
+        }, false)
+    })
 })
 
 // 同じURLのときは遷移しない
 const eventDelete = e => {
-    if (e.currentTarget.href === window.location.href.replace(window.location.hash, "")) {
+    const targetURL = new URL(e.currentTarget.href);
+    if (targetURL.href.replace(targetURL.hash, "") === window.location.href.replace(window.location.hash, "")) {
         e.preventDefault();
         e.stopPropagation();
         if (window.location.hash) history.pushState(null, null, e.currentTarget.href);
@@ -97,10 +104,3 @@ const eventDelete = e => {
         return;
     }
 }
-
-const links = [...document.querySelectorAll('a[href]')]
-links.forEach(link => {
-    link.addEventListener('click', e => {
-        eventDelete(e);
-    }, false)
-})
