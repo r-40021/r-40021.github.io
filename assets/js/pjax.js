@@ -45,7 +45,7 @@ barba.init({
 });
 
 function scroll (isSamePage = false){
-    if (isSmoothed === false) document.documentElement.style.scrollBehavior = "auto"; // 遷移先が同一ページでないならスムーズスクロールをオフ
+    if (isSamePage === false) document.documentElement.style.scrollBehavior = "auto"; // 遷移先が同一ページでないならスムーズスクロールをオフ
 
     // ヘッダー追従かどうか
     const headerFixed = false;
