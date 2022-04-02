@@ -63,13 +63,4 @@
             </nav>
         </header>
     </div>
-    <script>
-        const hideQuery = new URL(window.location.href).searchParams.get("fromApp");
-        let headerElement = document.getElementsByTagName("header")[0];
-        if (hideQuery === "true") {
-            headerElement.style.display = "none";
-        } else {
-            headerElement.style.pointerEvents = "auto";
-        }
-    </script>
     <div data-barba="container" data-barba-namespace="{{ page.title }}">
