@@ -5,7 +5,7 @@ date: 2021-09-12T00:00:00.000+09:00
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
-  headline: '<strong>プライバシーポリシー</strong>'
+  headline: "<strong>プライバシーポリシー</strong>"
   content: やまだのアプリがユーザーの情報をどのように扱っているか、緩く説明していきます。<br><br>最終更新：2021/9/12<br>公開：2021/3/27
   background_image: ''
   image:
@@ -67,6 +67,6 @@ page_sections:
 
     <a class="button primary body" href="https://github.com/r-40021/r-40021.github.io/issues" target="_blank" rel="noopener noreferrer">GitHub Issues</a>
 
-    <a class="button primary body" href="contact.html">お問い合わせフォーム</a>
+    <a class="button primary body" href="/contact">お問い合わせフォーム</a>
 
 ---
