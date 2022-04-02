@@ -30,9 +30,6 @@ barba.init({
         name: 'page',
         leave(data) {
             document.getElementById("progress").classList.add("active");
-            if(!data.next.url.hash){
-                document.documentElement.style.scrollBehavior = "auto";
-            }
         },
         //goatCounterにデータ送信
         enter() {
@@ -47,7 +44,9 @@ barba.init({
     }]
 });
 
-function scroll (){
+function scroll (isSamePage = false){
+    if (isSmoothed === false) document.documentElement.style.scrollBehavior = "auto"; // 遷移先が同一ページでないならスムーズスクロールをオフ
+
     // ヘッダー追従かどうか
     const headerFixed = false;
     // URLに「#」が存在するか
@@ -73,11 +72,11 @@ function scroll (){
       // URLに「#」が存在しなければページトップに
         window.scrollTo(0,0);
     }
+    document.documentElement.style.scrollBehavior = "";
 }
 
 barba.hooks.after(() => {
         scroll();
-        document.documentElement.style.scrollBehavior = "";
         document.getElementById("progress").classList.remove("active"); //プログレスバー閉じる
     //フォーム用のスクリプトを追加
      if(location.pathname === '/contact.html') {
