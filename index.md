@@ -30,7 +30,7 @@ page_sections:
 
     <p>技術力は大したことないですが、使いやすいものを作っていきたいです。</p>
   media:
-    image: "/uploads/self-introduce.png"
+    image: "/uploads/logo.png"
     alt_text: プログラマー
 - template: content-feature
   block: feature-1

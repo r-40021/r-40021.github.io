@@ -44,48 +44,49 @@ barba.init({
     }]
 });
 
-function scroll (isSamePage = false){
-    if (isSamePage === false) document.documentElement.style.scrollBehavior = "auto"; // 遷移先が同一ページでないならスムーズスクロールをオフ
-
+function scroll() {
     // ヘッダー追従かどうか
     const headerFixed = false;
     // URLに「#」が存在するか
-    if(location.hash){
-        const anchor = document.querySelector( location.hash );
-        if(anchor){
+    if (location.hash) {
+        const anchor = document.querySelector(location.hash);
+        if (anchor) {
             const rect = anchor.getBoundingClientRect();
             const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
             let elemTop = 0;
-            if(headerFixed){
+            if (headerFixed) {
                 const header = document.getElementById('header');
-                if(header){
+                if (header) {
                     elemTop = elemTop - header.clientHeight;
                 }
             }
             elemTop = rect.top + scrollTop;
-            window.scrollTo(0,elemTop);
-        }else{
-          // アンカー先が存在しなければページトップに
-            window.scrollTo(0,0);
+            window.scrollTo({
+                top: elemTop,
+                left: 0,
+                behavior: 'smooth'
+            });
+        } else {
+            // アンカー先が存在しなければページトップに
+            window.scrollTo(0, 0);
         }
-    }else{
-      // URLに「#」が存在しなければページトップに
-        window.scrollTo(0,0);
+    } else {
+        // URLに「#」が存在しなければページトップに
+        window.scrollTo(0, 0);
     }
-    document.documentElement.style.scrollBehavior = "";
 }
 
 barba.hooks.after(() => {
-        scroll();
-        document.getElementById("progress").classList.remove("active"); //プログレスバー閉じる
+    scroll();
+    document.getElementById("progress").classList.remove("active"); //プログレスバー閉じる
     //フォーム用のスクリプトを追加
-     if(location.pathname === '/contact.html') {
+    if (location.pathname === '/contact.html') {
         const newScript = document.createElement("script");
         newScript.src = "../assets/js/form.js";
         document.body.appendChild(newScript);
     }
-  })
-  
+})
+
 // 同じURLのときは遷移しない
 const eventDelete = e => {
     if (e.currentTarget.href === window.location.href.replace(window.location.hash, "")) {
