@@ -87,13 +87,13 @@ ul {
 
 .block {
     padding: 64px 32px;
-    padding: 4rem 2rem
+    padding: 4rem 2rem;
+    padding-top: 8rem;
 }
 
 @media screen and (min-width:700px) {
     .block {
         padding: 6rem 4rem;
-        padding-top: 8rem;
     }
 }
 
