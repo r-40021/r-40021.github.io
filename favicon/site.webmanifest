@@ -1,6 +1,6 @@
 {
-    "name": "やまだけんいちのポートフォリオ",
-    "short_name": "やまだけんいち",
+    "name": "やまだアプリ工房",
+    "short_name": "Webアプリやブラウザ拡張機能を開発している架空の工房",
     "icons": [
         {
             "src": "/favicon/android-chrome-192x192.png",
@@ -8,14 +8,12 @@
             "type": "image/png"
         },
         {
-            "src": "/favicon/android-chrome-384x384.png",
-            "sizes": "384x384",
-            "type": "image/png",
-            "purpose": "any maskable"
+            "src": "/favicon/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
         }
     ],
-    "theme_color": "#ffcb3c",
+    "theme_color": "#ffffff",
     "background_color": "#ffffff",
-    "display": " browser",
-    "start_url": "/index.html"
+    "display": "standalone"
 }

@@ -13,7 +13,7 @@ page_sections:
     url: https://github.com/r-40021
     button_text: 'GitHub '
   image:
-    image: "/uploads/MIppxngn_400x400.jpg"
+    image: "/uploads/logo.png"
     alt_text: My Logo
   background_image: ''
 - template: content-feature
@@ -30,7 +30,7 @@ page_sections:
 
     <p>技術力は大したことないですが、使いやすいものを作っていきたいです。</p>
   media:
-    image: "/uploads/logo.png"
+    image: "/uploads/self-introduce.png"
     alt_text: プログラマー
 - template: content-feature
   block: feature-1
