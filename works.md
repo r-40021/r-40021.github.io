@@ -203,8 +203,8 @@ page_sections:
 
     <a class="button primary body" href="https://github.com/r-40021/count-character/issues/" target="_blank" rel="noopener noreferrer">問題を報告</a>
   media:
-    image: "/uploads/2022/02/08/152375724-b18ebc1c-fd69-4925-af0c-eb797b149fcb.png"
-    alt_text: ''
+    image: "/uploads/2022/04/02/count-character.jpg"
+    alt_text: その場で字数を確認できる拡張機能です。
 - template: content-feature
   block: feature-1
   media_alignment: Left
