@@ -7,7 +7,7 @@ page_sections:
   block: hero-2
   headline: "<strong>作品</strong>"
   content: 技術力＜＜＜＜＜使いやすさを念頭に、頑張ってアプリを作っています。<br>まあ、技術力も高めなきゃいけないんですけど。<br>
-  background_image: "/uploads/2022/04/03/website.png"
+  background_image: ''
   image:
     image: "/uploads/2022/04/03/website.png"
     alt_text: Webサイトのイメージ
