@@ -23,7 +23,7 @@ page_sections:
   block: feature-1
   media_alignment: Left
   media:
-    image: "/uploads/timer.png"
+    image: "/uploads/2022/04/03/timer.jpg"
     alt_text: やまだのタイマー
   headline: "<strong>やまだのタイマー</strong>"
   slug: timer
