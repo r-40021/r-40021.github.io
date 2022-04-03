@@ -85,18 +85,8 @@ barba.hooks.after(() => {
         newScript.src = "../assets/js/form.js";
         document.body.appendChild(newScript);
     }
-    const links = [...document.querySelectorAll('a[href]')]
-    links.forEach(link => {
-        link.addEventListener('click', e => {
-            eventDelete(e);
-        }, false)
-    });
-    const domain = document.domain;
-    const outsideLink = document.querySelectorAll('.block-hero-2 .columns a[href^=http]'); // Hero 内の外部リンクを取得
-    outsideLink.forEach(elem => {
-        elem.setAttribute('target', '_blank');
-        elem.setAttribute('rel', 'noopener noreferrer');
-    });
+    popupExternalLinks();
+    
 })
 
 // 同じURLのときは遷移しない
