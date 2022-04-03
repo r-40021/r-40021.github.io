@@ -25,8 +25,7 @@ popupExternalLinks();
         const windowHeight = window.innerHeight; // ウインドウの高さ
         const pageHeight = document.documentElement.scrollHeight; // ページの高さ
         const bottomScrollHeight = pageHeight - windowHeight; // ページの下端に到達するときにスクロール量
-        const now = window.scrollY; // 現在のスクロール量
-        console.log(`window: ${windowHeight}\npageHeight: ${pageHeight}\n bottomScroll: ${bottomScrollHeight}, now: ${now}\n isHide: ${isHide}`);
+        const now = Math.ceil(window.scrollY); // 現在のスクロール量(小数点以下切り上げ)
         if (now > headerHeight && last < now && bottomScrollHeight > now) {
             if (isHide === false) {
                 header.classList.add('hide'); // ヘッダーを隠す
