@@ -85,6 +85,12 @@ barba.hooks.after(() => {
         newScript.src = "../assets/js/form.js";
         document.body.appendChild(newScript);
     }
+    const links = [...document.querySelectorAll('a[href]')]
+    links.forEach(link => {
+        link.addEventListener('click', e => {
+            eventDelete(e);
+        }, false)
+    });
     popupExternalLinks();
     
 })
