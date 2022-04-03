@@ -9,7 +9,7 @@ page_sections:
   content: やまだのアプリがユーザーの情報をどのように扱っているか、緩く説明していきます。<br><br>最終更新：2021/9/12<br>公開：2021/3/27
   background_image: ''
   image:
-    image: "/uploads/key.PNG"
+    image: "/uploads/2022/04/03/key.png"
     alt_text: Key
   cta:
     enabled: false
