@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: HOME
-date: 2022-04-03 03:00:00 +0000
+date: 2022-04-03T03:00:00.000+00:00
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
@@ -26,7 +26,7 @@ page_sections:
 
     <p>真面目なWebアプリや不真面目なWebアプリを開発しています。</p>
 
-    <p>「オープンソース」という仕組みが好きなので、作ったプログラムは基本的に<a href="https://github.com/r-40021" title="GitHub">GitHub</a>で公開しています。</p>
+    <p>「オープンソース」という仕組みが好きなので、作ったプログラムは基本的に<a href="https://github.com/r-40021" title="GitHub" target="_blank" rel="noopener noreferrer">GitHub</a>で公開しています。</p>
 
     <p>技術力は大したことないですが、使いやすいものを作っていきたいです。</p>
   media:
