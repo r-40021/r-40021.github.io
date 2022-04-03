@@ -30,8 +30,8 @@ page_sections:
 
     <p>技術力は大したことないですが、使いやすいものを作っていきたいです。</p>
   media:
-    image: "/uploads/self-introduce.png"
-    alt_text: プログラマー
+    image: "/uploads/2022/04/03/self-introduce.png"
+    alt_text: プログラマーのイメージ
 - template: content-feature
   block: feature-1
   media_alignment: Right
@@ -46,7 +46,7 @@ page_sections:
 
     <a class="button primary body no-barba" href="/blog" target="_blank">ブログを見てみる</a>
   media:
-    image: "/uploads/2021/07/28/website_blog.png"
+    image: "/uploads/2022/04/03/website_blog.jpg"
     alt_text: ブログのイメージ
 - template: content-feature
   block: feature-1
@@ -66,7 +66,7 @@ page_sections:
 
     <a class="button primary body" href="/browser">ブラウザ対応状況</a>
   media:
-    image: "/uploads/timer.png"
+    image: "/uploads/2022/04/03/timer.jpg"
     alt_text: Yamada's timer
 - template: content-feature
   block: feature-1
