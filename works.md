@@ -1,16 +1,16 @@
 ---
 layout: blocks
 title: 作品
-date: 2022-04-02 03:00:00 +0000
+date: 2022-04-02T03:00:00.000+00:00
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
   headline: "<strong>作品</strong>"
   content: 技術力＜＜＜＜＜使いやすさを念頭に、頑張ってアプリを作っています。<br>まあ、技術力も高めなきゃいけないんですけど。<br>
-  background_image: ''
+  background_image: "/uploads/2022/04/03/website.png"
   image:
-    image: ''
-    alt_text: ''
+    image: "/uploads/2022/04/03/website.png"
+    alt_text: Webサイトのイメージ
   cta:
     enabled: true
     url: "/browser"
