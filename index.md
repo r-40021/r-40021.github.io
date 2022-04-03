@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: HOME
-date: 2021-10-10T03:00:00.000+00:00
+date: 2022-04-03 03:00:00 +0000
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
@@ -20,7 +20,7 @@ page_sections:
   block: feature-1
   media_alignment: Left
   slug: about
-  headline: "<strong>やまだアプリ工房とは</strong>"
+  headline: "<strong>やまだアプリ工房</strong>とは"
   content: |-
     <p>日本のどこかでプログラミングをしている学生が、1人で運営している架空の工房。</p>
 
