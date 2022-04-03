@@ -8,6 +8,15 @@
     <script src="/assets/js/pjax.js"></script>
     <script data-goatcounter="https://2vyj09dj8fxuy8uygrir.goatcounter.com/count" async
         src="//gc.zgo.at/count.js"></script>
+    <!-- 外部リンクは新規タブで開くようにする -->
+    <script defer>
+        const domain = document.domain;
+        const link = document.querySelectorAll('.block-hero-2 .columns a[href^=http]'); // Hero 内の外部リンクを取得
+        link.forEach(elem => {
+            elem.setAttribute('target', '_blank');
+            elem.setAttribute('rel', 'noopener noreferrer');
+        });
+    </script>
     <script defer>
         if ("serviceWorker" in navigator) {
             /*Service Worker登録
