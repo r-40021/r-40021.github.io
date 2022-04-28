@@ -39,5 +39,31 @@ popupExternalLinks();
         }
         last = now;
     }
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", () => {throttle(handleScroll)});
+
+    /**
+   * 重たいイベントを間引きする関数
+   * @param {Function} callback 間引きしたい処理
+   * @param {Number} interval 間引きする間隔(デフォルトでは1280ms)
+   * @returns {Function} 
+   */
+    const throttle = (function (callback, interval = 256) {
+        var time = Date.now(),
+            lag,
+            debounceTimer,
+            debounceDelay = 16;
+
+        return function (callback) {
+            lag = time + interval - Date.now();
+            if (lag < 0) {
+                callback();
+                time = Date.now();
+            } else {
+                clearTimeout(debounceTimer);
+                debounceTimer = setTimeout(function () {
+                    callback();
+                }, (interval - lag + debounceDelay));
+            }
+        }
+    })();
 })();
