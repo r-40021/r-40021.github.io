@@ -33,7 +33,6 @@ fields:
   - 4-column-footer
   - full-width
 pages:
-- browser.md
 - contact.md
 - index.md
 - privacy.md
