@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: HOME
-date: 2022-04-03T03:00:00.000+00:00
+date: 2022-05-22 03:00:00 +0000
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
@@ -63,8 +63,6 @@ page_sections:
     <p>他に作ったものは下のボタンから見られます。</p>
 
     <a class="button primary body" href="/works">他のアプリ</a>
-
-    <a class="button primary body" href="/browser">ブラウザ対応状況</a>
   media:
     image: "/uploads/2022/04/03/timer.jpg"
     alt_text: Yamada's timer
