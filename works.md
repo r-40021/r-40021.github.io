@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: 作品
-date: 2022-04-02T03:00:00.000+00:00
+date: 2022-05-21 03:00:00 +0000
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
@@ -71,7 +71,7 @@ page_sections:
     <a class="button primary body" href="https://github.com/r-40021/bingo/issues" target="_blank" rel="noopener noreferrer">問題を報告</a>
   slug: bingo
   media:
-    image: "/uploads/2021/10/03/bingo-1.jpg"
+    image: "/uploads/2022/05/21/bi.png"
     alt_text: ビンゴマシーンのスクリーンショット
 - template: content-feature
   block: feature-1
