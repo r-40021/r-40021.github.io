@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: 作品
-date: 2022-05-21 03:00:00 +0000
+date: 2022-05-21T03:00:00.000+00:00
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
@@ -12,7 +12,7 @@ page_sections:
     image: "/uploads/2022/04/03/website.png"
     alt_text: Webサイトのイメージ
   cta:
-    enabled: true
+    enabled: false
     url: "/browser"
     button_text: 対応ブラウザ
 - template: detail-content
