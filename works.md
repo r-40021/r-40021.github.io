@@ -143,6 +143,24 @@ page_sections:
   media:
     image: "/uploads/2022/04/02/read-text.jpg"
     alt_text: 簡易テキスト読み上げくんのスクリーンショット
+- template: content-feature
+  block: feature-1
+  media_alignment: Left
+  media:
+    image: "/uploads/2022/08/04/snap-jp.jpg"
+    alt_text: Snapdrop JPのスクリーンショット
+  headline: "<strong>Snapdrop JP</strong>"
+  slug: snap-jp
+  content: |-
+    <p>AirDrop みたいなことがブラウザでできる、<a href="https://snapdrop.net/" target="_blank" rel="noopener noreferrer">Snapdrop</a> を日本語化したもの。</p>
+
+    <p>英語特有のノリの文章を訳すのは大変でまだ不自然な部分が残っているが、今後改善していく予定。</p>
+
+    <a class="button primary body" href="https://snap-jp.herokuapp.com/" target="_blank">アプリを開く</a>
+
+    <a class="button primary body" href="https://github.com/r-40021/snapdrop-jp" target="_blank" rel="noopener noreferrer">ソースコードを見る</a>
+
+    <a class="button primary body" href="https://github.com/r-40021/snapdrop-jp/issues" target="_blank" rel="noopener noreferrer">問題を報告</a>
 - template: detail-content
   block: text-1
   headline: Chrome 拡張機能
