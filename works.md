@@ -147,7 +147,7 @@ page_sections:
   block: feature-1
   media_alignment: Left
   media:
-    image: "/uploads/2022/08/05/snap.jpg"
+    image: "/uploads/2022/08/05/snap-jp.jpg"
     alt_text: Snapdrop JPのスクリーンショット
   headline: "<strong>Snapdrop JP</strong>"
   slug: snap-jp
