@@ -155,6 +155,8 @@ page_sections:
     <p>AirDrop みたいなことがブラウザでできる、<a href="https://snapdrop.net/" target="_blank" rel="noopener noreferrer">Snapdrop</a> を日本語化したもの。</p>
 
     <p>英語特有のノリの文章を訳すのは大変でまだ不自然な部分が残っているが、今後改善していく予定。</p>
+    
+    <a class="button primary body" href="https://snap-jp.herokuapp.com/" target="_blank">アプリを開く</a>
 
     <a class="button primary body" href="https://github.com/r-40021/snapdrop-jp" target="_blank" rel="noopener noreferrer">ソースコードを見る</a>
 
