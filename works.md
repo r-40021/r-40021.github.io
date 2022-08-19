@@ -156,8 +156,6 @@ page_sections:
 
     <p>英語特有のノリの文章を訳すのは大変でまだ不自然な部分が残っているが、今後改善していく予定。</p>
 
-    <a class="button primary body" href="https://snap-jp.herokuapp.com/" target="_blank">アプリを開く</a>
-
     <a class="button primary body" href="https://github.com/r-40021/snapdrop-jp" target="_blank" rel="noopener noreferrer">ソースコードを見る</a>
 
     <a class="button primary body" href="https://github.com/r-40021/snapdrop-jp/issues" target="_blank" rel="noopener noreferrer">問題を報告</a>
