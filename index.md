@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: HOME
-date: 2022-05-22 03:00:00 +0000
+date: 2022-05-22T03:00:00.000+00:00
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
@@ -44,7 +44,7 @@ page_sections:
 
     <p>よかったら覗いてみてください。</p>
 
-    <a class="button primary body no-barba" href="/blog" target="_blank">ブログを見てみる</a>
+    <a class="button primary body no-barba" href="https://blog.frogapp.net/" target="_blank">ブログを見てみる</a>
   media:
     image: "/uploads/2022/04/03/website_blog.jpg"
     alt_text: ブログのイメージ
