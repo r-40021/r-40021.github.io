@@ -1,10 +1,10 @@
 ---
 title: やまだアプリ工房
-author: Kenichi Yamada
+author: Frog
 email: ''
 description: Webアプリを開発している、やまだアプリ工房です。
 baseurl: ''
-url: https://r-40021.github.io/
+url: https://www.frogapp.net/
 defaults:
 - scope:
     path: "/google1e027241d812a8ed.html"
