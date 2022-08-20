@@ -64,7 +64,7 @@ page_sections:
 
     <p>また、誤ってボタンを押してしまった際に操作を取り消すことができる機能を搭載。ビンゴ大会のあるあるなハプニングにも、戸惑うことなく対応できます。</p>
 
-    <a class="button primary body" href="https://r-40021.github.io/bingo/" target="_blank">アプリを開く</a>
+    <a class="button primary body" href="https://bingo.frogapp.net" target="_blank">アプリを開く</a>
 
     <a class="button primary body" href="https://github.com/r-40021/bingo" target="_blank" rel="noopener noreferrer">ソースコードを見る</a>
 
@@ -155,7 +155,7 @@ page_sections:
     <p>AirDrop みたいなことがブラウザでできる、<a href="https://snapdrop.net/" target="_blank" rel="noopener noreferrer">Snapdrop</a> を日本語化したもの。</p>
 
     <p>英語特有のノリの文章を訳すのは大変でまだ不自然な部分が残っているが、今後改善していく予定。</p>
-    
+
     <a class="button primary body" href="https://snap-jp.herokuapp.com/" target="_blank">アプリを開く</a>
 
     <a class="button primary body" href="https://github.com/r-40021/snapdrop-jp" target="_blank" rel="noopener noreferrer">ソースコードを見る</a>
