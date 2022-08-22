@@ -1,0 +1,19 @@
+name: purge_cache
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+    
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Purge Cache
+        run: |
+          curl -X POST "https://api.cloudflare.com/client/v4/zones/${{ secrets.ZONE_ID }}/purge_cache" \ 
+          -H "X-Auth-Email: ${{ secrets.MAIL_ADDRESS }}" \ 
+          -H "X-Auth-Key: ${{ secrets.GLOBAL_API_KEY }}" \ 
+          -H "Content-Type: application/json" \ 
+          --data '{"purge_everything":true}'
