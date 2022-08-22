@@ -14,8 +14,7 @@ jobs:
         env: 
           ZONE_ID: ${{ secrets.ZONE_ID }}
           GLOBAL_API_KEY: ${{ secrets.GLOBAL_API_KEY }}
-          EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
-          
+          EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}        
         run: |
           curl -X DELETE "https://api.cloudflare.com/client/v4/zones/${ZONE_ID}/purge_cache" \
           -H "X-Auth-Email: ${EMAIL_ADDRESS}" \
