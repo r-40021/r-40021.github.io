@@ -24,7 +24,7 @@ page_sections:
     <p>このプライバシーポリシーは、 https://r-40021.github.io/ 下のすべてのコンテンツに適用されます。そのため、私が提供している拡張機能には適用されません。拡張機能のプライバシーに関する情報は、 Chrome ウェブストアの「プライバシーへの取り組み」タブに掲載されています。</p>
 - template: detail-content
   block: text-1
-  headline: 開発者が得ている情報
+  headline: 開発者が<wbr>得ている<wbr>情報
   content: |-
     <p>開発者は、「<a href="https://search.google.com/search-console/" target="_blank" rel="noopener noreferrer" rel="noopener noreferrer">Google Search Console</a>」と「<a href="https://www.goatcounter.com/" target="_blank" rel="noopener noreferrer" rel="noopener noreferrer">GoatCounter</a>」の2つのサービスを利用して、個人を特定できない形でユーザーのアクセス状況を収集しています。収集した情報は、より使いやすいサービスを開発する目的で利用します。</p>
 
@@ -43,7 +43,7 @@ page_sections:
     (*1): <a href="https://www.arp242.net/dnt.html" target="_blank" rel="noopener noreferrer" rel="noopener noreferrer">Why GoatCounter ignores Do Not Track</a> (最終閲覧日:2021/09/12、訳は引用者によるもの)</p>
 - template: detail-content
   block: text-1
-  headline: 開発者が得ていない情報
+  headline: 開発者が<wbr>得ていない<wbr>情報
   content: |-
     <p><strong>開発者が、ユーザーの個人情報(個人を特定できる情報)を収集することはありませんし、する気もありません。</strong></p>
 
@@ -54,7 +54,7 @@ page_sections:
     <p>そのため、ブラウザの設定からこれらのデータを削除することができます。また、シークレットモードなどでは、ブラウザを終了するとこれらのデータが削除されます。</p>
 - template: detail-content
   block: text-1
-  headline: Cookie について
+  headline: Cookie に<wbr>ついて
   content: |-
     <p>私のアプリには、第三者が作成したサービスやプログラムが組み込まれていることがほとんどです。</p>
 
