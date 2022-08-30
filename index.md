@@ -6,7 +6,7 @@ page_sections:
 - template: hero-banner-w-image
   block: hero-2
   slug: features
-  headline: "<strong>やまだアプリ工房</strong>"
+  headline: "<strong>やまだ<wbr>アプリ<wbr>工房</strong>"
   content: Webアプリを開発しています。
   cta:
     enabled: true
