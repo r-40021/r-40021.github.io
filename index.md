@@ -6,8 +6,8 @@ page_sections:
 - template: hero-banner-w-image
   block: hero-2
   slug: features
-  headline: "<strong>やまだ<wbr>アプリ<wbr>工房</strong>"
-  content: Webアプリを開発しています。
+  headline: "<strong>カエル<wbr>アプリ<wbr>工房</strong>"
+  content: Webアプリやブラウザ拡張機能を開発しています。
   cta:
     enabled: true
     url: https://github.com/r-40021
@@ -20,13 +20,13 @@ page_sections:
   block: feature-1
   media_alignment: Left
   slug: about
-  headline: "<strong>やまだアプリ工房</strong>とは"
+  headline: "<strong>カエルアプリ工房</strong>とは"
   content: |-
     <p>日本のどこかでプログラミングをしている学生が、1人で運営している架空の工房。</p>
 
     <p>真面目なWebアプリや不真面目なWebアプリを開発しています。</p>
 
-    <p>「オープンソース」という仕組みが好きなので、作ったプログラムは基本的に<a href="https://github.com/r-40021" title="GitHub" target="_blank" rel="noopener noreferrer">GitHub</a>で公開しています。</p>
+    <p>作ったプログラムのほとんどは<a href="https://github.com/r-40021" title="GitHub" target="_blank" rel="noopener noreferrer">GitHub</a>で公開しています。</p>
 
     <p>技術力は大したことないですが、使いやすいものを作っていきたいです。</p>
   media:
@@ -54,7 +54,7 @@ page_sections:
   slug: app
   headline: "<strong>作ったもの</strong>"
   content: |-
-    <p>HTML、JavaScript、CSSを使い、「使いやすさ」に重点を置いて開発しています。</p>
+    <p>「使いやすさ」に重点を置いてWebアプリやブラウザ拡張機能を開発しています。</p>
 
     <p>画像は、私が最初に作ったアプリ「<a href="https://r-40021.github.io/countdown-timer" title="やまだのタイマー" target="_blank">やまだのタイマー</a>」</p>
 
@@ -71,7 +71,7 @@ page_sections:
   media_alignment: Right
   headline: "<strong>プライバシー</strong>を尊重しています"
   content: |-
-    <p>やまだのアプリは、プライバシーに十分配慮して作られています。</p>
+    <p>カエルのアプリは、プライバシーに十分配慮して作られています。</p>
 
     <p>しかし、それはユーザーの情報を一切収集しないということではなく、「必要最小限」かつ「明示的に」ユーザーの情報を収集するということです。</p>
 
