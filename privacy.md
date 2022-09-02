@@ -6,7 +6,7 @@ page_sections:
 - template: hero-banner-w-image
   block: hero-2
   headline: "<strong>プライバシー<wbr>ポリシー</strong>"
-  content: やまだのアプリがユーザーの情報をどのように扱っているか、緩く説明していきます。<br><br>最終更新：2021/9/12<br>公開：2021/3/27<br><strong>※現在、改訂作業中です</strong>
+  content: やまだのアプリがユーザーの情報をどのように扱っているか、緩く説明していきます。<br><br>最終更新：2021/9/12<br>公開：2021/3/27<br><strong>※現在、改定作業中です</strong>
   background_image: ''
   image:
     image: "/uploads/2022/04/03/key.png"
