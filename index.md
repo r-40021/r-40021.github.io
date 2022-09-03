@@ -22,11 +22,9 @@ page_sections:
   slug: about
   headline: "<strong>カエル<wbr>アプリ<wbr>工房</strong><wbr>とは"
   content: |-
-    <p>日本のどこかでプログラミングをしている学生が、1人で運営している架空の工房。</p>
+    <p>日本のどこかでWebアプリやブラウザ拡張機能を開発している学生が、1人で運営している架空の工房。</p>
 
-    <p>Webアプリやブラウザ拡張機能を開発しています。</p>
-
-    <p>作ったプログラムのほとんどは<a href="https://github.com/r-40021" title="GitHub" target="_blank" rel="noopener noreferrer">GitHub</a>で誰でも見られます。</p>
+    <p>作ったプログラムのほとんどは<a href="https://github.com/r-40021" title="GitHub" target="_blank" rel="noopener noreferrer">GitHub</a>で公開しています。</p>
 
     <p>技術力は大したことないですが、使いやすいものを作っていきたいです。</p>
   media:
