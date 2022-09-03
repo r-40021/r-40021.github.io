@@ -20,7 +20,7 @@ page_sections:
   block: feature-1
   media_alignment: Left
   slug: about
-  headline: "<strong>カエルアプリ工房</strong>とは"
+  headline: "<strong>カエル<wbr>アプリ<wbr>工房</strong><wbr>とは"
   content: |-
     <p>日本のどこかでプログラミングをしている学生が、1人で運営している架空の工房。</p>
 
@@ -35,7 +35,7 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Right
-  headline: "<strong>ブログ</strong>始めました"
+  headline: "<strong>ブログ</strong><wbr>始めました"
   slug: blog
   content: |-
     <p>無性に文章を書きたくなったので、ブログを始めました。</p>
@@ -52,7 +52,7 @@ page_sections:
   block: feature-1
   media_alignment: Left
   slug: app
-  headline: "<strong>作ったもの</strong>"
+  headline: "<strong>作った<wbr>もの</strong>"
   content: |-
     <p>「使いやすさ」に重点を置いてWebアプリやブラウザ拡張機能を開発しています。</p>
 
@@ -69,7 +69,7 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Right
-  headline: "<strong>プライバシー</strong>を尊重しています"
+  headline: "<strong>プライバシー</strong>を<wbr>尊重しています"
   content: |-
     <p>カエルのアプリは、プライバシーに十分配慮して作られています。</p>
 
