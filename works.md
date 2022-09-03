@@ -25,7 +25,7 @@ page_sections:
   media:
     image: "/uploads/2022/04/03/timer.jpg"
     alt_text: やまだのタイマー
-  headline: "<strong>やまだのタイマー</strong>"
+  headline: "<strong>やまだの<wbr>タイマー</strong>"
   slug: timer
   content: |-
     <p>目覚まし時計とタイマーのいいとこ取りをした、オープンソースのちょっと変わったタイマーです。いろんな用途に使えます。</p><p>もともと、学校でクラス解散までの時間をカウントダウンする目的で作ったのですが、それ以外にもいろいろな機能を追加しています。</p>
@@ -52,7 +52,7 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Left
-  headline: "<strong>やまだBINGO</strong>"
+  headline: "<strong>やまだ<wbr>BINGO</strong>"
   content: |-
     <p>インストール不要で、デバイスを問わず使えるビンゴマシーン。シンプルで使いやすい上に、履歴の自動保存機能まで搭載しています。
 
@@ -96,7 +96,7 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Left
-  headline: "<strong>文字起こしツール</strong>"
+  headline: "<strong>文字起こし<wbr>ツール</strong>"
   slug: transcription
   content: |-
     <p>ブラウザだけで文字起こしが手軽にできるアプリです。</p>
@@ -122,7 +122,7 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Left
-  headline: "<strong>簡易テキスト読み上げくん</strong>"
+  headline: "<strong>簡易<wbr>テキスト<wbr>読み上げくん</strong>"
   slug: read-text
   content: |-
     <p>手軽に音声読み上げができるサイトです。</p>
@@ -186,7 +186,7 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Left
-  headline: "<strong>ページ簡単共有</strong>"
+  headline: "<strong>ページ<wbr>簡単<wbr>共有</strong>"
   content: |-
     <p>閲覧しているページのタイトルや URL をコピーしたり、各種 SNS でシェアしたりできる拡張機能です。</p>
 
@@ -206,7 +206,7 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Left
-  headline: "<strong>文字数カウント</strong>"
+  headline: "<strong>文字数<wbr>カウント</strong>"
   slug: countChar
   content: |-
     <p>Web サイト上のフォームに文字を入力した際に、リアルタイムで文字数を表示する拡張機能です。</p>
