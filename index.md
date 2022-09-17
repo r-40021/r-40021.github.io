@@ -54,7 +54,7 @@ page_sections:
   content: |-
     <p>「使いやすさ」に重点を置いてWebアプリやブラウザ拡張機能を開発しています。</p>
 
-    <p>画像は、私が最初に作ったアプリ「<a href="https://r-40021.github.io/countdown-timer" title="やまだのタイマー" target="_blank">やまだのタイマー</a>」</p>
+    <p>画像は、私が最初に作ったアプリ「<a href="https://timer.frogapp.net" title="やまだのタイマー" target="_blank">やまだのタイマー</a>」</p>
 
     <p>最初は100行程度のプログラムでしたが、気づけばコードが1000行になっていました...</p>
 
