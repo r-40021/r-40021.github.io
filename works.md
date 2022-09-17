@@ -44,7 +44,7 @@ page_sections:
 
     </ul>
 
-    <a class="button primary body" href="https://r-40021.github.io/countdown-timer/" target="_blank">アプリを開く</a>
+    <a class="button primary body" href="https://timer.frogapp.net" target="_blank">アプリを開く</a>
 
     <a class="button primary body" href="https://github.com/r-40021/countdown-timer" target="_blank" rel="noopener noreferrer">ソースコードを見る</a>
 
@@ -85,7 +85,7 @@ page_sections:
 
     <p>もちろん完全無料で使えます。</p>
 
-    <a class="button primary body" href="https://r-40021.github.io/stopwatch/" target="_blank">アプリを開く</a>
+    <a class="button primary body" href="https://stopwatch.frogapp.net" target="_blank">アプリを開く</a>
 
     <a class="button primary body" href="https://github.com/r-40021/stopwatch/" target="_blank" rel="noopener noreferrer">ソースコードを見る</a>
 
@@ -111,7 +111,7 @@ page_sections:
 
     <small>* Chromium"系"のブラウザでは動かないことがあります。</small></p>
 
-    <a class="button primary body" href="https://web-transcription.pages.dev/" target="_blank">アプリを開く</a>
+    <a class="button primary body" href="https://speech.frogapp.net" target="_blank">アプリを開く</a>
 
     <a class="button primary body" href="https://github.com/r-40021/web-speech-api" target="_blank" rel="noopener noreferrer">ソースコードを見る</a>
 
@@ -135,7 +135,7 @@ page_sections:
 
     <small>某検索エンジンの画面と似ている？気のせい、気のせい…</small></p>
 
-    <a class="button primary body" href="https://r-40021.github.io/read-text/" target="_blank">アプリを開く</a>
+    <a class="button primary body" href="https://read.frogapp.net" target="_blank">アプリを開く</a>
 
     <a class="button primary body" href="https://github.com/r-40021/read-text" target="_blank" rel="noopener noreferrer">ソースコードを見る</a>
 
@@ -156,7 +156,7 @@ page_sections:
 
     <p>英語特有のノリの文章を訳すのは大変でまだ不自然な部分が残っているが、今後改善していく予定。</p>
 
-    <a class="button primary body" href="https://snap-jp.herokuapp.com/" target="_blank">アプリを開く</a>
+    <a class="button primary body" href="https://share.frogapp.net" target="_blank">アプリを開く</a>
 
     <a class="button primary body" href="https://github.com/r-40021/snapdrop-jp" target="_blank" rel="noopener noreferrer">ソースコードを見る</a>
 
