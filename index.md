@@ -73,7 +73,7 @@ page_sections:
 
     <p>しかし、それはユーザーの情報を一切収集しないということではなく、「必要最小限」かつ「明示的に」ユーザーの情報を収集するということです。</p>
 
-    <a class="button primary body" href="/privacy">詳しく</a>
+    <a class="button primary body" href="/privacy">プライバシーポリシー</a>
   slug: privacy
   media:
     image: "/uploads/3.png"
