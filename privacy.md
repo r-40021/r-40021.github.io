@@ -1,12 +1,12 @@
 ---
 layout: blocks
 title: プライバシーポリシー
-date: 2022-09-21T20:00:00.000+09:00
+date: 2022-09-21 12:00:00 +0000
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
   headline: "<strong>プライバシー<wbr>ポリシー</strong>"
-  content: 当サイトがユーザーの情報をどの程度収集し、何の目的で使用しているのかを説明します。<br><br>最終更新：2022/9/21<br>公開：2021/3/27
+  content: 当サイトがユーザーの情報をどの程度収集し、何の目的で使用しているのかをご説明します。<br><br>最終更新：2022/9/21<br>公開：2021/3/27
   background_image: ''
   image:
     image: "/uploads/2022/04/03/key.png"
@@ -32,7 +32,7 @@ page_sections:
   content: |-
     <p>当サイトでは、「<a href="https://search.google.com/search-console/" target="_blank" rel="noopener noreferrer" rel="noopener noreferrer">Google Search Console</a>」と「<a href="https://www.cloudflare.com/ja-jp/web-analytics/" target="_blank" rel="noopener noreferrer" rel="noopener noreferrer">Cloudflare Web Analytics</a>」の 2 つのサービスを利用してユーザーのアクセス状況を収集しています。</p>
 
-    <p>収集している主なデータは以下のとおりです。</p>
+    <p>収集している主なデータは以下の通りです。</p>
 
     <br>
 
@@ -46,9 +46,9 @@ page_sections:
 
     <li>検索エンジンでの平均掲載順位</li>
 
-    <li>検索エンジンからアクセスしたブラウザ・OS</li>
+    <li>検索エンジンで当サイトを検索した際のブラウザー・OS</li>
 
-    <li>検索エンジンからアクセスした国</li>
+    <li>検索エンジンで当サイトを検索した際のアクセス元の国</li>
 
     <li>当サイトにたどり着くために検索した語句</li>
 
@@ -62,7 +62,7 @@ page_sections:
 
     <li>アクセス元の国</li>
 
-    <li>アクセスしたブラウザ・OS</li>
+    <li>アクセスしたブラウザー・OS</li>
 
     <li>アクセス元のサイト<br><small>(Google検索から、Twitterから等)</small></li>
 
