@@ -38,6 +38,8 @@ page_sections:
 
     <p>収集している主なデータは以下のとおりです。</p>
 
+    <br>
+
     <h3>Google Search Console</h3>
 
     <ul>
@@ -66,7 +68,7 @@ page_sections:
 
     <li>アクセスしたブラウザ・OS</li>
 
-    <li>アクセス元のサイト<br>(Google検索から、Twitterから等)</li>
+    <li>アクセス元のサイト<br><small>(Google検索から、Twitterから等)</small></li>
 
     <li>ページの読み込みにかかった時間</li>
 
