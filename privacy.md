@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: プライバシーポリシー
-date: 2021-09-12T00:00:00.000+09:00
+date: 2022-09-21T20:00:00.000+09:00
 page_sections:
 - template: hero-banner-w-image
   block: hero-2
