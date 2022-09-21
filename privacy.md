@@ -32,10 +32,6 @@ page_sections:
   content: |-
     <p>当サイトでは、「<a href="https://search.google.com/search-console/" target="_blank" rel="noopener noreferrer" rel="noopener noreferrer">Google Search Console</a>」と「<a href="https://www.cloudflare.com/ja-jp/web-analytics/" target="_blank" rel="noopener noreferrer" rel="noopener noreferrer">Cloudflare Web Analytics</a>」の2つのサービスを利用してユーザーのアクセス状況を収集しています。</p>
 
-    <p>アクセス解析サービスが個人を特定できる情報を収集することはありません。さらに、運営者はアクセス解析サービスにより統計処理された情報しか閲覧できません。</p>
-
-    <p>収集した情報は、訪問者の興味関心の傾向を分析してよりよいコンテンツを提供したり、ウェブページの問題を迅速に発見し修正したりするために用いられます。</p>
-
     <p>収集している主なデータは以下のとおりです。</p>
 
     <br>
@@ -73,6 +69,10 @@ page_sections:
     <li>ページの読み込みにかかった時間</li>
 
     </ul>
+
+    <p>アクセス解析サービスが個人を特定できる情報を収集することはありません。さらに、運営者はアクセス解析サービスにより統計処理された情報しか閲覧できません。</p>
+
+    <p>収集した情報は、訪問者の興味関心の傾向を分析してよりよいコンテンツを提供したり、ウェブページの問題を迅速に発見し修正したりするために用いられます。</p>
 - template: detail-content
   block: text-1
   headline: 収集していない<wbr>情報
