@@ -21,6 +21,13 @@ page_sections:
   content: "<p>2022/09/21　使用するアクセス解析ツールをGoatCounterからCloudflare Web Analyticsに変更、読みやすさの改善</p>"
 - template: detail-content
   block: text-1
+  headline: プライバシー<wbr>ポリシー<wbr>について
+  content: |-
+    <p>当サイトがユーザーの皆様のどのような情報を収集し、それがどのように利用されているかが記されています。</p>
+
+    <p>このプライバシーポリシーは、frogapp.netドメイン(サブドメイン含む)で配信されるすべてのサービスに適用されます。</p>
+- template: detail-content
+  block: text-1
   headline: 収集している<wbr>情報
   content: |-
     <p>当サイトでは、「<a href="https://search.google.com/search-console/" target="_blank" rel="noopener noreferrer" rel="noopener noreferrer">Google Search Console</a>」と「<a href="https://www.cloudflare.com/ja-jp/web-analytics/" target="_blank" rel="noopener noreferrer" rel="noopener noreferrer">Cloudflare Web Analytics</a>」の2つのサービスを利用してユーザーのアクセス状況を収集しています。</p>
