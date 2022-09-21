@@ -18,7 +18,7 @@ page_sections:
 - template: detail-content
   block: text-1
   headline: 変更履歴
-  content: "<p>2022/09/21　使用するアクセス解析ツールを GoatCounter から Cloudflare Web Analytics に変更、読みやすさの改善</p>"
+  content: "<p>2022/09/21　使用するアクセス解析ツールの GoatCounter から Cloudflare Web Analytics への変更、読みやすさの改善</p>"
 - template: detail-content
   block: text-1
   headline: プライバシー<wbr>ポリシー<wbr>について
