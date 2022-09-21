@@ -18,19 +18,19 @@ page_sections:
 - template: detail-content
   block: text-1
   headline: 変更履歴
-  content: "<p>2022/09/21　使用するアクセス解析ツールをGoatCounterからCloudflare Web Analyticsに変更、読みやすさの改善</p>"
+  content: "<p>2022/09/21　使用するアクセス解析ツールを GoatCounter から Cloudflare Web Analytics に変更、読みやすさの改善</p>"
 - template: detail-content
   block: text-1
   headline: プライバシー<wbr>ポリシー<wbr>について
   content: |-
     <p>このプライバシーポリシーには、当サイトがユーザーの皆様のどのような情報を収集し、それがどのように利用されているかが記されています。</p>
 
-    <p>このプライバシーポリシーは、frogapp.netドメイン(サブドメイン含む)で配信されるすべてのサービスに適用されます。</p>
+    <p>このプライバシーポリシーは、frogapp.net ドメイン(サブドメイン含む)で配信されるすべてのサービスに適用されます。</p>
 - template: detail-content
   block: text-1
   headline: 収集している<wbr>情報
   content: |-
-    <p>当サイトでは、「<a href="https://search.google.com/search-console/" target="_blank" rel="noopener noreferrer" rel="noopener noreferrer">Google Search Console</a>」と「<a href="https://www.cloudflare.com/ja-jp/web-analytics/" target="_blank" rel="noopener noreferrer" rel="noopener noreferrer">Cloudflare Web Analytics</a>」の2つのサービスを利用してユーザーのアクセス状況を収集しています。</p>
+    <p>当サイトでは、「<a href="https://search.google.com/search-console/" target="_blank" rel="noopener noreferrer" rel="noopener noreferrer">Google Search Console</a>」と「<a href="https://www.cloudflare.com/ja-jp/web-analytics/" target="_blank" rel="noopener noreferrer" rel="noopener noreferrer">Cloudflare Web Analytics</a>」の 2 つのサービスを利用してユーザーのアクセス状況を収集しています。</p>
 
     <p>収集している主なデータは以下のとおりです。</p>
 
@@ -40,7 +40,7 @@ page_sections:
 
     <ul>
 
-    <li>Google検索および同社のシステムを使用した検索エンジン(以下、「検索エンジン」)での当サイトの表示数</li>
+    <li>Google 検索および同社のシステムを使用した検索エンジン(以下、「検索エンジン」)での当サイトの表示数</li>
 
     <li>検索エンジンからの訪問者数</li>
 
@@ -88,7 +88,7 @@ page_sections:
   block: text-1
   headline: Cookie に<wbr>ついて
   content: |-
-    <p>私のアプリには、第三者が作成したサービスやプログラムが組み込まれていることがほとんどです。</p>
+    <p>当サイトのプログラムには、第三者が作成したサービスやプログラムが組み込まれていることがほとんどです。</p>
 
     <p>これらのプログラムが Cookie を使用している場合がありますが、これはユーザーの皆様に快適なネット体験をしていただくためのものであって、ユーザーの皆様を追跡するためのものではありません。</p>
 - template: detail-content
