@@ -9,7 +9,7 @@ page_sections:
   content: 技術力＜＜＜＜＜使いやすさを念頭に、頑張ってアプリを作っています。<br>まあ、技術力も高めなきゃいけないんですけど。<br>
   background_image: ''
   image:
-    image: "/uploads/2022/04/03/website.png"
+    image: "/uploads/hero/website.png"
     alt_text: Webサイトのイメージ
   cta:
     enabled: false
@@ -23,7 +23,7 @@ page_sections:
   block: feature-1
   media_alignment: Left
   media:
-    image: "/uploads/2022/04/03/timer.jpg"
+    image: "/uploads/works/timer.jpg"
     alt_text: やまだのタイマー
   headline: "<strong>やまだの<wbr>タイマー</strong>"
   slug: timer
@@ -71,7 +71,7 @@ page_sections:
     <a class="button primary body" href="https://github.com/r-40021/bingo/issues" target="_blank" rel="noopener noreferrer">問題を報告</a>
   slug: bingo
   media:
-    image: "/uploads/2022/05/21/bi.png"
+    image: "/uploads/works/bingo.webp"
     alt_text: ビンゴマシーンのスクリーンショット
 - template: content-feature
   block: feature-1
@@ -91,7 +91,7 @@ page_sections:
 
     <a class="button primary body" href="https://github.com/r-40021/stopwatch/issues/" target="_blank" rel="noopener noreferrer">問題を報告</a>
   media:
-    image: "/uploads/2021/08/14/stopwatch.jpg"
+    image: "/uploads/works/stopwatch.jpg"
     alt_text: stopwatch
 - template: content-feature
   block: feature-1
@@ -117,7 +117,7 @@ page_sections:
 
     <a class="button primary body" href="https://github.com/r-40021/web-speech-api/issues/" target="_blank" rel="noopener noreferrer">問題を報告</a>
   media:
-    image: "/uploads/2022/03/14/transcription.jpg"
+    image: "/uploads/works/transcription.jpg"
     alt_text: 音声認識の様子
 - template: content-feature
   block: feature-1
@@ -141,13 +141,13 @@ page_sections:
 
     <a class="button primary body" href="https://github.com/r-40021/read-text/issues/" target="_blank" rel="noopener noreferrer">問題を報告</a>
   media:
-    image: "/uploads/2022/04/02/read-text.jpg"
+    image: "/uploads/works/read-text.jpg"
     alt_text: 簡易テキスト読み上げくんのスクリーンショット
 - template: content-feature
   block: feature-1
   media_alignment: Left
   media:
-    image: "/uploads/2022/08/07/snap-jp.jpg"
+    image: "/uploads/works/snap-jp.jpg"
     alt_text: Snapdrop JPのスクリーンショット
   headline: "<strong>Snapdrop JP</strong>"
   slug: snap-jp
@@ -181,7 +181,7 @@ page_sections:
     <a class="button primary body" href="https://github.com/r-40021/ishiki_takaku/issues/" target="_blank" rel="noopener noreferrer">問題を報告</a>
   slug: rename-tab
   media:
-    image: "/uploads/2021/11/21/rename_tab.png"
+    image: "/uploads/works/rename_tab.png"
     alt_text: 設定画面
 - template: content-feature
   block: feature-1
@@ -200,7 +200,7 @@ page_sections:
 
     <a class="button primary body" href="https://github.com/r-40021/copy_title-URL/issues/" target="_blank" rel="noopener noreferrer">問題を報告</a>
   media:
-    image: "/uploads/2021/08/19/share.png"
+    image: "/uploads/works/share.png"
     alt_text: ページ簡単共有
   slug: easy-share
 - template: content-feature
@@ -221,7 +221,7 @@ page_sections:
 
     <a class="button primary body" href="https://github.com/r-40021/count-character/issues/" target="_blank" rel="noopener noreferrer">問題を報告</a>
   media:
-    image: "/uploads/2022/04/02/count-character.jpg"
+    image: "/uploads/works/count-character.jpg"
     alt_text: その場で字数を確認できる拡張機能です。
 - template: content-feature
   block: feature-1
@@ -241,7 +241,7 @@ page_sections:
 
     <a class="button primary body" href="https://github.com/r-40021/replace-font/issues/" target="_blank" rel="noopener noreferrer">問題を報告</a>
   media:
-    image: "/uploads/2022/04/02/replace-font.jpg"
+    image: "/uploads/works/replace-font.jpg"
     alt_text: replace-font
 
 ---
