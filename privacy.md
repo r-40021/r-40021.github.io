@@ -9,7 +9,7 @@ page_sections:
   content: 当サイトがユーザーの情報をどの程度収集し、何の目的で使用しているのかをご説明します。<br><br>最終更新：2022/9/21<br>公開：2021/3/27
   background_image: ''
   image:
-    image: "/uploads/hero/key.png"
+    image: "/uploads/hero/key.webp"
     alt_text: Key
   cta:
     enabled: false

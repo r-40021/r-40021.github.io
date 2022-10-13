@@ -9,7 +9,7 @@ page_sections:
   headline: "<strong>お問い合わせ</strong>"
   background_image: ''
   image:
-    image: "/uploads/hero/mail.png"
+    image: "/uploads/hero/mail.webp"
     alt_text: mail
   cta:
     enabled: false

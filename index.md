@@ -13,7 +13,7 @@ page_sections:
     url: https://github.com/r-40021
     button_text: 'GitHub '
   image:
-    image: "/uploads/hero/logo.png"
+    image: "/uploads/hero/logo.webp"
     alt_text: My Logo
   background_image: ''
 - template: content-feature
@@ -28,7 +28,7 @@ page_sections:
 
     <p>技術力は大したことないですが、使いやすいものを作っていきたいです。</p>
   media:
-    image: "/uploads/home/self-introduce.png"
+    image: "/uploads/home/self-introduce.webp"
     alt_text: プログラマーのイメージ
 - template: content-feature
   block: feature-1
@@ -44,7 +44,7 @@ page_sections:
 
     <a class="button primary body no-barba" href="https://blog.frogapp.net/" target="_blank">ブログを見てみる</a>
   media:
-    image: "/uploads/home/website_blog.jpg"
+    image: "/uploads/home/website_blog.webp"
     alt_text: ブログのイメージ
 - template: content-feature
   block: feature-1
@@ -62,7 +62,7 @@ page_sections:
 
     <a class="button primary body" href="/works">他のアプリ</a>
   media:
-    image: "/uploads/works/timer.jpg"
+    image: "/uploads/works/timer.webp"
     alt_text: Yamada's timer
 - template: content-feature
   block: feature-1

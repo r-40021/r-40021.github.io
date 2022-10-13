@@ -9,7 +9,7 @@ page_sections:
   content: 技術力＜＜＜＜＜使いやすさを念頭に、頑張ってアプリを作っています。<br>まあ、技術力も高めなきゃいけないんですけど。<br>
   background_image: ''
   image:
-    image: "/uploads/hero/website.png"
+    image: "/uploads/hero/website.webp"
     alt_text: Webサイトのイメージ
   cta:
     enabled: false
@@ -23,7 +23,7 @@ page_sections:
   block: feature-1
   media_alignment: Left
   media:
-    image: "/uploads/works/timer.jpg"
+    image: "/uploads/works/timer.webp"
     alt_text: やまだのタイマー
   headline: "<strong>やまだの<wbr>タイマー</strong>"
   slug: timer
@@ -91,7 +91,7 @@ page_sections:
 
     <a class="button primary body" href="https://github.com/r-40021/stopwatch/issues/" target="_blank" rel="noopener noreferrer">問題を報告</a>
   media:
-    image: "/uploads/works/stopwatch.jpg"
+    image: "/uploads/works/stopwatch.webp"
     alt_text: stopwatch
 - template: content-feature
   block: feature-1
@@ -117,7 +117,7 @@ page_sections:
 
     <a class="button primary body" href="https://github.com/r-40021/web-speech-api/issues/" target="_blank" rel="noopener noreferrer">問題を報告</a>
   media:
-    image: "/uploads/works/transcription.jpg"
+    image: "/uploads/works/speech.webp"
     alt_text: 音声認識の様子
 - template: content-feature
   block: feature-1
@@ -141,13 +141,13 @@ page_sections:
 
     <a class="button primary body" href="https://github.com/r-40021/read-text/issues/" target="_blank" rel="noopener noreferrer">問題を報告</a>
   media:
-    image: "/uploads/works/read-text.jpg"
+    image: "/uploads/works/read.webp"
     alt_text: 簡易テキスト読み上げくんのスクリーンショット
 - template: content-feature
   block: feature-1
   media_alignment: Left
   media:
-    image: "/uploads/works/snap-jp.jpg"
+    image: "/uploads/works/snapdrop-jp.webp"
     alt_text: Snapdrop JPのスクリーンショット
   headline: "<strong>Snapdrop JP</strong>"
   slug: snap-jp
@@ -181,7 +181,7 @@ page_sections:
     <a class="button primary body" href="https://github.com/r-40021/ishiki_takaku/issues/" target="_blank" rel="noopener noreferrer">問題を報告</a>
   slug: rename-tab
   media:
-    image: "/uploads/works/rename_tab.png"
+    image: "/uploads/works/rename-tab.png"
     alt_text: 設定画面
 - template: content-feature
   block: feature-1
