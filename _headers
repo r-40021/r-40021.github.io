@@ -4,4 +4,5 @@ https://:project.pages.dev/*
   Refresh: 0; url=https://frogapp.net/:splat
 
 https://www.frogapp.net/*
+  Link: <https://frogapp.net/:splat>; rel="canonical"
   X-Robots-Tag: noindex
