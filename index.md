@@ -7,7 +7,7 @@ page_sections:
   block: hero-2
   slug: features
   headline: "<strong>カエル<wbr>アプリ<wbr>工房</strong>"
-  content: Webアプリやブラウザ拡張機能を開発しています。
+  content: ウェブアプリやブラウザ拡張機能を開発しています。
   cta:
     enabled: true
     url: https://github.com/r-40021
