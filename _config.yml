@@ -18,7 +18,7 @@ defaults:
 compress_html:
   clippings: all
   comments: all
-  endings: all
+  endings: []
   ignore:
     envs: []
   blanklines: true
