@@ -7,7 +7,7 @@ page_sections:
   block: hero-2
   slug: features
   headline: "<strong>カエル<wbr>アプリ<wbr>工房</strong>"
-  content: ウェブアプリやブラウザ拡張機能を開発しています。
+  content: ウェブアプリやブラウザー拡張機能を開発しています。
   cta:
     enabled: true
     url: https://github.com/r-40021
@@ -22,7 +22,7 @@ page_sections:
   slug: about
   headline: "<strong>カエル<wbr>アプリ<wbr>工房</strong><wbr>とは"
   content: |-
-    <p>日本のどこかでWebアプリやブラウザ拡張機能を開発している学生が、1人で運営している架空の工房。</p>
+    <p>日本のどこかでウェブアプリやブラウザー拡張機能を開発している学生が、1人で運営している架空の工房。</p>
 
     <p>作ったプログラムのほとんどは<a href="https://github.com/r-40021" title="GitHub" target="_blank" rel="noopener noreferrer">GitHub</a>で公開しています。</p>
 
@@ -52,7 +52,7 @@ page_sections:
   slug: app
   headline: "<strong>作った<wbr>もの</strong>"
   content: |-
-    <p>「使いやすさ」に重点を置いてWebアプリやブラウザ拡張機能を開発しています。</p>
+    <p>「使いやすさ」に重点を置いてウェブアプリやブラウザー拡張機能を開発しています。</p>
 
     <p>画像は、私が最初に作ったアプリ「<a href="https://timer.frogapp.net" title="やまだのタイマー" target="_blank">やまだのタイマー</a>」</p>
 
