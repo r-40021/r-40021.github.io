@@ -10,14 +10,14 @@ page_sections:
   background_image: ''
   image:
     image: "/uploads/hero/website.webp"
-    alt_text: Webサイトのイメージ
+    alt_text: ウェブサイトのイメージ
   cta:
     enabled: false
     url: "/browser"
-    button_text: 対応ブラウザ
+    button_text: 対応ブラウザー
 - template: detail-content
   block: text-1
-  headline: Web アプリ
+  headline: ウェブアプリ
   content: "<p>真面目に作った、色んな人に使ってほしいアプリです。ソースコードはGitHubに、アプリもインターネット上に公開しています。</p>"
 - template: content-feature
   block: feature-1
@@ -34,7 +34,7 @@ page_sections:
 
     <li>設定時刻がパラメータに格納されるので、URLを共有するだけで、一緒に緊迫のカウントダウンを楽しめます。</li>
 
-    <li>ブラウザのタイトルバーに残り時間が表示されるので、他の作業をしていても時間を忘れることはありません。</li>
+    <li>ブラウザーのタイトルバーに残り時間が表示されるので、他の作業をしていても時間を忘れることはありません。</li>
 
     <li>プッシュ通知にも対応。音が出せない場所でも使えます。</li>
 
@@ -58,7 +58,7 @@ page_sections:
 
     <br>
 
-    <small>* 一部の古いブラウザでは保存機能に対応していません。</small>
+    <small>* 一部の古いブラウザーでは保存機能に対応していません。</small>
 
     </p>
 
@@ -99,17 +99,17 @@ page_sections:
   headline: "<strong>文字起こし<wbr>ツール</strong>"
   slug: transcription
   content: |-
-    <p>ブラウザだけで文字起こしが手軽にできるアプリです。</p>
+    <p>ブラウザーだけで文字起こしが手軽にできるアプリです。</p>
 
     <p>日本語のみならず、アメリカ英語・イギリス英語に対応しているため英語の発音練習にも最適です。</p>
 
     <p>また、書き起こした文章はテキストファイルに書き出すことができます。</p>
 
-    <p>まだ試験段階の技術を使用しているため、一部のブラウザでは正常に機能しません。おすすめは Chrome です。
+    <p>まだ試験段階の技術を使用しているため、一部のブラウザーでは正常に機能しません。おすすめは Chrome です。
 
     <br>
 
-    <small>* Chromium"系"のブラウザでは動かないことがあります。</small></p>
+    <small>* Chromium"系"のブラウザーでは動かないことがあります。</small></p>
 
     <a class="button primary body" href="https://speech.frogapp.net" target="_blank">アプリを開く</a>
 
@@ -152,7 +152,7 @@ page_sections:
   headline: "<strong>Snapdrop JP</strong>"
   slug: snap-jp
   content: |-
-    <p>AirDrop みたいなことがブラウザでできる、<a href="https://snapdrop.net/" target="_blank" rel="noopener noreferrer">Snapdrop</a> を日本語化したもの。</p>
+    <p>AirDrop みたいなことがブラウザーでできる、<a href="https://snapdrop.net/" target="_blank" rel="noopener noreferrer">Snapdrop</a> を日本語化したもの。</p>
 
     <p>英語特有のノリの文章を訳すのは大変でまだ不自然な部分が残っているが、今後改善していく予定。</p>
 
@@ -170,9 +170,9 @@ page_sections:
   media_alignment: Left
   headline: "<strong>Rename Tab</strong>"
   content: |-
-    <p>この拡張機能を用いると、ブラウザのタブに表示されるアイコンは非表示になり、Web サイト名は別のものに置き換えられます。</p>
+    <p>この拡張機能を用いると、ブラウザーのタブに表示されるアイコンは非表示になり、ウェブサイト名は別のものに置き換えられます。</p>
 
-    <p>ブラウザの画面を他人に見せる時に、ほかのタブで開いている Web ページを知られたくない場合などに使えます。</p>
+    <p>ブラウザーの画面を他人に見せる時に、ほかのタブで開いている ウェブページを知られたくない場合などに使えます。</p>
 
     <a class="button primary body" href="https://chrome.google.com/webstore/detail/rename-tab/nbpkdabdmbefnemcjehinaeklgmngdoo" target="_blank" rel="noopener noreferrer">インストール</a>
 
@@ -209,7 +209,7 @@ page_sections:
   headline: "<strong>文字数<wbr>カウント</strong>"
   slug: countChar
   content: |-
-    <p>Web サイト上のフォームに文字を入力した際に、リアルタイムで文字数を表示する拡張機能です。</p>
+    <p>ウェブサイト上のフォームに文字を入力した際に、リアルタイムで文字数を表示する拡張機能です。</p>
 
     <p>改善点はまだまだ多いですが、ぜひ使ってみてください。</p>
 
@@ -229,7 +229,7 @@ page_sections:
   headline: "<strong>やっぱり Noto Sans</strong>"
   slug: noto
   content: |-
-    <p>Web サイト上の読みづらい・美しくない(と作者が勝手に思っている)フォントを、読みやすく美しい Noto Sans に置き換える拡張機能です。</p>
+    <p>ウェブサイト上の読みづらい・美しくない(と作者が勝手に思っている)フォントを、読みやすく美しい Noto Sans に置き換える拡張機能です。</p>
 
     <p>やっと実用的な拡張機能が作れた気がする。</p>
 

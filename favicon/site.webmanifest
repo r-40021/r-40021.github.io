@@ -1,6 +1,6 @@
 {
-    "name": "やまだアプリ工房",
-    "short_name": "Webアプリやブラウザ拡張機能を開発している架空の工房",
+    "name": "カエルアプリ工房",
+    "short_name": "ウェブアプリやブラウザー拡張機能を開発している架空の工房",
     "icons": [
         {
             "src": "/favicon/android-chrome-192x192.png",

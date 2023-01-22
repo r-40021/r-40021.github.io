@@ -38,8 +38,8 @@ page_sections:
     class=\"result\">\n\n<p class=\"title\">送信完了</p>\n\n<p>返信を希望された方には、なるべく1週間以内にメールでご返事いたします。<br>\n\n
     \   @gmail.com からのメールを受信できるよう、設定の確認をお願いいたします。</p>\n\n</div>\n\n<div id=\"error-message\"
     class=\"result\">\n\n<p class=\"title\">エラーが発生しました</p>\n\n<p>以下の方法でエラーが解決する場合があります。</p>\n\n<ul>\n\n
-    \   <li>Wi-Fi のアクセスポイントを変更する</li>\n    \n    <li>ブラウザのシークレットモードやゲストモードでアクセスする</li>\n
-    \   \n    <li>別のブラウザや端末でアクセスする</li>\n\n</ul>\n\n</div>\n\n<div id=\"empty-message\"
+    \   <li>Wi-Fi のアクセスポイントを変更する</li>\n    \n    <li>ブラウザーのシークレットモードやゲストモードでアクセスする</li>\n
+    \   \n    <li>別のブラウザーや端末でアクセスする</li>\n\n</ul>\n\n</div>\n\n<div id=\"empty-message\"
     class=\"result\">\n\n<p class=\"title\">入力内容に不備があります</p>\n\n</div>\n\n</div><script src=\"../assets/js/form.js\" defer></script>"
 
 ---
