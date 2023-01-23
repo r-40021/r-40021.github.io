@@ -18,7 +18,7 @@ page_sections:
 - template: detail-content
   block: text-1
   headline: 変更履歴
-  content: "<p>2023/01/23　誤解を生みかねない表記の修正</p><p>2022/09/21　使用するアクセス解析ツールの GoatCounter から Cloudflare Web Analytics への変更、読みやすさの改善</p>"
+  content: "<p>2023/01/23　表記の修正</p><p>2022/09/21　使用するアクセス解析ツールの GoatCounter から Cloudflare Web Analytics への変更、読みやすさの改善</p>"
 - template: detail-content
   block: text-1
   headline: プライバシー<wbr>ポリシー<wbr>について
@@ -99,7 +99,7 @@ page_sections:
 
     <p>※このプライバシーポリシーは予告なく変更される場合があります。</p>
 
-    <a class="button primary body" href="https://github.com/r-40021/r-40021.github.io/issues" target="_blank" rel="noopener noreferrer">GitHub Issues</a>
+    <a class="button primary body" href="https://github.com/r-40021/r-40021.github.io/issues" target="_blank" rel="noopener noreferrer">GitHub Issue</a>
 
     <a class="button primary body" href="/contact">お問い合わせフォーム</a>
 
