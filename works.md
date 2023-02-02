@@ -6,7 +6,7 @@ page_sections:
 - template: hero-banner-w-image
   block: hero-2
   headline: "<strong>作品</strong>"
-  content: 技術力＜＜＜＜＜使いやすさを念頭に、頑張ってアプリを作っています。<br>まあ、技術力も高めなきゃいけないんですけど。<br>
+  content: 技術力＜＜＜＜＜使いやすさを念頭に、頑張ってアプリを作っています。<br>(技術力も高めねば……)<br>
   background_image: ''
   image:
     image: "/uploads/hero/website.webp"
@@ -18,7 +18,7 @@ page_sections:
 - template: detail-content
   block: text-1
   headline: ウェブアプリ
-  content: "<p>真面目に作った、色んな人に使ってほしいアプリです。ソースコードはGitHubに、アプリもインターネット上に公開しています。</p>"
+  content: "<p>真面目に作った、色んな人に使ってほしいアプリです。ソースコードは GitHub に、アプリもインターネット上に公開しています。</p>"
 - template: content-feature
   block: feature-1
   media_alignment: Left
@@ -28,13 +28,13 @@ page_sections:
   headline: "<strong>やまだの<wbr>タイマー</strong>"
   slug: timer
   content: |-
-    <p>目覚まし時計とタイマーのいいとこ取りをした、オープンソースのちょっと変わったタイマーです。いろんな用途に使えます。</p><p>もともと、学校でクラス解散までの時間をカウントダウンする目的で作ったのですが、それ以外にもいろいろな機能を追加しています。</p>
+    <p>目覚まし時計とタイマーのいいとこ取りをした、ちょっと変わったタイマーです。</p><p>もともと学校でクラス解散までの時間をカウントダウンする目的で作ったのですが、それ以外にもいろいろな機能を追加し様々な用途で使えるようにしました。</p>
 
     <ul>
 
-    <li>設定時刻がパラメータに格納されるので、URLを共有するだけで、一緒に緊迫のカウントダウンを楽しめます。</li>
+    <li>設定時刻がパラメータに格納されるので、URL を共有するだけで仲間と一緒に緊迫のカウントダウンを楽しめます。</li>
 
-    <li>ブラウザーのタイトルバーに残り時間が表示されるので、他の作業をしていても時間を忘れることはありません。</li>
+    <li>ブラウザーのタイトルバーに残り時間が表示されるので、他の作業をしていても残り時間を確認できます。</li>
 
     <li>プッシュ通知にも対応。音が出せない場所でも使えます。</li>
 
@@ -58,7 +58,7 @@ page_sections:
 
     <br>
 
-    <small>* 一部の古いブラウザーでは保存機能に対応していません。</small>
+    <small>* 一部の太古のブラウザーでは保存機能に対応していません。</small>
 
     </p>
 
@@ -83,7 +83,7 @@ page_sections:
 
     <p>作業に集中できるよう、広告を始めとした余計なものを取り除きました。</p>
 
-    <p>もちろん完全無料で使えます。</p>
+    <p>ショートカットキーも搭載し、「スペース」キーでスタート / ストップ、「c」キーでリセットの操作を行えます。</p>
 
     <a class="button primary body" href="https://stopwatch.frogapp.net" target="_blank">アプリを開く</a>
 
@@ -105,11 +105,7 @@ page_sections:
 
     <p>また、書き起こした文章はテキストファイルに書き出すことができます。</p>
 
-    <p>まだ試験段階の技術を使用しているため、一部のブラウザーでは正常に機能しません。おすすめは Chrome です。
-
-    <br>
-
-    <small>* Chromium"系"のブラウザーでは動かないことがあります。</small></p>
+    <p>まだ試験段階の技術を使用しているため、一部のブラウザーでは正常に機能しません。Chrome、Edge 等の最新のブラウザーでご利用下さい。</p>
 
     <a class="button primary body" href="https://speech.frogapp.net" target="_blank">アプリを開く</a>
 
@@ -133,7 +129,7 @@ page_sections:
 
     <p>
 
-    <small>某検索エンジンの画面と似ている？気のせい、気のせい…</small></p>
+    <small>某検索エンジンの画面と似ている？まさかそんなわけ……</small></p>
 
     <a class="button primary body" href="https://read.frogapp.net" target="_blank">アプリを開く</a>
 
@@ -152,9 +148,9 @@ page_sections:
   headline: "<strong>Snapdrop JP</strong>"
   slug: snap-jp
   content: |-
-    <p>AirDrop みたいなことがブラウザーでできる、<a href="https://snapdrop.net/" target="_blank" rel="noopener noreferrer">Snapdrop</a> を日本語化したもの。</p>
+    <p>AirDrop みたいなことがブラウザーでできる、<a href="https://snapdrop.net/" target="_blank" rel="noopener noreferrer">Snapdrop</a> を日本語化したアプリです。</p>
 
-    <p>英語特有のノリの文章を訳すのは大変でまだ不自然な部分が残っているが、今後改善していく予定。</p>
+    <p>英語特有のノリの文章を訳すのは大変でまだ不自然な部分が残っていますが、今後改善していきます。</p>
 
     <a class="button primary body" href="https://share.frogapp.net" target="_blank">アプリを開く</a>
 
@@ -163,16 +159,16 @@ page_sections:
     <a class="button primary body" href="https://github.com/r-40021/snapdrop-jp/issues" target="_blank" rel="noopener noreferrer">問題を報告</a>
 - template: detail-content
   block: text-1
-  headline: Chrome 拡張機能
-  content: "<p>最近は Chrome の拡張機能も作っています。</p>"
+  headline: ブラウザー拡張機能
+  content: "<p>最近はブラウザーの拡張機能も作っています。</p>"
 - template: content-feature
   block: feature-1
   media_alignment: Left
   headline: "<strong>Rename Tab</strong>"
   content: |-
-    <p>この拡張機能を用いると、ブラウザーのタブに表示されるアイコンは非表示になり、ウェブサイト名は別のものに置き換えられます。</p>
+    <p>ブラウザーのタブに表示されるアイコンを非表示にし、ウェブサイト名を別のものに置き換える拡張機能です。</p>
 
-    <p>ブラウザーの画面を他人に見せる時に、ほかのタブで開いている ウェブページを知られたくない場合などに使えます。</p>
+    <p>ほかのタブで開いているウェブページを人に見られたくない場合などに使えます。</p>
 
     <a class="button primary body" href="https://chrome.google.com/webstore/detail/rename-tab/nbpkdabdmbefnemcjehinaeklgmngdoo" target="_blank" rel="noopener noreferrer">インストール</a>
 
@@ -192,7 +188,7 @@ page_sections:
 
     <p>簡単な操作で、すぐにシェアできます。</p>
 
-    <p>インストールする際に権限を一切要求しないのもポイント。</p>
+    <p>また、インストール時に権限を一切要求しないようにし、安心してインストールできるようにしました。</p>
 
     <a class="button primary body" href="https://chrome.google.com/webstore/detail/easy-page-sharing/eoccdpbaigkllhflcgidhpcedgmlckkp" target="_blank" rel="noopener noreferrer">インストール</a>
 
@@ -209,9 +205,9 @@ page_sections:
   headline: "<strong>文字数<wbr>カウント</strong>"
   slug: countChar
   content: |-
-    <p>ウェブサイト上のフォームに文字を入力した際に、リアルタイムで文字数を表示する拡張機能です。</p>
+    <p>ウェブサイト上のテキストボックスに文字を入力した際に、リアルタイムで文字数を表示する拡張機能です。</p>
 
-    <p>改善点はまだまだ多いですが、ぜひ使ってみてください。</p>
+    <p>フォームの自由記述で文字数制限がある場合などに使えます。</p>
 
     <a class="button primary body" href="https://chrome.google.com/webstore/detail/%E6%96%87%E5%AD%97%E6%95%B0%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88/bhfihcmmnnagikobmgakbjliddjmfgmd" target="_blank" rel="noopener noreferrer">インストール (Chrome)</a>
 
@@ -229,9 +225,9 @@ page_sections:
   headline: "<strong>やっぱり Noto Sans</strong>"
   slug: noto
   content: |-
-    <p>ウェブサイト上の読みづらい・美しくない(と作者が勝手に思っている)フォントを、読みやすく美しい Noto Sans に置き換える拡張機能です。</p>
+    <p>ウェブサイト上の読みづらい・美しくない (と作者が勝手に思っている) フォントを、読みやすく美しい Noto Sans に置き換える拡張機能です。</p>
 
-    <p>やっと実用的な拡張機能が作れた気がする。</p>
+    <p>気付いたらユーザー数が300人を超えていました。</p>
 
     <a class="button primary body" href="https://chrome.google.com/webstore/detail/oecglhldbofcklanmhckefiflhfhabdd" target="_blank" rel="noopener noreferrer">インストール (Chrome)</a>
 
