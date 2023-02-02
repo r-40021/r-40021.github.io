@@ -23,10 +23,10 @@ page_sections:
   headline: "<strong>カエル<wbr>アプリ<wbr>工房</strong><wbr>とは"
   content: |-
     <p>日本のどこかでウェブアプリやブラウザー拡張機能を開発している学生が、1人で運営している架空の工房。</p>
-
-    <p>作ったプログラムのほとんどは<a href="https://github.com/r-40021" title="GitHub" target="_blank" rel="noopener noreferrer">GitHub</a>で公開しています。</p>
-
+    
     <p>技術力は大したことないですが、使いやすいものを作っていきたいです。</p>
+    
+    <p>なお、作ったプログラムのほとんどは <a href="https://github.com/r-40021" title="GitHub" target="_blank" rel="noopener noreferrer">GitHub</a> で公開しています。私のコードのクセを知りたい方はぜひご覧ください。</p>
   media:
     image: "/uploads/home/self-introduce.webp"
     alt_text: プログラマーのイメージ
@@ -52,18 +52,16 @@ page_sections:
   slug: app
   headline: "<strong>作った<wbr>もの</strong>"
   content: |-
-    <p>「使いやすさ」に重点を置いてウェブアプリやブラウザー拡張機能を開発しています。</p>
+    <p>「使いやすさ」に重点を置いてウェブアプリやブラウザー拡張機能を開発しています。</p>    
 
-    <p>画像は、私が最初に作ったアプリ「<a href="https://timer.frogapp.net" title="やまだのタイマー" target="_blank">やまだのタイマー</a>」</p>
+    <p>「困ったときにサッと使える」、そんな身近なソフトウェアを作っていきたいです。</p>
+    
+    <p>画像：<a href="https://timer.frogapp.net" title="やまだのタイマー" target="_blank">やまだのタイマー</a></p>
 
-    <p>最初は100行程度のプログラムでしたが、気づけばコードが1000行になっていました...</p>
-
-    <p>他に作ったものは下のボタンから見られます。</p>
-
-    <a class="button primary body" href="/works">他のアプリ</a>
+    <a class="button primary body" href="/works">アプリ一覧</a>
   media:
     image: "/uploads/works/timer.webp"
-    alt_text: Yamada's timer
+    alt_text: やまだのタイマー
 - template: content-feature
   block: feature-1
   media_alignment: Right
