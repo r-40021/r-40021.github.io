@@ -1,3 +1,9 @@
+> **Warning**  
+> This repository is no longer in use.  
+> It has been moved to [r-40021/new-portfolio-and-blog](https://github.com/r-40021/new-portfolio-and-blog).  
+> (The website address has not changed.)
+
+
 ![uBuild Blocks](uploads/2018/06/21/theme.png)
 
 # uBuild Jekyll Theme
